@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot" content="noindex, nofollow">
+    <script type="text/javascript" src="//code.jquery.com/jquery-2.2.4.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+    <style type="text/css">
+        body {
+            background-color: #D81D3B;
+        }
+        
+        .symbol,
+        .symbols,
+        .dot1,
+        .dot2,
+        .dot3,
+        .symbol1,
+        .symbols1,
+        .dot11,
+        .dot21,
+        .dot31 {
+            display: block;
+            fill: transparent;
+            stroke: #fff;
+            stroke-width: 1px;
+            stroke-dasharray: 1600;
+            stroke-miterlimit: 10;
+            stroke-dashoffset: 1600;
+        }
+        
+        @keyframes paint {
+            to {
+                stroke-dashoffset: 0;
+            }
+        }
+    </style>
+
+    <title> by Manoj1991</title>
+    <script type="text/javascript">
+        //<![CDATA[
+
+        window.onload = function() {
+                var link = document.querySelector('.hover-img');
+                var symbol = document.querySelector('.svg-container .symbol ');
+                var symbols = document.querySelector('.svg-container .symbols ');
+                var dot1 = document.querySelector('.svg-container .dot1 ');
+                var dot2 = document.querySelector('.svg-container .dot2 ');
+                var dot3 = document.querySelector('.svg-container .dot3 ');
+
+                var link1 = document.querySelector('.hover-img1');
+                var symbol1 = document.querySelector('.svg-container1 .symbol1 ');
+                var symbols1 = document.querySelector('.svg-container1 .symbols1 ');
+                var dot11 = document.querySelector('.svg-container1 .dot11 ');
+                var dot21 = document.querySelector('.svg-container1 .dot21 ');
+                var dot31 = document.querySelector('.svg-container1 .dot31 ');
+
+
+
+
+                /* clockwise paint on hover in */
+                link.addEventListener('mouseover', function() {
+                    symbol.setAttribute('style', 'stroke-dashoffset: 1600; animation: paint 2s infinite');
+                    symbols.setAttribute('style', 'stroke-dashoffset: 1600; animation: paint 2s infinite');
+                    dot1.setAttribute('style', 'stroke-dashoffset: 1600; animation: paint 18s infinite');
+                    dot2.setAttribute('style', 'stroke-dashoffset: 1600; animation: paint 19s infinite');
+                    dot3.setAttribute('style', 'stroke-dashoffset: 1600; animation: paint 17s infinite');
+                }, false);
+
+                link1.addEventListener('mouseover', function() {
+                    symbol1.setAttribute('style', 'stroke-dashoffset: 1600; animation: paint 2s infinite');
+                    symbols1.setAttribute('style', 'stroke-dashoffset: 1600; animation: paint 2s infinite');
+                    dot11.setAttribute('style', 'stroke-dashoffset: 1600; animation: paint 18s infinite');
+                    dot21.setAttribute('style', 'stroke-dashoffset: 1600; animation: paint 19s infinite');
+                    dot31.setAttribute('style', 'stroke-dashoffset: 1600; animation: paint 17s infinite');
+                }, false);
+            }
+            // $(document).ready(function(){
+            //     var link = $('.hover-img');
+            //     var symbol = $(".symbol");
+            //     var symbols
+            // });
+
+        // $(document).ready(function() {
+        //     $(".hover-img").hover(function() {
+        //         $('.dm').hide();
+        //     });
+        // });
+        //]]>
+    </script>
+</head>
+
+<body>
+    <a href="" class="hover-img">
+        <img src="http://dgmonk.com/erfolg/img/new/digital-marketing.svg" class="dm">
+        <div class="svg-container">
+            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="150px" height="150px" viewBox="0 0 150 150" enable-background="new 0 0 150 150" xml:space="preserve" class="svg">                     
+                <g>
+                    <path  class="symbol" fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-miterlimit="10" d="M41.3,74.7h55.8c3.2,0,5.8-2.6,5.8-5.8V21.6
+                        c0-3.2-2.6-5.8-5.8-5.8H11.3c-3.2,0-5.8,2.6-5.8,5.8v47.2c0,3.2,2.6,5.8,5.8,5.8h14.9L5.5,105.2L41.3,74.7z"/>
+                    <path  class="symbols" fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-miterlimit="10" d="M108.7,103.6H52.9c-3.2,0-5.8-2.6-5.8-5.8
+                        V50.6c0-3.2,2.6-5.8,5.8-5.8h85.8c3.2,0,5.8,2.6,5.8,5.8v47.2c0,3.2-2.6,5.8-5.8,5.8h-14.9l20.7,30.5L108.7,103.6z"/>
+                    <circle  class="dot1" fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-miterlimit="10" cx="61" cy="59.4" r="5.2"/>
+                    <circle  class="dot2" fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-miterlimit="10" cx="75" cy="59.4" r="5.2"/>
+                    <circle  class="dot3" fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-miterlimit="10" cx="88.9" cy="59.4" r="5.2"/>
+                </g>
+            </svg>
+        </div>
+    </a>
+
+    <a href="" class="hover-img1">
+        <img src="http://dgmonk.com/erfolg/img/new/digital-marketing.svg" class="dm">
+        <div class="svg-container1">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="150px" height="150px" viewBox="0 0 150 150" enable-background="new 0 0 150 150" xml:space="preserve" class="svg">                     
+                <g>
+                    <path  class="symbol1" fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-miterlimit="10" d="M41.3,74.7h55.8c3.2,0,5.8-2.6,5.8-5.8V21.6
+                        c0-3.2-2.6-5.8-5.8-5.8H11.3c-3.2,0-5.8,2.6-5.8,5.8v47.2c0,3.2,2.6,5.8,5.8,5.8h14.9L5.5,105.2L41.3,74.7z"/>
+                    <path  class="symbols1" fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-miterlimit="10" d="M108.7,103.6H52.9c-3.2,0-5.8-2.6-5.8-5.8
+                        V50.6c0-3.2,2.6-5.8,5.8-5.8h85.8c3.2,0,5.8,2.6,5.8,5.8v47.2c0,3.2-2.6,5.8-5.8,5.8h-14.9l20.7,30.5L108.7,103.6z"/>
+                    <circle  class="dot11" fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-miterlimit="10" cx="61" cy="59.4" r="5.2"/>
+                    <circle  class="dot21" fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-miterlimit="10" cx="75" cy="59.4" r="5.2"/>
+                    <circle  class="dot31" fill="none" stroke="#FFFFFF" stroke-linecap="round" stroke-miterlimit="10" cx="88.9" cy="59.4" r="5.2"/>
+                </g>
+            </svg>
+        </div>
+    </a>
+</body>
+
+</html>
