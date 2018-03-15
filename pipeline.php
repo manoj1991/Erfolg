@@ -1,7 +1,10 @@
 <!doctype html>
 <html lang="en" class="no-js">
 
-<?php include "head.php"; ?>
+<?php 
+    header("Cache-Control: no-cache, must-revalidate");
+    include "head.php";
+?>
 <style>
     .cd-section:nth-of-type(1)>div{
         background-image: linear-gradient(to right bottom, #5c2160, #7d2864, #9c3365, #b84364, #d05660);
@@ -262,8 +265,8 @@
                 <div class="row">
                     <div class="col-lg-12 text-center ">
                         <center>
-                        <h1 class="pm-text">Sales Pipeline</h1>
-                        <svg version="1.1" class="pm1 others" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                        
+                        <svg version="1.1" class="pm1 other ms-head" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                             width="1258px" height="774px" viewBox="0 0 1258 774" enable-background="new 0 0 1258 774" xml:space="preserve">
                             <circle fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="830.706" cy="465.933" r="43.998"/>
                             <circle fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="830.706" cy="465.933" r="35.899"/>
@@ -287,7 +290,7 @@
                                         to="45 831.578 465"
                                         dur="5s"
                                         repeatCount="1"/>
-                                    </line>                      
+                                </line>                      
                             <path fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M579.827,141.831
                                 C565.166,128.141,556,108.641,556,87c0-41.421,33.579-75,75-75c41.422,0,75,33.579,75,75c0,21.734-9.245,41.309-24.017,55.006
                                 M165.289,270.011c-13.689-14.66-33.189-23.826-54.83-23.826c-41.422,0-75,33.578-75,75s33.578,75,75,75
@@ -327,7 +330,7 @@
 
 
 
-                            <svg xmlns="http://www.w3.org/2000/svg" class="edge-ie ie-pm1" id="Layer_2" enable-background="new 0 0 1258 774" viewBox="0 0 1258 874" x="0px" y="0px" width="818px" height="574px" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve" version="1.1">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ie ie-pm1 " id="Layer_2" enable-background="new 0 0 1258 774" viewBox="0 0 1258 874" x="0px" y="0px" width="818px" height="574px" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve" version="1.1">
                                 <circle fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="830.706" cy="465.933" r="43.998"/>
                                 <circle fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="830.706" cy="465.933" r="35.899"/>
                                 <line fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="830.706" y1="430.034" x2="830.706" y2="434.849"/>
@@ -388,10 +391,11 @@
                                     M641.144,547.139l19.411-72.441 M620.854,622.859l-19.412,72.447 M314,385v112.5 M320,385v24 M943.5,385v142.904 M933.5,385v75.769
                                     "/>
                             </svg>
-
+                            <h1 class="pm-text bs-head header-line other">SALES PIPELINE</h1>
+                            <h1 class="pm-text header-line ie">SALES PIPELINE</h1>
                         </center>
-                        <h1 class="text-center color-white huge-font" >Are you able to reach your prospects 
-                        <strong>early in the sales cycle?</strong></h1>                    
+                        <h1 class="text-center color-white h2" >Are you able to reach your prospects 
+                        early in the sales cycle?</h1>                    
                     </div>
                     <h2></h2>
                 </div>
@@ -765,7 +769,7 @@
                 </div> 
                 <div class="col-md-12 pm-4-texthead">                    
                     <br>
-                    <h1 class=" color-white text-center ">The lead generation team at Erfolg is not only restricted to just follow-up on the marketing responses & databases but also have access to the in-house database repository.</h1>                  
+                    <h1 class=" color-white text-center h3">The lead generation team at Erfolg is not only restricted to just follow-up on the marketing responses & databases but also have access to the in-house database repository.</h1>                  
                 </div>
                 <h2 class=""></h2>
             </div>
@@ -881,9 +885,7 @@
                             <circle fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="677.874" cy="286.065" r="8.01"/>
                             <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M697.052,313.4
                                 c0-10.592-8.586-19.178-19.178-19.178s-19.178,8.586-19.178,19.178H697.052z"/>
-                            <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M705.607,271.208
-                                c0-0.711-0.577-1.288-1.289-1.288h-52.891c-0.712,0-1.289,0.577-1.289,1.288v47.345c0,0.712,0.577,1.289,1.289,1.289h52.891
-                                c0.711,0,1.289-0.577,1.289-1.289V271.208z"/>
+                            <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M705.607,271.208 c0-0.711-0.577-1.288-1.289-1.288h-52.891c-0.712,0-1.289,0.577-1.289,1.288v47.345c0,0.712,0.577,1.289,1.289,1.289h52.891 c0.711,0,1.289-0.577,1.289-1.289V271.208z"/>
                             <line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="677.874" y1="264.333" x2="677.874" y2="251.5"/>
                             <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M660.872,241.583
                                 L660.872,241.583c0,4.695,3.806,8.501,8.5,8.501h17.002c4.694,0,8.5-3.806,8.5-8.501l0,0"/>
@@ -1024,7 +1026,7 @@
                         <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M1392.057,313.364
                             c7.716,10.493,12.273,23.452,12.273,37.476c0,34.977-28.354,63.33-63.33,63.33s-63.33-28.354-63.33-63.33
                             c0-14.941,5.174-28.674,13.828-39.504"/>
-                        <g id="box">
+                        <g id="boxie">
                             <rect x="302.117" y="193.333" fill="#fff" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" width="20" height="10"/>
                             <rect x="322.117" y="193.333" fill="#fff" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" width="20" height="10"/>
                             <rect x="262.117" y="193.333" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" width="20" height="10"/>
@@ -1066,7 +1068,7 @@
                             <rect x="242.117" y="263.333" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" width="20" height="10"/>
                             <rect x="282.117" y="263.333" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" width="20" height="10"/>
                         </g>
-                        <g id="box1">
+                        <g id="box1ie">
                             <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M409.45,415
                                 c0,2.762-2.239,5-5,5h-91.512c-2.761,0-5-2.238-5-5v-94.666c0-2.762,2.239-5,5-5h91.512c2.761,0,5,2.239,5,5V415z"/>
                             <rect x="368.117" y="328.334" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" width="20" height="10"/>
@@ -1110,7 +1112,7 @@
                             <rect x="308.117" y="398.334" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" width="20" height="10"/>
                             <rect x="348.117" y="398.334" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" width="20" height="10"/>
                         </g>
-                        <g id="box2">
+                        <g id="box2ie">
                             <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M473.45,280
                                 c0,2.762-2.239,5-5,5h-91.512c-2.761,0-5-2.238-5-5v-94.667c0-2.761,2.239-5,5-5h91.512c2.761,0,5,2.239,5,5V280z"/>
                             <rect x="432.117" y="193.333" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" width="20" height="10"/>
@@ -1839,67 +1841,92 @@
     
     <?php include "nav.php"; ?>
     <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog modal-md">    
-        <!-- Modal content-->
-            <div class="modal-content">                
-                <hr class="colorgraph">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1> Request Case Study</h1>
+                </div>
                 <div class="modal-body">
-                    <form action="" method="post">                       
-                        <span class="input input--chisato">
-                            <input class="input__field input__field--chisato" type="text"  id="name"  name="name" />                    
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="Full Name">Full Name</span>
-                            </label>
-                            <span id="nameerror" class="error"></span>
-                        </span>
-                        <span class="input input--chisato">                            
-                            <input class="input__field input__field--chisato" type="email" id="email"  name="email"  />
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="Official Email">Official Email</span>
-                            </label>
-                            <span id="emailerror" class="error"></span>
-                        </span>
-                        <span class="input input--chisato" style="display:none;">                    
-                            <input class="input__field input__field--chisato" type="hidden" value="Audience Connect" />                   
-                        </span>
-                        <span class="input input--chisato">
-                            <input class="input__field input__field--chisato" type="number"  id="mno"  name="mobile" />
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="Mobile Number">Mobile Number</span>
-                            </label>
-                            <span id="mobileerror" class="error"></span>
-                        </span>
-                        <span class="input input--chisato">
-                            <input class="input__field input__field--chisato" type="number" id="pno"  name="pno" />
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="Landline Number">Landline Number</span>
-                            </label>
-                            <span id="pnoerror" class="error"></span>
-                        </span>
-                        <span class="input input--chisato">
-                            <input class="input__field input__field--chisato" type="text" id="org"  name="org"/>
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="Organization">Organization</span>
-                            </label>
-                            <span id="orgerror" class="error"></span>
-                        </span>
-                        <span class="input input--chisato">
-                            <input class="input__field input__field--chisato" type="text" id="city"  name="city"/>
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="City">City</span>
-                            </label>
-                            <span id="cityerror" class="error"></span>
-                        </span>              
-                        
-                        <span class="input input--chisato">
-                            <input type="submit" id="finalsubmit" value="Submit" class="btn btn-info ripple ">    
-                        </span>           
-                        
+                    <form action="" method="post">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="text"  id="name"  name="name" placeholder="Full Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="email" id="email"  name="email" placeholder="Official Email">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="number"  id="mno"  name="mobile" placeholder="Mobile Number">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="number" id="pno"  name="pno" placeholder="Landline Number">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="text" id="org"  name="org" placeholder="Organization">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="text" id="city"  name="city" placeholder="City">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <select class="form-control">
+                                            <option value="-1">Request Case Study on</option>
+                                            <option value="Pipeline Management">Pipeline Management</option>
+                                            <option value="Back-end Sales Engine">Back-end Sales Engine</option>
+                                            <option value="Audience Connect">Audience Connect</option>
+                                            <option value="Web Conference">Web Conference</option>
+                                            <option value="Event Management">Event Management</option>
+                                            <option value="Database Management">Database Management</option>
+                                            <option value="Marketing Support">Marketing Support</option>
+                                            <option value="Digital Marketing">Digital Marketing</option>
+                                            <option value="Design Development">Design & Development</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <button id="js-ripple-btn2" class="button styl-material" type="submit">
+                                        <span>Send Request</span>
+                                        <svg class="ripple-obj">
+                                            <use height="100" width="100" xlink:href="#ripply-scott" class="js-ripple"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </form>
                 </div>
-                <hr class="colorgraph">
-             
-            </div>      
+                <div class="modal-footer"></div>
+            </div>
         </div>
     </div> 
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false">
@@ -1920,6 +1947,7 @@
 		</symbol>
 	</svg>
     <?php include "script.php"; ?>
+    
     <script>
         if (document.documentMode || /Edge/.test(navigator.userAgent)) {
             $(".edge-ie").show();
@@ -1931,7 +1959,22 @@
 
             console.log("Others");
         }
+
+        if (document.documentMode ) {
+            $(".ie").show();
+            $(".other").hide();
+            $(".ie-carousel").addClass("ie-carousel-top");
+            
+            console.log("IE");
+        }
+        else{
+            $(".ie").hide();
+
+            console.log("Others");
+        }
     </script>
+
+    
     <script>
         function changeOverlay() {
             var randomNum = Math.round(Math.random() * 38) - 1;
@@ -1975,6 +2018,48 @@
             }, 1000);
         }
 
+        function iechangeOverlay() {
+            var randomNum = Math.round(Math.random() * 38) - 1;
+            $('#boxie rect:eq(' + randomNum + ')').css({
+                "fill": "#fff"
+            });
+            setTimeout(function() {
+                // $('#box rect:eq(' + randomNum + ')').animate({ "opacity" : .6 });
+                $('#boxie rect:eq(' + randomNum + ')').css({
+                    "fill": "none"
+                });
+                iechangeOverlay();
+            }, 1000);
+        }
+
+        function iechangeOverlay1() {
+            var randomNum = Math.round(Math.random() * 38) - 1;
+            $('#box1ie rect:eq(' + randomNum + ')').css({
+                "fill": "#fff"
+            });
+            setTimeout(function() {
+                // $('#box rect:eq(' + randomNum + ')').animate({ "opacity" : .6 });
+                $('#box1ie rect:eq(' + randomNum + ')').css({
+                    "fill": "none"
+                });
+                iechangeOverlay1();
+            }, 1000);
+        }
+
+        function iechangeOverlay2() {
+            var randomNum = Math.round(Math.random() * 38) - 1;
+            $('#box2ie rect:eq(' + randomNum + ')').css({
+                "fill": "#fff"
+            });
+            setTimeout(function() {
+                // $('#box rect:eq(' + randomNum + ')').animate({ "opacity" : .6 });
+                $('#box2ie rect:eq(' + randomNum + ')').css({
+                    "fill": "none"
+                });
+                iechangeOverlay2();
+            }, 1000);
+        }
+
         function changeOverlayPath() {
             var randomNum = Math.round(Math.random() * 10) - 1;
             $('#nos path:eq(' + randomNum + ')').css({
@@ -2007,6 +2092,9 @@
             changeOverlay();
             changeOverlay1();
             changeOverlay2();
+            iechangeOverlay();
+            iechangeOverlay1();
+            iechangeOverlay2();
             changeOverlayPath();
             changeOverlayBoxs();
         });
@@ -2082,53 +2170,11 @@
         });
     </script>
    
-    <script>
-        $(document).ready(function(){
-            $(".services-close").on('click', function(){
-                $("div.panel").hide( "slide", { direction: "left"  }, 500);
-            })
-        })
-    </script>
-    <!--form inputs-->
-    <script>
-        (function() {
-            // trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
-            if (!String.prototype.trim) {
-                (function() {
-                    // Make sure we trim BOM and NBSP
-                    var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
-                    String.prototype.trim = function() {
-                        return this.replace(rtrim, '');
-                    };
-                })();
-            }
 
-            [].slice.call(document.querySelectorAll('input.input__field')).forEach(function(inputEl) {
-                // in case the input is already filled..
-                if (inputEl.value.trim() !== '') {
-                    classie.add(inputEl.parentNode, 'input--filled');
-                }
-
-                // events:
-                inputEl.addEventListener('focus', onInputFocus);
-                inputEl.addEventListener('blur', onInputBlur);
-            });
-
-            function onInputFocus(ev) {
-                classie.add(ev.target.parentNode, 'input--filled');
-            }
-
-            function onInputBlur(ev) {
-                if (ev.target.value.trim() === '') {
-                    classie.remove(ev.target.parentNode, 'input--filled');
-                }
-            }
-        })();
-    </script>
 
     <script>
         $(document).ready(function(){
-            $("#finalsubmit").on('click', function(){
+            $("#js-ripple-btn2").on('click', function(){
                 var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
                 var name = $("#name").val();
                 var email = $("#email").val();

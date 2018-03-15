@@ -32,7 +32,7 @@
                 <div class="row">
                     <div class="col-lg-12 text-center ">
                         <center>        
-                        <h1 class="pm-text">Digital Marketing </h1>                    
+                                            
                         <svg version="1.1" class="backend" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                             width="1094px" height="592px" viewBox="408.5 242.5 1094 592" enable-background="new 408.5 242.5 1094 592" xml:space="preserve">
                             <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M1027.541,429.231h95.502c1.656,0,3,1.343,3,3
@@ -90,14 +90,15 @@
                                 S1394.232,294.507,1385.104,294.507z M705.334,280.182c-5.523,0-10,4.477-10,10s4.477,10,10,10s10-4.477,10-10
                                 S710.857,280.182,705.334,280.182z"
                             />
-                        </svg>                   
+                        </svg>   
+                        <h1 class="bs-text text-uppercase header-line">Digital Marketing </h1>                
 
                         </center>
                         <h1 class="text-center color-white huge-font" >Is your digital marketing strategy ensuring that you reach
                             <br>
-                            <strong>
+                           
                                 revenue-paying prospects?
-                            </strong> 
+                             
                         </h1>                   
                     </div>
                     <h2></h2>
@@ -145,7 +146,7 @@
                         We can broadly divide our services in the following categories:
                     </p>                  
                 </div>               
-                <div class="col-md-12">                  
+                <!-- <div class="col-md-12">                  
                     <h3>Search Engine Optimization:</h3>
                     <p class="desc color-white align-justify ">
                         One of the reasons for anyone creating an online identity is to create an awareness amongst the target audience about their company or product / services or seminars / webinars, etc. Creating an online identity is not sufficient if you are unable to generate organic visitors to the site. Erfolg helps you with a sustainable SEO plan that can generate organic visitors to your website.
@@ -157,7 +158,96 @@
                         Even if you are not interested in active off-page SEO, we recommend on-page optimization for targeted visitors – pushing organic visitors to your website for long tail keywords.
                     </p>
                    
-                </div>                   
+                </div> -->
+
+                <div class="container pm-container ie-carousel ">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#myCarousel" data-slide-to="1"></li>
+                                <li data-target="#myCarousel" data-slide-to="2"></li>
+                                <li data-target="#myCarousel" data-slide-to="3"></li>
+                            
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner ">                               
+                                <div class="item active">                                
+                                    <div class="">  
+                                        <h3 class="text-center">Search Engine Optimization</h3>                                    
+                                        <p class="desc color-white ">
+                                            One of the reasons for anyone creating an online identity is to create an awareness amongst the target audience about their company or product / services or seminars / webinars, etc. Creating an online identity is not sufficient if you are unable to generate organic visitors to the site. Erfolg helps you with a sustainable SEO plan that can generate organic visitors to your website.
+                                        </p>
+                                        <p class="desc color-white  ">
+                                            SEO often aligns with the long-term vision of the company and thus it is almost always an integral part of a digital marketing mix. To add, it adds to the trust factor of a website if it ranks top in search engines.
+                                        </p>
+                                        <p class="desc color-white  ">
+                                            Even if you are not interested in active off-page SEO, we recommend on-page optimization for targeted visitors – pushing organic visitors to your website for long tail keywords.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                
+                                
+                                <div class="item">
+                                    <div class="">      
+                                        <h3 class="text-center">Paid Promotion Services</h3>                                  
+                                        <p class="desc color-white ">
+                                            Paid promotion is the most used tactic in digital marketing strategy and many a times it is used ineffectively and without proper planning, resulting is negligible or low ROI. We propose to use this as a strategy only when we are confident that it can generate ROI especially when your products, events or services need immediate/instant attention from the target audience.
+                                        </p>
+                                        <p class="desc color-white  ">
+                                            Our team is well equipped to work effectively on paid promotions like Adwords, GDN, Social Media ads, etc with the right mix to generate maximum ROI on your investments.
+
+                                        </p>
+                                        <br><br><br><br><br><br><br><br>
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <div class="">      
+                                        <h3 class="text-center">Social Media Engagement</h3>                                  
+                                        <p class="desc color-white ">
+                                            We do not believe in Social Media Marketing but in Social Media Engagement as that has long-term impact and recall from the target market. We believe in establishing relationships with individuals on social networks, hence we call it Social Media Engagement and believe that it is a better and appropriate approach for digital marketers to connect with their varied target audience.
+                                        </p>
+                                        <p class="desc color-white  ">
+                                            Our digital team is able to ensure the marketing spend is maximised leveraging the expertise of our existing teams internally for the benefit of our client. On account of the all-inclusive approach, we are able to assist our clients to maximise their marketing spend.
+
+                                        </p>
+                                        <br><br><br><br><br>
+                                    </div>
+                                </div>
+
+                                 <div class="item">
+                                    <div class="">      
+                                        <h3 class="text-center">Content Development</h3>                                  
+                                        <p class="desc color-white ">
+                                            The most important aspect for digital marketing success is content. Contextual content is the King for any digital marketing campaign. Whether the message delivered is effective or not is dependent on the content - either words or infographics or graphics, etc and hence it becomes important to ensure that right messaging is adopted for addressing the target market.
+                                        </p>
+                                        <p class="desc color-white  ">
+                                            We have experienced professionals who help design blog posts, articles, social media posts & creatives, presentations, videos, etc. to boost and ensure an effective digital presence for your brand.
+
+                                        </p>
+                                        <br><br><br><br><br>
+                                    </div>
+                                </div>
+
+                               
+
+                                                             
+                            </div>
+
+                            <!-- Left and right controls -->
+                            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                <img src="img/new/prev.svg" class="arrows" alt="">
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                <img src="img/new/next.svg" class="arrows" alt="">
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>                   
                 <h2></h2>               
             </div>
         </div>
@@ -258,69 +348,94 @@
     </nav>
     <?php include "nav.php"; ?>
     <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog modal-md">    
-        <!-- Modal content-->
-            <div class="modal-content">                
-                <hr class="colorgraph">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1> Request Case Study</h1>
+                </div>
                 <div class="modal-body">
-                    <form action="" method="post">                       
-                        <span class="input input--chisato">
-                            <input class="input__field input__field--chisato" type="text"  id="name"  name="name" />                    
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="Full Name">Full Name</span>
-                            </label>
-                            <span id="" class="error"></span>
-                        </span>
-                        <span class="input input--chisato">                            
-                            <input class="input__field input__field--chisato" type="email" id="email"  name="email"  />
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="Official Email">Official Email</span>
-                            </label>
-                            <span id="" class="error"></span>
-                        </span>
-                        <span class="input input--chisato" style="display:none;">                    
-                            <input class="input__field input__field--chisato" type="hidden" value="Pipeline" />                   
-                        </span>
-                        <span class="input input--chisato">
-                            <input class="input__field input__field--chisato" type="number"  id="mno"  name="mobile" />
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="Mobile Number">Mobile Number</span>
-                            </label>
-                            <span id="" class="error"></span>
-                        </span>
-                        <span class="input input--chisato">
-                            <input class="input__field input__field--chisato" type="number" id="pno"  name="pno" />
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="Landline Number">Landline Number</span>
-                            </label>
-                            <span id="" class="error"></span>
-                        </span>
-                        <span class="input input--chisato">
-                            <input class="input__field input__field--chisato" type="text" id="org"  name="org"/>
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="Organization">Organization</span>
-                            </label>
-                            <span id="" class="error"></span>
-                        </span>
-                        <span class="input input--chisato">
-                            <input class="input__field input__field--chisato" type="text" id="city"  name="city"/>
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="City">City</span>
-                            </label>
-                            <span id="" class="error"></span>
-                        </span>              
-                        
-                        <span  class="input input--chisato">
-                            <input type="submit" id="finalsubmit" value="Submit" class="btn btn-info ripple ">    
-                        </span>           
-                        
+                    <form action="" method="post">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="text"  id="name"  name="name" placeholder="Full Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="email" id="email"  name="email" placeholder="Official Email">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="number"  id="mno"  name="mobile" placeholder="Mobile Number">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="number" id="pno"  name="pno" placeholder="Landline Number">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="text" id="org"  name="org" placeholder="Organization">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="text" id="city"  name="city" placeholder="City">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <select class="form-control">
+                                            <option value="-1">Request Case Study on</option>
+                                            <option value="Pipeline Management">Pipeline Management</option>
+                                            <option value="Back-end Sales Engine">Back-end Sales Engine</option>
+                                            <option value="Audience Connect">Audience Connect</option>
+                                            <option value="Web Conference">Web Conference</option>
+                                            <option value="Event Management">Event Management</option>
+                                            <option value="Database Management">Database Management</option>
+                                            <option value="Marketing Support">Marketing Support</option>
+                                            <option value="Digital Marketing">Digital Marketing</option>
+                                            <option value="Design Development">Design & Development</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <button id="js-ripple-btn2" class="button styl-material" type="submit">
+                                        <span>Send Request</span>
+                                        <svg class="ripple-obj">
+                                            <use height="100" width="100" xlink:href="#ripply-scott" class="js-ripple"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </form>
                 </div>
-                <hr class="colorgraph">
-             
-            </div>      
+                <div class="modal-footer"></div>
+            </div>
         </div>
-    </div> 
+    </div>  
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false">
 		<!-- Because of Firefox. -->
 		<defs>
@@ -346,46 +461,11 @@
 		})
 	})
 </script>
-<!--form inputs-->
-<script>
-	(function() {
-		// trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
-		if (!String.prototype.trim) {
-			(function() {
-				// Make sure we trim BOM and NBSP
-				var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
-				String.prototype.trim = function() {
-					return this.replace(rtrim, '');
-				};
-			})();
-		}
 
-		[].slice.call(document.querySelectorAll('input.input__field')).forEach(function(inputEl) {
-			// in case the input is already filled..
-			if (inputEl.value.trim() !== '') {
-				classie.add(inputEl.parentNode, 'input--filled');
-			}
-
-			// events:
-			inputEl.addEventListener('focus', onInputFocus);
-			inputEl.addEventListener('blur', onInputBlur);
-		});
-
-		function onInputFocus(ev) {
-			classie.add(ev.target.parentNode, 'input--filled');
-		}
-
-		function onInputBlur(ev) {
-			if (ev.target.value.trim() === '') {
-				classie.remove(ev.target.parentNode, 'input--filled');
-			}
-		}
-	})();
-</script>
 
 <script>
 	$(document).ready(function(){
-		$("#finalsubmit").on('click', function(){
+		$("#js-ripple-btn2").on('click', function(){
 			var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
 			var name = $("#name").val();
 			var email = $("#email").val();

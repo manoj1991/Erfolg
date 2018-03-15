@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+
+  <html>
+<head>
+    <title>jQuery Move DIV FROM Left to Right </title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script type="text/javascript">
+        jQuery(function ($) {
+            $('a.panel').click(function () {
+                var $target = $($(this).attr('href')),
+            $other = $target.siblings('.active'); 
+                if (!$target.hasClass('active')) {
+                    $other.each(function (index, self) {
+                        var $this = $(this);
+                        $this.removeClass('active').animate({
+                            left: $this.width()
+                        }, 500);
+                    }); 
+                    $target.addClass('active').show().css({
+                        left: -($target.width())
+                    }).animate({
+                        left: 0
+                    }, 500);
+                }
+            });
+        });
+    </script>
+    <style type="text/css">
+         #left, #right        {
+            position: relative;
+            float: left;
+            margin: 20 5px 0 0;         
+            width: 50%;
+            height: 250px;
+            overflow: hidden;        }
+        div.panel    {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            display: none;
+            text-align: left;        } 
+    </style>
+</head>
+<body>
+    
+    <div id="right">
+        <div class="panel" id="target1">
+            Audi
+            <img src="Images/audi.jpg" width="150px" height="150px" />
+        </div>
+        <div class="panel" id="target2">
+            BMW
+            <img src="Images/bmw.jpg" width="150px" height="150px" /></div>
+        <div class="panel" id="target3">
+            Ford
+            <img src="Images/ford.jpg" width="150px" height="150px" /></div>
+             <div class="panel" id="target4">
+            4
+            <img src="Images/ford.jpg" width="150px" height="150px" /></div>
+             <div class="panel" id="target5">
+            5
+            <img src="Images/ford.jpg" width="150px" height="150px" /></div>
+             <div class="panel" id="target6">
+            6
+            <img src="Images/ford.jpg" width="150px" height="150px" /></div>
+             <div class="panel" id="target7">
+            7
+            <img src="Images/ford.jpg" width="150px" height="150px" /></div>
+             <div class="panel" id="target8">
+            8
+            <img src="Images/ford.jpg" width="150px" height="150px" /></div>
+             <div class="panel" id="target9">
+            9
+            <img src="Images/ford.jpg" width="150px" height="150px" /></div>
+    </div>
+    <div id="left" align="left">
+        <a href="#target1" class="panel">Audi</a><br />
+        <a href="#target2" class="panel">BMW</a><br />
+        <a href="#target3" class="panel">Ford</a><br />
+      
+            <a href="#target4" class="panel">Ford</a><br />
+             <a href="#target5" class="panel">Ford</a><br />
+              <a href="#target6" class="panel">Ford</a><br />
+               <a href="#target7" class="panel">Ford</a><br />
+                <a href="#target8" class="panel">Ford</a><br />
+                 <a href="#target9" class="panel">Ford</a><br />
+    </div>
+  
+
+</body>
+</html>
+  
+
+
+</body>
+
+</html>
+

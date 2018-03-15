@@ -1,4 +1,4 @@
-                                                                                                                                                                   <!doctype html>
+<!doctype html>
 <html lang="en" class="no-js">
 
 <?php include "head.php"; ?>
@@ -27,7 +27,9 @@
 </style>
 <!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
 
-
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.0/anime.min.js'></script>
+    <script src="js/custom.js"></script>
 
 <body data-hijacking="on" data-animation="rotate">
     <section class="cd-section visible ">
@@ -37,8 +39,8 @@
                 <div class="row">
                     <div class="col-lg-12 text-center ">
                         <center>
-                            <h3 class="audi-text">Audience Connect</h3>
-                            <svg class="audi" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            
+                            <svg class=" others audi-home_img-others ms-head" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                 width="996.154px" height="610.975px" viewBox="0 0 996.154 610.975" enable-background="new 0 0 996.154 610.975"
                                 xml:space="preserve">                                
                                 <path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M176.137,524h136.095 M103.231,524h-8.834l-80,67h967l-80-67h-11.5
@@ -75,8 +77,48 @@
                                     M94.397,533.5h91 M808.397,533.5h91 M435.147,400.5h341.827V29H223.502v371.5h88.146 M323.564,400.5"
                                 />
                             </svg>
+
+                            <svg class=" ie audi-home_img-ie " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                width="996.154px" height="510.975px" viewBox="0 0 996.154 610.975" enable-background="new 0 0 996.154 610.975"
+                                xml:space="preserve">                                
+                                <path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M176.137,524h136.095 M103.231,524h-8.834l-80,67h967l-80-67h-11.5
+                                    M435.753,524h382.395 M185.397,111h-91v157h91V111z M139.897,133c-11.874,0-21.5,9.626-21.5,21.5s9.626,21.5,21.5,21.5
+                                    c11.875,0,21.5-9.626,21.5-21.5S151.772,133,139.897,133z M139.897,141.261c-7.312,0-13.239,5.928-13.239,13.239
+                                    s5.927,13.239,13.239,13.239c7.313,0,13.239-5.928,13.239-13.239S147.21,141.261,139.897,141.261z M139.897,148.594
+                                    c-3.262,0-5.906,2.645-5.906,5.906s2.644,5.906,5.906,5.906c3.262,0,5.906-2.645,5.906-5.906S143.159,148.594,139.897,148.594z
+                                    M139.897,195c-16.292,0-29.5,13.208-29.5,29.5s13.208,29.5,29.5,29.5c16.293,0,29.5-13.208,29.5-29.5S156.19,195,139.897,195z
+                                    M139.897,203c-11.874,0-21.5,9.626-21.5,21.5s9.626,21.5,21.5,21.5c11.875,0,21.5-9.626,21.5-21.5S151.772,203,139.897,203z
+                                    M139.897,211.261c-7.312,0-13.239,5.928-13.239,13.239s5.927,13.239,13.239,13.239c7.313,0,13.239-5.928,13.239-13.239
+                                    S147.21,211.261,139.897,211.261z M139.897,218.594c-3.262,0-5.906,2.645-5.906,5.906s2.644,5.906,5.906,5.906
+                                    c3.262,0,5.906-2.645,5.906-5.906S143.159,218.594,139.897,218.594z M176.397,29h-73v82h73V29z M139.897,55.596
+                                    c-7.956,0-14.404,6.449-14.404,14.404c0,7.955,6.449,14.404,14.404,14.404c7.955,0,14.404-6.449,14.404-14.404
+                                    C154.302,62.044,147.853,55.596,139.897,55.596z M139.897,61.899c-4.474,0-8.101,3.627-8.101,8.101c0,4.474,3.627,8.102,8.101,8.102
+                                    c4.475,0,8.102-3.628,8.102-8.102C147.999,65.526,144.372,61.899,139.897,61.899z M139.897,313v175 M94.397,268l45.5,45.5
+                                    M185.397,268l-45.5,45.5 M94.397,533.5l45.5-45.5 M185.397,533.5l-45.5-45.5 M103.397,100.664h73 M103.397,38.664h73 M899.397,111
+                                    h-91v157h91V111z M853.897,133c-11.874,0-21.5,9.626-21.5,21.5s9.626,21.5,21.5,21.5c11.875,0,21.5-9.626,21.5-21.5
+                                    S865.772,133,853.897,133z M853.897,141.261c-7.313,0-13.239,5.928-13.239,13.239s5.927,13.239,13.239,13.239
+                                    s13.239-5.928,13.239-13.239S861.21,141.261,853.897,141.261z M853.897,148.594c-3.262,0-5.906,2.645-5.906,5.906
+                                    s2.645,5.906,5.906,5.906s5.906-2.645,5.906-5.906S857.159,148.594,853.897,148.594z M853.897,195c-16.293,0-29.5,13.208-29.5,29.5
+                                    s13.207,29.5,29.5,29.5s29.5-13.208,29.5-29.5S870.19,195,853.897,195z M853.897,203c-11.874,0-21.5,9.626-21.5,21.5
+                                    s9.626,21.5,21.5,21.5c11.875,0,21.5-9.626,21.5-21.5S865.772,203,853.897,203z M853.897,211.261
+                                    c-7.313,0-13.239,5.928-13.239,13.239s5.927,13.239,13.239,13.239s13.239-5.928,13.239-13.239S861.21,211.261,853.897,211.261z
+                                    M853.897,218.594c-3.262,0-5.906,2.645-5.906,5.906s2.645,5.906,5.906,5.906s5.906-2.645,5.906-5.906
+                                    S857.159,218.594,853.897,218.594z M890.397,29h-73v82h73V29z M853.897,55.596c-7.955,0-14.404,6.449-14.404,14.404
+                                    c0,7.955,6.449,14.404,14.404,14.404S868.302,77.955,868.302,70C868.302,62.044,861.853,55.596,853.897,55.596z M853.897,61.899
+                                    c-4.475,0-8.102,3.627-8.102,8.101c0,4.474,3.627,8.102,8.102,8.102s8.102-3.628,8.102-8.102
+                                    C861.999,65.526,858.372,61.899,853.897,61.899z M853.897,313v175 M808.397,268l45.5,45.5 M899.397,268l-45.5,45.5 M808.397,533.5
+                                    l45.5-45.5 M899.397,533.5l-45.5-45.5 M817.397,100.664h73 M817.397,38.664h73 M373.397,311.25v-62.656 M392.184,229.808
+                                    l-37.453,37.453 M395.753,222.333c-2.34,0-4.237,1.897-4.237,4.237c0,2.34,1.897,4.237,4.237,4.237c2.34,0,4.237-1.897,4.237-4.237
+                                    C399.99,224.23,398.093,222.333,395.753,222.333z M434.897,311.25h-123V579h123V311.25z M434.897,311.596L311.695,434.798
+                                    M434.897,331.596L311.695,454.798 M434.897,351.596L311.695,474.798 M434.897,371.596L311.695,494.798 M311.695,371.596
+                                    l123.202,123.202 M434.897,474.798L311.695,351.596 M434.897,454.798L311.695,331.596 M311.695,311.596l123.202,123.202
+                                    M94.397,533.5h91 M808.397,533.5h91 M435.147,400.5h341.827V29H223.502v371.5h88.146 M323.564,400.5"
+                                />
+                            </svg>
+                            <h1 class="text-uppercase header-line ms-head others">Audience Connect</h1>
+                            <h1 class="text-uppercase header-line ie">Audience Connect</h1>
                         </center>
-                        <h1 class="text-center color-white huge-font" >Is one of your important marketing tactics <br><strong>failing to deliver?</strong> </h1>
+                        <h1 class="text-center color-white huge-font h2" >Is one of your important marketing tactics <br>failing to deliver?</h1>
                     </div>
                     <h2></h2>
                 </div>
@@ -178,67 +220,92 @@
     
     <?php include "nav.php"; ?>
     <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog modal-md">    
-        <!-- Modal content-->
-            <div class="modal-content">                
-                <hr class="colorgraph">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1> Request Case Study</h1>
+                </div>
                 <div class="modal-body">
-                    <form action="" method="post">                       
-                        <span class="input input--chisato">
-                            <input class="input__field input__field--chisato" type="text"  id="name"  name="name" />                    
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="Full Name">Full Name</span>
-                            </label>
-                            <span id="nameerror" class="error"></span>
-                        </span>
-                        <span class="input input--chisato">                            
-                            <input class="input__field input__field--chisato" type="email" id="email"  name="email"  />
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="Official Email">Official Email</span>
-                            </label>
-                            <span id="emailerror" class="error"></span>
-                        </span>
-                        <span class="input input--chisato" style="display:none;">                    
-                            <input class="input__field input__field--chisato" type="hidden" value="Audience Connect" />                   
-                        </span>
-                        <span class="input input--chisato">
-                            <input class="input__field input__field--chisato" type="number"  id="mno"  name="mobile" />
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="Mobile Number">Mobile Number</span>
-                            </label>
-                            <span id="mobileerror" class="error"></span>
-                        </span>
-                        <span class="input input--chisato">
-                            <input class="input__field input__field--chisato" type="number" id="pno"  name="pno" />
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="Landline Number">Landline Number</span>
-                            </label>
-                            <span id="pnoerror" class="error"></span>
-                        </span>
-                        <span class="input input--chisato">
-                            <input class="input__field input__field--chisato" type="text" id="org"  name="org"/>
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="Organization">Organization</span>
-                            </label>
-                            <span id="orgerror" class="error"></span>
-                        </span>
-                        <span class="input input--chisato">
-                            <input class="input__field input__field--chisato" type="text" id="city"  name="city"/>
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="City">City</span>
-                            </label>
-                            <span id="cityerror" class="error"></span>
-                        </span>              
-                        
-                        <span class="input input--chisato">
-                            <input type="submit" id="finalsubmit" value="Submit" class="btn btn-info ripple ">    
-                        </span>           
-                        
+                    <form action="" method="post">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="text"  id="name"  name="name" placeholder="Full Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="email" id="email"  name="email" placeholder="Official Email">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="number"  id="mno"  name="mobile" placeholder="Mobile Number">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="number" id="pno"  name="pno" placeholder="Landline Number">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="text" id="org"  name="org" placeholder="Organization">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="text" id="city"  name="city" placeholder="City">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <select class="form-control">
+                                            <option value="-1">Request Case Study on</option>
+                                            <option value="Pipeline Management">Pipeline Management</option>
+                                            <option value="Back-end Sales Engine">Back-end Sales Engine</option>
+                                            <option value="Audience Connect">Audience Connect</option>
+                                            <option value="Web Conference">Web Conference</option>
+                                            <option value="Event Management">Event Management</option>
+                                            <option value="Database Management">Database Management</option>
+                                            <option value="Marketing Support">Marketing Support</option>
+                                            <option value="Digital Marketing">Digital Marketing</option>
+                                            <option value="Design Development">Design & Development</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <button id="js-ripple-btn2" class="button styl-material" type="submit">
+                                        <span>Send Request</span>
+                                        <svg class="ripple-obj">
+                                            <use height="100" width="100" xlink:href="#ripply-scott" class="js-ripple"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </form>
                 </div>
-                <hr class="colorgraph">
-             
-            </div>      
+                <div class="modal-footer"></div>
+            </div>
         </div>
     </div> 
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false">
@@ -259,55 +326,39 @@
 		</symbol>
 	</svg>
     <?php include "script.php"; ?>
+    <script src="js/anime2.0.js"></script>
+      <script>
+        // if (document.documentMode || /Edge/.test(navigator.userAgent)) {
+        //     $(".edge-ie").show();
+        //     $(".others").hide();
+        //     $(".ie-carousel").addClass("ie-carousel-top");
+            
+        //     console.log("IE");
+        // }else{
+        //     $(".edge-ie").hide();
 
+        //     console.log("Others");
+        // }
 
-   
-    <script>
-        $(document).ready(function(){
-            $(".services-close").on('click', function(){
-                $("div.panel").hide( "slide", { direction: "left"  }, 500);
-            })
-        })
+        if (document.documentMode ) {
+            $(".ie").show();
+            $(".others").hide();
+            $(".ie-carousel").addClass("ie-carousel-top");
+            
+            console.log("IE");
+        }
+        else{
+            $(".ie").hide();
+
+            console.log("Others");
+        }
     </script>
-    <!--form inputs-->
-    <script>
-        (function() {
-            // trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
-            if (!String.prototype.trim) {
-                (function() {
-                    // Make sure we trim BOM and NBSP
-                    var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
-                    String.prototype.trim = function() {
-                        return this.replace(rtrim, '');
-                    };
-                })();
-            }
 
-            [].slice.call(document.querySelectorAll('input.input__field')).forEach(function(inputEl) {
-                // in case the input is already filled..
-                if (inputEl.value.trim() !== '') {
-                    classie.add(inputEl.parentNode, 'input--filled');
-                }
-                // events:
-                inputEl.addEventListener('focus', onInputFocus);
-                inputEl.addEventListener('blur', onInputBlur);
-            });
-
-            function onInputFocus(ev) {
-                classie.add(ev.target.parentNode, 'input--filled');
-            }
-
-            function onInputBlur(ev) {
-                if (ev.target.value.trim() === '') {
-                    classie.remove(ev.target.parentNode, 'input--filled');
-                }
-            }
-        })();
-    </script>
+    
 
     <script>
         $(document).ready(function(){
-            $("#finalsubmit").on('click', function(){
+            $("#js-ripple-btn2").on('click', function(){
                 var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
                 var name = $("#name").val();
                 var email = $("#email").val();

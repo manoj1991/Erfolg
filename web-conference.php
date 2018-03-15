@@ -19,6 +19,10 @@
         background-image: linear-gradient(to right bottom, #006ebe, #008bd0, #00a5d7, #00bfd5, #00d6ce);
     }
 
+    .modal-content{
+        background-image: linear-gradient(to left bottom, #9c572c, #af7749, #c1966a, #d4b68e, #e8d5b5);
+    }
+
 </style>
 <!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
 
@@ -32,8 +36,8 @@
                 <div class="row">
                     <div class="col-lg-12 text-center ">
                         <center>        
-                        <h1 class="pm-text">Web Conferencing</h1>                    
-                            <svg class=" wc-image" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                          
+                            <svg class=" wc-image ms-head" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                 width="1388.461px" height="673.077px" viewBox="0 0 1388.461 673.077" enable-background="new 0 0 1388.461 673.077"
                                 xml:space="preserve" >
                                 <path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M976.739,490.015H495.928V211.421h480.811V490.015z M990.623,200.69
@@ -90,10 +94,10 @@
                                     s4.125,9.214,9.214,9.214c5.088,0,9.214-4.125,9.214-9.214S267.006,180.477,261.918,180.477z M234.446,180.477
                                     c-5.088,0-9.214,4.125-9.214,9.214s4.125,9.214,9.214,9.214c5.089,0,9.214-4.125,9.214-9.214S239.535,180.477,234.446,180.477z"/>
                             </svg>                 
-
+                            <h1 class="pm-text text-uppercase header-line ms-head">Web Conferencing</h1> 
                         </center>
-                        <br>
-                        <h1 class="text-center color-white huge-font" >Is Web Conferencing not working at your office as it should?  <br><strong>Leave it to the experts while you focus on the meeting agenda.</strong> </h1>
+                        
+                        <h1 class="text-center color-white huge-font" >Is Web Conferencing not working at your office as it should?  <br>Leave it to the experts while you focus on the meeting agenda. </h1>
                     
                     </div>
                     <h2></h2>
@@ -194,67 +198,92 @@
     </nav>
     <?php include "nav.php"; ?>
     <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog modal-md">    
-        <!-- Modal content-->
-            <div class="modal-content">                
-                <hr class="colorgraph">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1> Request Case Study</h1>
+                </div>
                 <div class="modal-body">
-                    <form action="" method="post">                       
-                        <span class="input input--chisato">
-                            <input class="input__field input__field--chisato" type="text"  id="name"  name="name" />                    
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="Full Name">Full Name</span>
-                            </label>
-                            <span id="" class="error"></span>
-                        </span>
-                        <span class="input input--chisato">                            
-                            <input class="input__field input__field--chisato" type="email" id="email"  name="email"  />
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="Official Email">Official Email</span>
-                            </label>
-                            <span id="" class="error"></span>
-                        </span>
-                        <span class="input input--chisato" style="display:none;">                    
-                            <input class="input__field input__field--chisato" type="hidden" value="Pipeline" />                   
-                        </span>
-                        <span class="input input--chisato">
-                            <input class="input__field input__field--chisato" type="number"  id="mno"  name="mobile" />
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="Mobile Number">Mobile Number</span>
-                            </label>
-                            <span id="" class="error"></span>
-                        </span>
-                        <span class="input input--chisato">
-                            <input class="input__field input__field--chisato" type="number" id="pno"  name="pno" />
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="Landline Number">Landline Number</span>
-                            </label>
-                            <span id="" class="error"></span>
-                        </span>
-                        <span class="input input--chisato">
-                            <input class="input__field input__field--chisato" type="text" id="org"  name="org"/>
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="Organization">Organization</span>
-                            </label>
-                            <span id="" class="error"></span>
-                        </span>
-                        <span class="input input--chisato">
-                            <input class="input__field input__field--chisato" type="text" id="city"  name="city"/>
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="City">City</span>
-                            </label>
-                            <span id="" class="error"></span>
-                        </span>              
-                        
-                        <span  class="input input--chisato">
-                            <input type="submit" id="finalsubmit" value="Submit" class="btn btn-info ripple ">    
-                        </span>           
-                        
+                    <form action="" method="post">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="text"  id="name"  name="name" placeholder="Full Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="email" id="email"  name="email" placeholder="Official Email">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="number"  id="mno"  name="mobile" placeholder="Mobile Number">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="number" id="pno"  name="pno" placeholder="Landline Number">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="text" id="org"  name="org" placeholder="Organization">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="text" id="city"  name="city" placeholder="City">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <select class="form-control">
+                                            <option value="-1">Request Case Study on</option>
+                                            <option value="Pipeline Management">Pipeline Management</option>
+                                            <option value="Back-end Sales Engine">Back-end Sales Engine</option>
+                                            <option value="Audience Connect">Audience Connect</option>
+                                            <option value="Web Conference">Web Conference</option>
+                                            <option value="Event Management">Event Management</option>
+                                            <option value="Database Management">Database Management</option>
+                                            <option value="Marketing Support">Marketing Support</option>
+                                            <option value="Digital Marketing">Digital Marketing</option>
+                                            <option value="Design Development">Design & Development</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <button id="js-ripple-btn3" class="button styl-material" type="submit">
+                                        <span>Send Request</span>
+                                        <svg class="ripple-obj">
+                                            <use height="100" width="100" xlink:href="#ripply-scott" class="js-ripple"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </form>
                 </div>
-                <hr class="colorgraph">
-             
-            </div>      
+                <div class="modal-footer"></div>
+            </div>
         </div>
     </div> 
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false">
@@ -276,52 +305,17 @@
 	</svg>
     <?php include "script.php"; ?>
     <script>
-	$(document).ready(function(){
-		$(".services-close").on('click', function(){
-			$("div.panel").hide( "slide", { direction: "left"  }, 500);
-		})
-	})
-</script>
-<!--form inputs-->
-<script>
-	(function() {
-		// trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
-		if (!String.prototype.trim) {
-			(function() {
-				// Make sure we trim BOM and NBSP
-				var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
-				String.prototype.trim = function() {
-					return this.replace(rtrim, '');
-				};
-			})();
-		}
+        $(document).ready(function(){
+            $(".services-close").on('click', function(){
+                $("div.panel").hide( "slide", { direction: "left"  }, 500);
+            })
+        })
+    </script>
 
-		[].slice.call(document.querySelectorAll('input.input__field')).forEach(function(inputEl) {
-			// in case the input is already filled..
-			if (inputEl.value.trim() !== '') {
-				classie.add(inputEl.parentNode, 'input--filled');
-			}
-
-			// events:
-			inputEl.addEventListener('focus', onInputFocus);
-			inputEl.addEventListener('blur', onInputBlur);
-		});
-
-		function onInputFocus(ev) {
-			classie.add(ev.target.parentNode, 'input--filled');
-		}
-
-		function onInputBlur(ev) {
-			if (ev.target.value.trim() === '') {
-				classie.remove(ev.target.parentNode, 'input--filled');
-			}
-		}
-	})();
-</script>
 
 <script>
 	$(document).ready(function(){
-		$("#finalsubmit").on('click', function(){
+		$("#js-ripple-btn3").on('click', function(){
 			var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
 			var name = $("#name").val();
 			var email = $("#email").val();

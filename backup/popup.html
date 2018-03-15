@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="googlebot" content="noindex, nofollow">
+
+
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-2.2.4.js"></script>
+
+
+
+
+    <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+
+
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+
+
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+
+
+
+
+
+
+    <style type="text/css">
+        #topmessage {
+            display: none;
+            border: 4px dashed red;
+            background: yellow;
+            margin: 10px;
+            padding: 10px;
+        }
+        
+        #close {
+            float: right;
+        }
+    </style>
+
+    <title>Popup on second visit by Manoj1991</title>
+
+
+
+
+
+
+
+    <script type='text/javascript'>
+        //<![CDATA[
+
+        var value = $.cookie('the_cookie'),
+            isNewSession = $.cookie('is_new_session') != 'false',
+            date = null;
+
+        if (isNewSession) {
+            // set cookie for next visit during this session
+            //debug("new session!");
+            $.cookie('is_new_session', 'false', {
+                path: '/'
+            });
+        }
+
+        //debug("cookie value = " + value);
+
+        if (value == "never again") {
+
+            // nothing to do
+
+        } else if (/^\d+$/.test(value || "")) {
+
+            date = new Date();
+            date.setTime(value);
+
+            //debug("date from cookie = " + date);
+
+            var today = new Date();
+
+            if (date.getTime() != today.getTime()) {
+
+                // date is other than today
+                $('#topmessage').modal('show');
+                $("#close").click(function(e) {
+                    $("#topmessage").slideToggle(400);
+
+                    // if you want the message to be displayed never again,
+                    // move setting the cookie outside this click handler
+                    $.cookie('the_cookie', 'never again', {
+                        expires: 365,
+                        path: '/'
+                    }); // expires in 365 days
+                });
+            } else {
+                debug("same date");
+            }
+
+
+        } else if ((value || "") == "") {
+
+            $.cookie('the_cookie', new Date().getTime(), {
+                expires: 365,
+                path: '/'
+            }); // expires in 365 days
+            debug("date empty, setting to = " + new Date().getTime());
+        }
+
+
+        function debug(msg) {
+            $("#debug").append($("<div />").html(msg));
+        }
+        //]]>
+    </script>
+
+
+</head>
+
+<body>
+    <div id="topmessage" class="modal">
+        <a href="#" class="close" id="close">Close</a> Hi welcome back, if you have any questions please feel free to <a href="/contact">contact me</a>.
+    </div>
+
+    <div class="modal fade" id="overlay">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Context here</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div id="debug"></div> -->
+
+
+
+</body>
+
+</html>

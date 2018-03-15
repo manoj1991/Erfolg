@@ -16,18 +16,17 @@
 <div class="tiny-gap"></div>
 <div class="container">
     <div class="col-md-8 col-md-offset-2">
-        <h1 class="h2  text-center">Leave us a message</h2>
-        <div class="hr"></div>
+        <h1 class="h2  text-center">Leave us a message</h1>
+     
         <h4 class="text-center">You can find us literally anywhere, just push a button and we’re there</h4>
         <div class="small-gap"></div>
         
         <center>
-            <ul class="footer">
-                
-            <li><i class="fa fa-facebook " aria-hidden="true"></i></li>
-            <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
-            <li><i class="fa fa-linkedin " aria-hidden="true"></i></li>
-               
+            <ul class="footer">                            
+                <li><a href="https://www.facebook.com/ErfolgCreatingSuccess/"><i class="fa fa-facebook " aria-hidden="true"></i></a></li>
+                <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                <li><i class="fa fa-linkedin " aria-hidden="true"></i></li>   
+                <!--<li><a href="contact.php"><i class="fa fa-phone " aria-hidden="true"></i></a></li>-->                      
             </ul>
         </center>
     </div>

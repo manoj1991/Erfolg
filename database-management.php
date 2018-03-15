@@ -35,7 +35,7 @@
                 <div class="row">
                     <div class="col-lg-12 text-center ">
                         <center>        
-                            <h1 class="pm-text">Database Management</h1>                    
+                                               
                             <svg version="1.1" class="backend" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                 width="1094px" height="592px" viewBox="408.5 242.5 1094 592" enable-background="new 408.5 242.5 1094 592" xml:space="preserve">
                                 <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M1027.541,429.231h95.502c1.656,0,3,1.343,3,3
@@ -93,10 +93,11 @@
                                     S1394.232,294.507,1385.104,294.507z M705.334,280.182c-5.523,0-10,4.477-10,10s4.477,10,10,10s10-4.477,10-10
                                     S710.857,280.182,705.334,280.182z"
                                 />
-                            </svg>                  
+                            </svg>    
+                            <h1 class="bs-text text-uppercase header-line">Database Management</h1>              
 
                         </center>
-                        <h1 class="text-center color-white huge-font" >Is your marketing team failing to launch campaigns  <br><strong>due to lack of defined target audience?</strong> </h1>
+                        <h1 class="text-center color-white huge-font" >Is your marketing team failing to launch campaigns  <br>due to lack of defined target audience? </h1>
                    
                     </div>
                     <h2></h2>
@@ -329,67 +330,92 @@
     </nav>
     <?php include "nav.php"; ?>
     <div class="modal fade" id="myModal" role="dialog">
-        <div class="modal-dialog modal-md">    
-        <!-- Modal content-->
-            <div class="modal-content">                
-                <hr class="colorgraph">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1> Request Case Study</h1>
+                </div>
                 <div class="modal-body">
-                    <form action="" method="post">                       
-                        <span class="input input--chisato">
-                            <input class="input__field input__field--chisato" type="text"  id="name"  name="name" />                    
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="Full Name">Full Name</span>
-                            </label>
-                            <span id="" class="error"></span>
-                        </span>
-                        <span class="input input--chisato">                            
-                            <input class="input__field input__field--chisato" type="email" id="email"  name="email"  />
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="Official Email">Official Email</span>
-                            </label>
-                            <span id="" class="error"></span>
-                        </span>
-                        <span class="input input--chisato" style="display:none;">                    
-                            <input class="input__field input__field--chisato" type="hidden" value="Pipeline" />                   
-                        </span>
-                        <span class="input input--chisato">
-                            <input class="input__field input__field--chisato" type="number"  id="mno"  name="mobile" />
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="Mobile Number">Mobile Number</span>
-                            </label>
-                            <span id="" class="error"></span>
-                        </span>
-                        <span class="input input--chisato">
-                            <input class="input__field input__field--chisato" type="number" id="pno"  name="pno" />
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="Landline Number">Landline Number</span>
-                            </label>
-                            <span id="" class="error"></span>
-                        </span>
-                        <span class="input input--chisato">
-                            <input class="input__field input__field--chisato" type="text" id="org"  name="org"/>
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="Organization">Organization</span>
-                            </label>
-                            <span id="" class="error"></span>
-                        </span>
-                        <span class="input input--chisato">
-                            <input class="input__field input__field--chisato" type="text" id="city"  name="city"/>
-                            <label class="input__label input__label--chisato" >
-                                <span class="input__label-content input__label-content--chisato" data-content="City">City</span>
-                            </label>
-                            <span id="" class="error"></span>
-                        </span>              
-                        
-                        <span  class="input input--chisato">
-                            <input type="submit" id="finalsubmit" value="Submit" class="btn btn-info ripple ">    
-                        </span>           
-                        
+                    <form action="" method="post">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="text"  id="name"  name="name" placeholder="Full Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="email" id="email"  name="email" placeholder="Official Email">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="number"  id="mno"  name="mobile" placeholder="Mobile Number">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="number" id="pno"  name="pno" placeholder="Landline Number">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="text" id="org"  name="org" placeholder="Organization">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input  class="form-control" type="text" id="city"  name="city" placeholder="City">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <select class="form-control">
+                                            <option value="-1">Request Case Study on</option>
+                                            <option value="Pipeline Management">Pipeline Management</option>
+                                            <option value="Back-end Sales Engine">Back-end Sales Engine</option>
+                                            <option value="Audience Connect">Audience Connect</option>
+                                            <option value="Web Conference">Web Conference</option>
+                                            <option value="Event Management">Event Management</option>
+                                            <option value="Database Management">Database Management</option>
+                                            <option value="Marketing Support">Marketing Support</option>
+                                            <option value="Digital Marketing">Digital Marketing</option>
+                                            <option value="Design Development">Design & Development</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="col-md-6">
+                                    <button id="js-ripple-btn2" class="button styl-material" type="submit">
+                                        <span>Send Request</span>
+                                        <svg class="ripple-obj">
+                                            <use height="100" width="100" xlink:href="#ripply-scott" class="js-ripple"></use>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </form>
                 </div>
-                <hr class="colorgraph">
-             
-            </div>      
+                <div class="modal-footer"></div>
+            </div>
         </div>
     </div> 
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false">
@@ -417,46 +443,11 @@
 		})
 	})
 </script>
-<!--form inputs-->
-<script>
-	(function() {
-		// trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
-		if (!String.prototype.trim) {
-			(function() {
-				// Make sure we trim BOM and NBSP
-				var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
-				String.prototype.trim = function() {
-					return this.replace(rtrim, '');
-				};
-			})();
-		}
 
-		[].slice.call(document.querySelectorAll('input.input__field')).forEach(function(inputEl) {
-			// in case the input is already filled..
-			if (inputEl.value.trim() !== '') {
-				classie.add(inputEl.parentNode, 'input--filled');
-			}
-
-			// events:
-			inputEl.addEventListener('focus', onInputFocus);
-			inputEl.addEventListener('blur', onInputBlur);
-		});
-
-		function onInputFocus(ev) {
-			classie.add(ev.target.parentNode, 'input--filled');
-		}
-
-		function onInputBlur(ev) {
-			if (ev.target.value.trim() === '') {
-				classie.remove(ev.target.parentNode, 'input--filled');
-			}
-		}
-	})();
-</script>
 
 <script>
 	$(document).ready(function(){
-		$("#finalsubmit").on('click', function(){
+		$("#js-ripple-btn2").on('click', function(){
 			var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
 			var name = $("#name").val();
 			var email = $("#email").val();

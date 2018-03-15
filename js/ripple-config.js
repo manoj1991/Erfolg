@@ -45,3 +45,7 @@ var ripplyScott = (function() {
 ripplyScott.init('js-ripple-btn', 0.75);
 
 ripplyScott.init('js-ripple-btn1', 0.75);
+
+ripplyScott.init('js-ripple-btn2', 0.75);
+
+ripplyScott.init('js-ripple-btn3', 0.75);
