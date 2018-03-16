@@ -18,6 +18,9 @@
     .cd-section:nth-of-type(5)>div{
         background-image: linear-gradient(to right bottom, #006ebe, #008bd0, #00a5d7, #00bfd5, #00d6ce);
     }
+    .modal-content{
+        background-image: linear-gradient(to right bottom, #006ebe, #008bd0, #00a5d7, #00bfd5, #00d6ce);
+    }
 
 </style>
 <!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
@@ -25,7 +28,7 @@
 <body data-hijacking="on" data-animation="rotate">
 
     <section class="cd-section visible ">
-    <img src="img/new/erfolg-logo-vertical.svg" class="img-responsive brand-logo hidden-large">
+        <img src="img/new/erfolg-logo-vertical.svg" class="img-responsive brand-logo hidden-large">
         <div class="content--fixed">              
             <div class="container">
             
@@ -33,9 +36,8 @@
                     <div class="col-lg-12 text-center ">
                         <center>        
                                      
-                        <svg version="1.1" class="backend " xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                            width="1094px" height="592px" viewBox="408.5 242.5 1094 592" enable-background="new 408.5 242.5 1094 592" xml:space="preserve">
-                            <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M1027.541,429.231h95.502c1.656,0,3,1.343,3,3
+                        <svg version="1.1" class="backend " xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1094px" height="592px" viewBox="408.5 242.5 1094 592" enable-background="new 408.5 242.5 1094 592" xml:space="preserve">
+                            <path fill="none" stroke="#FFFFFF" stroke-width="1" stroke-miterlimit="10" d="M1027.541,429.231h95.502c1.656,0,3,1.343,3,3
                                 V809.23c0,1.657-1.344,3-3,3h-595c-1.657,0-3-1.343-3-3v-377c0-1.656,1.343-3,3-3H978.21 M977.877,444.49h-437.07v352.481h569.471
                                 V444.49h-82.402 M978.625,299.838v290.986l24.197,51.906l24.197-52.748V298.998v-7.962c0-13.364-10.834-24.197-24.197-24.197
                                 s-24.197,10.833-24.197,24.197V299.838z M992.566,620.731h20.348 M1027.572,589.43l-11.719-11.721l-11.988,11.988l-11.299-11.299
@@ -93,22 +95,23 @@
                         </svg>                   
                         <h1 class="bs-text header-line text-uppercase">Backend Sales</h1>       
                         </center>
-                        <h1 class="text-center color-white huge-font h2" >Are you missing out on extending your market reach <br>as all prospects are not given due focus? </h1>
+                        <h1 class="text-center color-white huge-font h3" >Are you missing out on extending your market reach <br>as all prospects are not given due focus? </h1>
                     
                     </div>
                     <h2></h2>
                 </div>
                 <!-- /.row -->
+                
             </div>  
         </div>
     </section>
 
     <section class="cd-section bs-framework">
         <div>
-            <div class="container bs-head">  
+            <div class="container wc-head">  
 
             <div class="col-md-12">
-            <h1 class=" color-white h2 text-center">FRAMEWORK</h1>
+            <h1 class=" color-white h3 text-center">FRAMEWORK</h1>
                     <br>
                     <center>
                         <svg version="1.1" class="backend-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -157,9 +160,9 @@
 
     <section class="cd-section bs-skills">
         <div>
-            <div class="container ms-head">
+            <div class="container wc-head">
                 <div class="col-md-8">
-                    <h1 class="content__title  color-white h2">SKILL-SETS</h1>
+                    <h1 class="content__title  color-white h3">SKILL-SETS</h1>
                     <br>
                     <p class="desc color-white  align-justify">Keeping pace with the new Sales structures, <i>Erfolg</i> has invested in developing processes &amp; skill-sets that has resulted in creating frameworks for structured &amp; effective Back-end Sales teams. The Tele Sales teams at <i>Erfolg</i> are thus capable of working on cold calling for lead identification &amp; progressing them to wins via various engines i.e. Inside Sales team with On-field Partner support, Inside Sales team with in-house commercial processing team, Inside Sales team with Technical Account Managers, etc. Customization of frameworks is undertaken as per specific clients’ requirements, product lines, clients’ existing sales structure, reach expected, etc. The teams at <i>Erfolg</i> are target-oriented &amp; are experienced in implementing various connect methodologies via tele-calling, setting the right expectations, working within limitations of time, working with customers’ expectations, working within the parameters &amp; commercial guidelines, etc.  </p>
                 </div>

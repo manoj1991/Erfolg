@@ -33,226 +33,227 @@
 </style>
 
 <style>
-        .line1 {
-            stroke-dasharray: 1000;
+    .line1 {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: line1 14s infinite;
+        animation-direction: alternate;
+    }
+    
+    .line2 {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: line1 13s infinite;
+        animation-direction: alternate;
+        animation-delay: 1s;
+    }
+    
+    .line3 {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: line1 12s infinite;
+        animation-direction: alternate;
+        animation-delay: 2s;
+    }
+    
+    .line4 {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: line1 11s infinite;
+        animation-direction: alternate;
+        animation-delay: 3s;
+    }
+    
+    .line5 {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: line1 10s infinite;
+        animation-direction: alternate;
+        animation-delay: 4s;
+    }
+    
+    .line6 {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: line1 9s infinite;
+        animation-direction: alternate;
+        animation-delay: 5s;
+    }
+    
+    .line7 {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: line1 8s infinite;
+        animation-direction: alternate;
+        animation-delay: 6s;
+    }
+    
+    .line8 {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: line1 7s infinite;
+        animation-direction: alternate;
+        animation-delay: 7s;
+    }
+    
+    .line9 {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: line1 6s infinite;
+        animation-direction: alternate;
+        animation-delay: 8s;
+    }
+    
+    .line10 {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: line1 5s infinite;
+        animation-direction: alternate;
+        animation-delay: 9s;
+    }
+    
+    .line11 {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: line1 4s infinite;
+        animation-direction: alternate;
+        animation-delay: 10s;
+    }
+    
+    .line12 {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: line1 3s infinite;
+        animation-direction: alternate;
+        animation-delay: 11s;
+    }
+    
+    .line13 {
+        stroke-dasharray: 1000;
+        stroke-dashoffset: 1000;
+        animation: line1 2s infinite;
+        animation-direction: alternate;
+        animation-delay: 12s;
+    }
+    
+    @keyframes line1 {
+        from {
             stroke-dashoffset: 1000;
-            animation: line1 14s infinite;
-            animation-direction: alternate;
         }
-        
-        .line2 {
-            stroke-dasharray: 1000;
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    
+    @keyframes line2 {
+        from {
             stroke-dashoffset: 1000;
-            animation: line1 13s infinite;
-            animation-direction: alternate;
-            animation-delay: 1s;
         }
-        
-        .line3 {
-            stroke-dasharray: 1000;
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    
+    @keyframes line3 {
+        from {
             stroke-dashoffset: 1000;
-            animation: line1 12s infinite;
-            animation-direction: alternate;
-            animation-delay: 2s;
         }
-        
-        .line4 {
-            stroke-dasharray: 1000;
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    
+    @keyframes line4 {
+        from {
             stroke-dashoffset: 1000;
-            animation: line1 11s infinite;
-            animation-direction: alternate;
-            animation-delay: 3s;
         }
-        
-        .line5 {
-            stroke-dasharray: 1000;
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    
+    @keyframes line5 {
+        from {
             stroke-dashoffset: 1000;
-            animation: line1 10s infinite;
-            animation-direction: alternate;
-            animation-delay: 4s;
         }
-        
-        .line6 {
-            stroke-dasharray: 1000;
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    
+    @keyframes line6 {
+        from {
             stroke-dashoffset: 1000;
-            animation: line1 9s infinite;
-            animation-direction: alternate;
-            animation-delay: 5s;
         }
-        
-        .line7 {
-            stroke-dasharray: 1000;
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    
+    @keyframes line7 {
+        from {
             stroke-dashoffset: 1000;
-            animation: line1 8s infinite;
-            animation-direction: alternate;
-            animation-delay: 6s;
         }
-        
-        .line8 {
-            stroke-dasharray: 1000;
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    
+    @keyframes line8 {
+        from {
             stroke-dashoffset: 1000;
-            animation: line1 7s infinite;
-            animation-direction: alternate;
-            animation-delay: 7s;
         }
-        
-        .line9 {
-            stroke-dasharray: 1000;
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    
+    @keyframes line9 {
+        from {
             stroke-dashoffset: 1000;
-            animation: line1 6s infinite;
-            animation-direction: alternate;
-            animation-delay: 8s;
         }
-        
-        .line10 {
-            stroke-dasharray: 1000;
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    
+    @keyframes line10 {
+        from {
             stroke-dashoffset: 1000;
-            animation: line1 5s infinite;
-            animation-direction: alternate;
-            animation-delay: 9s;
         }
-        
-        .line11 {
-            stroke-dasharray: 1000;
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    
+    @keyframes line11 {
+        from {
             stroke-dashoffset: 1000;
-            animation: line1 4s infinite;
-            animation-direction: alternate;
-            animation-delay: 10s;
         }
-        
-        .line12 {
-            stroke-dasharray: 1000;
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    
+    @keyframes line12 {
+        from {
             stroke-dashoffset: 1000;
-            animation: line1 3s infinite;
-            animation-direction: alternate;
-            animation-delay: 11s;
         }
-        
-        .line13 {
-            stroke-dasharray: 1000;
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
+    
+    @keyframes line13 {
+        from {
             stroke-dashoffset: 1000;
-            animation: line1 2s infinite;
-            animation-direction: alternate;
-            animation-delay: 12s;
         }
-        
-        @keyframes line1 {
-            from {
-                stroke-dashoffset: 1000;
-            }
-            to {
-                stroke-dashoffset: 0;
-            }
+        to {
+            stroke-dashoffset: 0;
         }
-        
-        @keyframes line2 {
-            from {
-                stroke-dashoffset: 1000;
-            }
-            to {
-                stroke-dashoffset: 0;
-            }
-        }
-        
-        @keyframes line3 {
-            from {
-                stroke-dashoffset: 1000;
-            }
-            to {
-                stroke-dashoffset: 0;
-            }
-        }
-        
-        @keyframes line4 {
-            from {
-                stroke-dashoffset: 1000;
-            }
-            to {
-                stroke-dashoffset: 0;
-            }
-        }
-        
-        @keyframes line5 {
-            from {
-                stroke-dashoffset: 1000;
-            }
-            to {
-                stroke-dashoffset: 0;
-            }
-        }
-        
-        @keyframes line6 {
-            from {
-                stroke-dashoffset: 1000;
-            }
-            to {
-                stroke-dashoffset: 0;
-            }
-        }
-        
-        @keyframes line7 {
-            from {
-                stroke-dashoffset: 1000;
-            }
-            to {
-                stroke-dashoffset: 0;
-            }
-        }
-        
-        @keyframes line8 {
-            from {
-                stroke-dashoffset: 1000;
-            }
-            to {
-                stroke-dashoffset: 0;
-            }
-        }
-        
-        @keyframes line9 {
-            from {
-                stroke-dashoffset: 1000;
-            }
-            to {
-                stroke-dashoffset: 0;
-            }
-        }
-        
-        @keyframes line10 {
-            from {
-                stroke-dashoffset: 1000;
-            }
-            to {
-                stroke-dashoffset: 0;
-            }
-        }
-        
-        @keyframes line11 {
-            from {
-                stroke-dashoffset: 1000;
-            }
-            to {
-                stroke-dashoffset: 0;
-            }
-        }
-        
-        @keyframes line12 {
-            from {
-                stroke-dashoffset: 1000;
-            }
-            to {
-                stroke-dashoffset: 0;
-            }
-        }
-        
-        @keyframes line13 {
-            from {
-                stroke-dashoffset: 1000;
-            }
-            to {
-                stroke-dashoffset: 0;
-            }
-        }
-    </style>
+    }
+</style>
+
 <!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
 
 
@@ -280,8 +281,8 @@
                             <line fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="808.72" y1="443.956" x2="805.315" y2="440.552"/>
                             <line fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="820.706" y1="509.931" x2="820.706" y2="557.183"/>
                             <line fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="840.706" y1="509.931" x2="840.706" y2="557.183"/>
-                            <circle fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="830.706" cy="465.933" r="6.794"/>>
-                                <line fill="none" class="thread" id="needle" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="830.706" y1="465.933" x2="841.578" y2="442.254">
+                            <circle fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="830.706" cy="465.933" r="6.794"/>
+                                <line fill="none" class="thread" id="needle" stroke="#fff" stroke-width="2" stroke-linecap="round"  stroke-miterlimit="10" x1="830.706" y1="465.933" x2="841.578" y2="442.254">
                                     <animateTransform id="animateNeedle"
                                         attributeName="transform"
                                         attributeType="XML"
@@ -354,7 +355,7 @@
                                             dur="5s"
                                             repeatCount="1"
                                         />
-                                        </line>                      
+                                    </line>                      
                                 <path fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M579.827,141.831
                                     C565.166,128.141,556,108.641,556,87c0-41.421,33.579-75,75-75c41.422,0,75,33.579,75,75c0,21.734-9.245,41.309-24.017,55.006
                                     M165.289,270.011c-13.689-14.66-33.189-23.826-54.83-23.826c-41.422,0-75,33.578-75,75s33.578,75,75,75
@@ -394,7 +395,7 @@
                             <h1 class="pm-text bs-head header-line other">SALES PIPELINE</h1>
                             <h1 class="pm-text header-line ie">SALES PIPELINE</h1>
                         </center>
-                        <h1 class="text-center color-white h2" >Are you able to reach your prospects 
+                        <h1 class="text-center color-white h3" >Are you able to reach your prospects 
                         early in the sales cycle?</h1>                    
                     </div>
                     <h2></h2>
@@ -407,20 +408,17 @@
 
     <section class="cd-section ">
         <div>
-            <div class="container ms-head">               
-                <div class="col-md-6">
-                    <h1 class="content__title color-white h2">CHALLENGES</h1>
+            <div class="container wc-head">   
+                <h1 class=" color-white h3 text-center">CHALLENGES</h1>
                     <br>
-                    <p class="desc color-white align-left">
+                <div class="col-md-4">
+                    <p class="desc color-white ">
                     One of the challenges facing any marketing team is the support that can be extended to the sales function – the direct & indirect impact to the revenue generation for the organization. Therefore, it becomes essential to support an engine like lead management that would have the capability of working on various marketing responses & databases and substantiate the market coverage for the various sales teams.
                     </p>
+                </div>            
+                <div class="col-md-8">
                    
-                    <p class="desc color-white align-left">
-                    <i>Erfolg</i> has developed and successfully deployed a very effective methodology via tele-prospecting for qualifying marketing leads from the expansive target audience. Our teams with well-equipped skill-sets and training are not only able to understand the needs of the prospects but are also able to have discussions around the challenges driving the need along with the fitment of the pitched products / services to the prospects' organizational set-ups.
-                    </p>
-                    
-                </div>
-                <div class="col-md-6 text-center">
+                   <center>
                 <svg version="1.1" class="pm2 others"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                          viewBox="0 0 348.387 344.355" enable-background="new 0 0 348.387 344.355"
                         xml:space="preserve">
@@ -473,7 +471,14 @@
                         c-5.5,2.925-9.244,8.713-9.244,15.376c0,9.611,7.793,17.404,17.405,17.404s17.405-7.793,17.405-17.404
                         c0-7.063-4.207-13.143-10.252-15.871"/>
                 </svg>
-
+                </center>  
+                </div>
+              
+                <div class="col-md-12">
+                    <br>             
+                    <p class="desc color-white ">
+                    <i>Erfolg</i> has developed and successfully deployed a very effective methodology via tele-prospecting for qualifying marketing leads from the expansive target audience. Our teams with well-equipped skill-sets and training are not only able to understand the needs of the prospects but are also able to have discussions around the challenges driving the need along with the fitment of the pitched products / services to the prospects' organizational set-ups.
+                    </p>
                 </div>     
                 <h2></h2>               
             </div>
@@ -482,13 +487,9 @@
 
     <section class="cd-section roi-heigt">
         <div>
-            <div class="container pm-roi ">
-                <div class="col-md-6 col-sm-12 audi-exp_sm pm-exp_sm ">
-                    <h1 class="content__title  color-white h2 ">ROI</h1>
-                    <br>
-                    <p class="desc color-white  align-left">Any campaign generates immediate as well as future returns and effectiveness of any lead management team is defined on the potential to define the time frame of the requirements accurately. Along with aiding the sales team to extend the market coverage, the pipeline management team has to be able to ascertain that the qualified marketing leads are added to the funnel of the sales teams only at the appropriate time – the key task is to enhance the funnel & not clutter the same with leads with requirements at a later date. The team at Erfolg is trained on techniques in lead nurturing with extended time frame so as to keep the continuity of discussion alive with the prospects with multi-touch marketing aids like product guides, whitepapers and other direct marketing techniques by implementing CRM solutions. The lead nurturing mechanism helps reduce unwanted connects with the prospects for confirmation of the same requirement multiple times & also, ensures that the opportunities are not lost in transition from the opportunity discovery to the sales.</p>                 
-                </div>
-                <div class="col-md-6 col-sm-12 audi-exp pm-roi-3 text-center pm-roi-svg">
+            <div class="container wc-head ">
+            <h1 class="text-center  color-white h3 ">ROI</h1>
+                <div class="col-md-12 col-sm-12  pm-roi-3 text-center pm-roi-svg">
                     
                     <svg version="1.1" class="pm-3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                         width="474.193px" height="407.258px" viewBox="0 0 474.193 407.258" enable-background="new 0 0 474.193 407.258" xml:space="preserve">
@@ -601,6 +602,13 @@
                             c0,1.104-0.896,2-2,2h-2.772c-1.104,0-2-0.896-2-2v-28c0-1.104,0.896-2,2-2h2.772c1.104,0,2,0.896,2,2V348.677z"/>
                     </svg>
                 </div>
+                <div class="col-md-12 col-sm-12 audi-exp_sm pm-exp_sm ">                    
+                    <br>
+                    <p class="desc color-white  text-center" >
+                        Any campaign generates immediate as well as future returns and effectiveness of any lead management team is defined on the potential to define the time frame of the requirements accurately. Along with aiding the sales team to extend the market coverage, the pipeline management team has to be able to ascertain that the qualified marketing leads are added to the funnel of the sales teams only at the appropriate time – the key task is to enhance the funnel & not clutter the same with leads with requirements at a later date.</p>
+                        <p class="desc color-white  text-center" > The team at Erfolg is trained on techniques in lead nurturing with extended time frame so as to keep the continuity of discussion alive with the prospects with multi-touch marketing aids like product guides, whitepapers and other direct marketing techniques by implementing CRM solutions. The lead nurturing mechanism helps reduce unwanted connects with the prospects for confirmation of the same requirement multiple times &also, ensures that the opportunities are not lost in transition from the opportunity discovery to the sales.                       
+                    </p>                 
+                </div>
                 <h2></h2>
             </div>
         </div>
@@ -608,7 +616,7 @@
 
     <section class="cd-section potrait-section">
         <div>
-            <div class="container ms-head ">                
+            <div class="container wc-head ">                
                 <div class="col-md-12">   
                     <center>               
                         <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  version="1.1" class="pm-4 pm-4_head others" x="0px" y="0px"  viewBox="0 0 1200 416.936" enable-background="new 0 0 1200 416.936" width="1200px" height="416px" xml:space="preserve">
@@ -783,11 +791,10 @@
                     <div class="container pm-container">
                         <h1 class="h3 text-center text-pm-768">The following process is what we follow for most of our lead generation campaigns to ensure the prospect identification is correct and has a higher conversion ratio:</h1>
                         <br><br><br><br>
-                    </div>                 
+                    </div>                
 
                     
                 <div class="container pm-container text-center">
-
 
                    <svg version="1.1" class="edge-ie ie-svg"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1426.429px" height="630px" viewBox="0 0 1426.429 630" enable-background="new 0 0 1426.429 630" xml:space="preserve">
                                 

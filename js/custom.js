@@ -335,3 +335,25 @@ var home = anime({
     direction: "both",
     loop: false
 });
+
+var home = anime({
+    targets: ".bg-image_ie path",
+    strokeDashoffset: [anime.setDashoffset, 0],
+    easing: "easeInQuad",
+    duration: 4500,
+    delay: function(el, i) {
+        return i * 250;
+    },
+    loop: false
+});
+
+var home = anime({
+    targets: ".bg2-image_ie path",
+    strokeDashoffset: [anime.setDashoffset, 0],
+    easing: "easeInQuad",
+    duration: 4500,
+    delay: function(el, i) {
+        return i * 250;
+    },
+    loop: false
+});

@@ -52,6 +52,56 @@
                     </div>
                     
                     <img class="bg-image others" src="img/new/home-sec-1.svg">
+                    <svg version="1.1" class="bg-image_ie edge-ie" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="752.6px" height="773.1px" viewBox="0 0 752.6 773.1" enable-background="new 0 0 752.6 773.1" xml:space="preserve" class="" style="">
+                        <g>
+                            <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M628.7,773.1V577.6
+                                c0-2.8,2.3-5,5-5h71.9c2.8,0,5-2.3,5-5v-67.1c0-2.8-2.3-5-5-5h-73.1c-2.8,0-5-2.3-5-5V283.8c0-2.8,2.3-5,5-5h93.5c2.8,0,5-2.3,5-5
+                                V37c0-2.8-2.3-5-5-5h-297c-2.8,0-5,2.3-5,5v171.6c0,2.8,0,7.3,0,10v59c0,2.8,0,7.3,0,10v81.3c0,2.8,1.4,3.2,3,1l125.2-167
+                                c1.7-2.2,3-1.7,3,1v20.6c0,2.8,0,7.3,0,10v46c0,2.8,0,7.3,0,10v147c0,2.8-2.3,5-5,5h-58c-2.8,0-5,2.3-5,5v74.3c0,2.8,2.3,5,5,5
+                                h55.6c2.8,0,5,2.3,5,5v241.2" class="QbiLzHDC_0">
+                            </path>
+                        </g>
+                        <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M445.2,95.2A42.1,42.1 0,1,1 529.4,95.2A42.1,42.1 0,1,1 445.2,95.2" class="QbiLzHDC_1"></path>
+                        <path fill="#FFFFFF" d="M520.4,121.2c14.4-18.3,11.2-44.8-7.1-59.2c-18.3-14.4-44.8-11.2-59.2,7.1L520.4,121.2z" class="QbiLzHDC_2"></path>
+                        <g>
+                            <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M714.6,32c0,17-8,17-8,34
+                                c0,17,8,17,8,34c0,17-8,17-8,34c0,17,8,17,8,34s-8,17-8,34" class="QbiLzHDC_3"></path>
+                        </g>
+                        <g>
+                            <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M693.5,32
+                                c0,14.9-8,14.9-8,29.7c0,14.9,8,14.9,8,29.7c0,14.9-8,14.9-8,29.7c0,14.9,8,14.9,8,29.7s-8,14.9-8,29.7" class="QbiLzHDC_4"></path>
+                        </g>
+                        <g>
+                            <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M672.5,32
+                                c0,12.8-8,12.8-8,25.5s8,12.8,8,25.5c0,12.8-8,12.8-8,25.5c0,12.8,8,12.8,8,25.5s-8,12.8-8,25.5" class="QbiLzHDC_5"></path>
+                        </g>
+                        <g>
+                            <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M651.4,32
+                                c0,10.7-8,10.7-8,21.3c0,10.7,8,10.7,8,21.3s-8,10.7-8,21.3c0,10.7,8,10.7,8,21.3s-8,10.7-8,21.3" class="QbiLzHDC_6"></path>
+                        </g>
+                        <g>
+                            <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M630.3,32
+                                c0,8.5-8,8.5-8,17.1c0,8.5,8,8.5,8,17.1c0,8.5-8,8.5-8,17.1c0,8.6,8,8.6,8,17.1s-8,8.6-8,17.1" class="QbiLzHDC_7"></path>
+                        </g>
+                        <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M14.599999999999998,95.8A24.7,84.7 0,1,1 64,95.8A24.7,84.7 0,1,1 14.599999999999998,95.8" class="QbiLzHDC_8"></path>
+                        <path fill="#FFFFFF" d="M25.599999999999998,95.8A13.7,47.1 0,1,1 53,95.8A13.7,47.1 0,1,1 25.599999999999998,95.8" class="QbiLzHDC_9"></path>
+                        <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M149.5,39.6
+                            c9.1,0,16.4,25.1,16.4,56.1s-7.3,56.1-16.4,56.1" class="QbiLzHDC_10"></path>
+                        <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M259.3,67.2
+                            c4.6,0,8.4,12.8,8.4,28.6s-3.7,28.6-8.4,28.6" class="QbiLzHDC_11"></path>
+                        <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M39.3,11.1L376,95.8" class="QbiLzHDC_12"></path>
+                        <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M39.3,180.5L376,95.8" class="QbiLzHDC_13"></path>
+                        <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M194.7,141.2L101.6,773.1" class="QbiLzHDC_14"></path>
+                        <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M194.5,141.2L288.7,773.1" class="QbiLzHDC_15"></path>
+                        <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M148.6,460.9L194.5,515.5" class="QbiLzHDC_16"></path>
+                        <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M240.5,460.9L194.6,515.5" class="QbiLzHDC_17"></path>
+                        <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M51.5,22.2L158.4,48.7" class="QbiLzHDC_18"></path>
+                        <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M55.6,32L161.4,57.1" class="QbiLzHDC_19"></path>
+                        <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M158.7,142.4L264.7,115.7" class="QbiLzHDC_20"></path>
+                        <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M161.4,134.5L266.7,108.8" class="QbiLzHDC_21"></path>
+
+                    </svg>
+
                     
                              
                 </div>
@@ -76,7 +126,8 @@
 						</div>
 					</div>
 					<!--End off row-->
-					<img class="bg-image" src="img/new/home-sec-1.svg">
+                    <img class="bg-image " src="img/new/home-sec-1.svg">
+                   
 				</div>
             </header>   
                
@@ -91,7 +142,72 @@
                         <center>
                         	<img class="img-responsive img-info others" src="img/new/table2.svg">
                            
-                           
+                            <svg version="1.1" class="edge-ie img-info bg2-image_ie" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="241.3px"
+                                height="308px" viewBox="27.8 -14.8 241.3 308" enable-background="new 27.8 -14.8 241.3 308" xml:space="preserve">
+
+                                <g id="Layer_1">
+                                    
+
+                                    <g id="Layer_3">
+                                        <path   class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M82.7,187H48.5
+                                            c-1.7,0-3-1.3-3-3v-8c0-1.7,1.3-3,3-3h34.2"/>
+                                        <path   class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M139.8,173h115.8
+                                            c1.7,0,3,1.3,3,3v8c0,1.7-1.3,3-3,3H139"/>
+                                        <path   class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M138,208c0,1.7-1.3,3-3,3
+                                            H87c-1.7,0-3-1.3-3-3v-55c0-1.7,1.3-3,3-3h48c1.7,0,3,1.3,3,3V208z"/>
+                                        <path   class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M138,228c0,1.7-1.3,3-3,3
+                                            H87c-1.7,0-3-1.3-3-3v-2.5c0-1.7,1.3-3,3-3h48c1.7,0,3,1.3,3,3V228z"/>
+                                        
+                                            <line   class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="111" y1="180.5" x2="111" y2="222.5"/>
+                                        
+                                            <line   class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="111" y1="231" x2="111" y2="263"/>
+                                        
+                                            <line   class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="111" y1="263" x2="93.8" y2="280.3"/>
+                                        
+                                            <line   class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="111" y1="263" x2="127.9" y2="279.9"/>
+                                        <path   class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M218,228c0,1.7-1.3,3-3,3
+                                            h-48c-1.7,0-3-1.3-3-3v-2.5c0-1.7,1.3-3,3-3h48c1.7,0,3,1.3,3,3V228z"/>
+                                        
+                                            <line  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="191" y1="231" x2="191" y2="263"/>
+                                        
+                                            <line  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="191" y1="263" x2="173.8" y2="280.3"/>
+                                        
+                                            <line  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="191" y1="263" x2="207.9" y2="279.9"/>
+                                        
+                                            <line  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="102.4" y1="180.5" x2="119.4" y2="180.5"/>
+                                        
+                                            <line  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="45.5" y1="178.5" x2="45.5" y2="279.9"/>
+                                        
+                                            <line  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="258.5" y1="178.5" x2="258.5" y2="279.9"/>
+                                        <path  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M247.5,151.5
+                                            c0,1.7-1.3,3-3,3h-67.8c-1.7,0-3-1.3-3-3V114c0-1.7,1.3-3,3-3h67.8c1.7,0,3,1.3,3,3V151.5z"/>
+                                        <path  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M216,154.5
+                                            c0,10.2,8.3,18.5,18.5,18.5"/>
+                                        <path  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M204.5,154.5
+                                            c0,10.2-8.3,18.5-18.5,18.5"/>
+                                        <path  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M52.9,173
+                                            c0-5.2,4.8-9.5,10.7-9.5s10.7,4.3,10.7,9.5"/>
+                                        
+                                            <line  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="63.7" y1="163.5" x2="63.7" y2="122.5"/>
+                                        
+                                            <line  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="63.7" y1="114.5" x2="93.8" y2="87"/>
+                                        <path  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M95,107.2
+                                            c-3.5-4.7-2.6-11.4,2.1-14.9c4.7-3.5,11.4-2.6,14.9,2.1"/>
+                                        <path  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M93.8,94.8
+                                            c-1.9-2.6-2-5.8-0.2-7.2c1.8-1.4,4.9-0.4,6.8,2.2"/>
+                                        
+                                            <line  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="112" y1="94.4" x2="95" y2="107.2"/>
+                                        
+                                            <circle  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="63.3" cy="118.5" r="4"/>
+                                    </g>
+
+
+
+                                    
+                                </g>
+
+                            </svg>
+
                         </center>
                         <br>
                         <h2 class="info">Now working with <strong>10</strong> of the top global <strong>25</strong> Software companies 
@@ -110,7 +226,7 @@
                     <center>
                     	<img class="services-main_image float" src="img/new/services-main.svg">
                     </center>
-                    <h1 class="text-center visible-text">Services we offer</h1>
+                    <h1 class="text-center visible-text h3">Services we offer</h1>
                     <h4 class="service-desc visible-text">
                         With a gamut of BTL marketing services comprising of tele based and non tele based services that is backed with a strong multi scope marketing campaigns, we have built a base to put us at par with the best in the industry. To experience marketing success, get in touch with us today!
                     </h4>					 
@@ -123,13 +239,13 @@
                                     <img src="img/new/sales-pipeline.svg"/>		
                                 </center> 
                                 <br><br><br><br>
-                                <h1 class="services-desc " >Pipeline Management</h1>
+                                <h1 class="services-desc h3" >Pipeline Management</h1>
                                	
                                 <br><br>
-                                <span class="h3 line-height">Are you able to reach your prospects early in the sales cycle?<span>			  
-                                <h4 class="services-desc"> One of the challenges facing any marketing team is the support that can be extended to the sales function – the direct & indirect impact to the revenue generation for the organization.</h4>
+                                <span class="h4 line-height">Are you able to reach your prospects early in the sales cycle?<span>			  
+                                <h4 class="services-desc h5"> One of the challenges facing any marketing team is the support that can be extended to the sales function – the direct & indirect impact to the revenue generation for the organization.</h4>
                                 <br>
-                                <a href="pipeline.php" class="services-desc">
+                                <a href="pipeline.php " class="services-desc">
                                     <span class="know_more ">Know More</span>
                                 </a>
                             </div>							
@@ -142,11 +258,11 @@
                                     <img src="img/new/sales-engine.svg"  />		
                                 </center>	
                                 <br><br><br><br>
-                                <h1 class="services-desc " >Backend Sales</h1>
+                                <h1 class="services-desc h3 " >Backend Sales</h1>
                                  		
                                 <br><br>										
-                                <span class="h3 line-height" >Are you missing out on extending your market reach as all prospects are not given due focus?<span>			  
-                                <h4 class="services-desc">The Back-End Services framework of Erfolg offers a cost-effective option to achieve operational efficiency. With the growth of the economy & the start of many small & medium enterprises at regular intervals, the base is expanding at a good rate & therefore,</h4>
+                                <span class=" line-height h4" >Are you missing out on extending your market reach as all prospects are not given due focus?<span>			  
+                                <h4 class="services-desc h5">The Back-End Services framework of Erfolg offers a cost-effective option to achieve operational efficiency. With the growth of the economy & the start of many small & medium enterprises at regular intervals, the base is expanding at a good rate & therefore,</h4>
                                 <br>
                                 <a href="backend-sales.php" class="services-desc">
                                     <span class="know_more ">Know More</span>
@@ -161,10 +277,10 @@
                                     <img src="img/new/audience-connect.svg"  />		
                                 </center> 
                                 <br><br><br><br>
-                                <h1 class="services-desc " >Audience Connect</h1>
+                                <h1 class="services-desc h3 " >Audience Connect</h1>
                                	<br><br>
-                                <span class="h3 line-height" >Is one of your important marketing tactics failing to deliver?<span>			  
-                                <h4 class="services-desc">One of the most important business tactics to reach out & deliver the messaging to an active audience is events (onsite events/ virtual events). The effectiveness of events is driven primarily by a few factors like content, delivery, ambience, audience, etc</h4>
+                                <span class=" line-height h4" >Is one of your important marketing tactics failing to deliver?<span>			  
+                                <h4 class="services-desc h5">One of the most important business tactics to reach out & deliver the messaging to an active audience is events (onsite events/ virtual events). The effectiveness of events is driven primarily by a few factors like content, delivery, ambience, audience, etc</h4>
                                 <br>
                                 <a href="audience-connect.php" class="services-desc">
                                     <span class="know_more ">Know More</span>
@@ -179,10 +295,10 @@
                                     <img src="img/new/web-conf.svg"/>		
                                 </center> 
                                 <br><br><br><br>								
-                                <h1 class="services-desc " >Web Conferencing</h1>
+                                <h1 class="services-desc h3" >Web Conferencing</h1>
                                 <br><br>	
-                                <span class="h3 line-height" >Is Web Conferencing not working at your office as it should? <span>			  
-                                <h4 class="services-desc">Organising an event is time consuming and draining on the marketing budgets and bandwidth of marketers. Also it restricts the audience as only a specific geography can be addressed, multiple sessions need to be organised to map larger audience.</h4>
+                                <span class="h4 line-height" >Is Web Conferencing not working at your office as it should? <span>			  
+                                <h4 class="services-desc h5">Organising an event is time consuming and draining on the marketing budgets and bandwidth of marketers. Also it restricts the audience as only a specific geography can be addressed, multiple sessions need to be organised to map larger audience.</h4>
                                 <br>
                                 <a href="web-conference.php" class="services-desc">
                                     <span class="know_more ">Know More</span>
@@ -197,11 +313,11 @@
                                     <img src="img/new/event.svg"/>		
                                 </center>
                                 <br><br><br><br>
-                                <h1 class="services-desc " >Event Management</h1>
+                                <h1 class="services-desc h3" >Event Management</h1>
                                
                                 <br><br> 	
-                                <span class="h3 line-height" >Are you spending more time in micro detailing towards event management than on core objectives of events?<span>			  
-                                <h4 class="services-desc">Corporate events are a tremendous platform to address a captive audience & open up opportunities for strategic discussions.</h4>
+                                <span class="h4 line-height" >Are you spending more time in micro detailing towards event management than on core objectives of events?<span>			  
+                                <h4 class="services-desc h5">Corporate events are a tremendous platform to address a captive audience & open up opportunities for strategic discussions.</h4>
                                 <br>
                                 <a href="pipeline.php" class="services-desc">
                                     <span class="know_more ">Know More</span>
@@ -216,11 +332,11 @@
                                     <img src="img/new/database.svg">		
                                 </center>
                                 <br><br><br><br>	
-                                <h1 class="services-desc " >Database Management</h1>
+                                <h1 class="services-desc h3" >Database Management</h1>
                                  	
                                 <br><br>
-                                <span class="h3 line-height" >Is your marketing team failing to launch campaigns due to lack of defined target audience?<span>			  
-                                <h4 class="services-desc">One of the most important inputs for any marketing campaign is the intelligence in terms of the data or the audience to be targeted.</h4>
+                                <span class="h4 line-height" >Is your marketing team failing to launch campaigns due to lack of defined target audience?<span>			  
+                                <h4 class="services-desc h5">One of the most important inputs for any marketing campaign is the intelligence in terms of the data or the audience to be targeted.</h4>
                                 <br>
                                 <a href="db.php" class="services-desc">
                                     <span class="know_more ">Know More</span>
@@ -235,11 +351,11 @@
                                     <img src="img/new/marketing-support.svg"/>		
                                 </center>
                                 <br><br><br><br>														
-                                <h1 class="services-desc " >Marketing Support</h1>
+                                <h1 class="services-desc h3" >Marketing Support</h1>
                                  
                                 <br><br>	
-                                <span class="h3 line-height" >Is your marketing team constraint for time and missing deadlines?<span>			  
-                                <h4 class="services-desc">A Marketing role today involves a myriad of responsibilities to be undertaken – brand building, undertaking research for product placement& feedback,</h4>
+                                <span class="h4 line-height" >Is your marketing team constraint for time and missing deadlines?<span>			  
+                                <h4 class="services-desc h5">A Marketing role today involves a myriad of responsibilities to be undertaken – brand building, undertaking research for product placement& feedback,</h4>
                                 <br>
                                 <a href="marketing-support.php" class="services-desc">
                                     <span class="know_more ">Know More</span>
@@ -249,16 +365,16 @@
                         <div class="panel service-side_panel" id="target8">
                             <a class="pull-right services-close"><i class="fa fa-times 2x" aria-hidden="true"></i></a>
                             <div class=" pad">
-                             <center>
-                             <br><br>
+                                <center>
+                                <br><br>
                                     <img src="img/new/digital-marketing.svg"  />		
                                 </center> 
                                 <br><br><br><br>
-                                <h1 class="services-desc " >Digital Marketing</h1>
+                                <h1 class="services-desc h3" >Digital Marketing</h1>
                                
                                 <br> <br>	
-                                <span class="h3 line-height" >Is your digital marketing strategy ensuring that you reach revenue-paying prospects?<span>			  
-                                <h4 class="services-desc">In the web world, that has technically inclined audience, one of the most sought after mediums to connect with decision makers or influencers or users is the digital medium. </h4>
+                                <span class="h4 line-height" >Is your digital marketing strategy ensuring that you reach revenue-paying prospects?<span>			  
+                                <h4 class="services-desc h5">In the web world, that has technically inclined audience, one of the most sought after mediums to connect with decision makers or influencers or users is the digital medium. </h4>
                                 <br>
                                 <a href="digital-marketing.php" class="services-desc">
                                     <span class="know_more ">Know More</span>
@@ -273,10 +389,10 @@
                                     <img src="img/new/design-dev.svg"  />		
                                 </center> 
                                 <br><br><br><br>
-                                <h1 class="services-desc " >Design & Development</h1>
+                                <h1 class="services-desc h3" >Design & Development</h1>
                                 <br><br>	
-                                <span class="h3 line-height" >Are you able to reach your prospects early in the sales cycle?<span>			  
-                                <h4 class="services-desc"> One of the challenges facing any marketing team is the support that can be extended to the sales function – the direct & indirect impact to the revenue generation for the organization.</h4>
+                                <span class="h4 line-height" >Are you able to reach your prospects early in the sales cycle?<span>			  
+                                <h4 class="services-desc h5"> One of the challenges facing any marketing team is the support that can be extended to the sales function – the direct & indirect impact to the revenue generation for the organization.</h4>
                                 <br>
                                 <a href="pipeline.php" class="services-desc">
                                     <span class="know_more ">Know More</span>
@@ -1476,41 +1592,19 @@
 	</script>
 
 
-    <!--form inputs-->
     <script>
-        (function() {
-            // trim polyfill : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/Trim
-            if (!String.prototype.trim) {
-                (function() {
-                    // Make sure we trim BOM and NBSP
-                    var rtrim = /^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g;
-                    String.prototype.trim = function() {
-                        return this.replace(rtrim, '');
-                    };
-                })();
-            }
+        if (document.documentMode || /Edge/.test(navigator.userAgent)) {
+            $(".edge-ie").show();
+            $(".others").hide();
+            $(".ie-carousel").addClass("ie-carousel-top");
+            console.log("IE");
+        }else{
+            $(".edge-ie").hide();
 
-            [].slice.call(document.querySelectorAll('input.input__field')).forEach(function(inputEl) {
-                // in case the input is already filled..
-                if (inputEl.value.trim() !== '') {
-                    classie.add(inputEl.parentNode, 'input--filled');
-                }
+            console.log("Others");
+        }
 
-                // events:
-                inputEl.addEventListener('focus', onInputFocus);
-                inputEl.addEventListener('blur', onInputBlur);
-            });
-
-            function onInputFocus(ev) {
-                classie.add(ev.target.parentNode, 'input--filled');
-            }
-
-            function onInputBlur(ev) {
-                if (ev.target.value.trim() === '') {
-                    classie.remove(ev.target.parentNode, 'input--filled');
-                }
-            }
-        })();
+       
     </script>
 
     <script>

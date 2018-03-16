@@ -18,11 +18,15 @@
     .cd-section:nth-of-type(5)>div{
         background-image: linear-gradient(to right bottom, #78edb6, #00dfd5, #00ccf5, #00b3ff, #4494ff);
     }
-    /* .ac1{
+    /* .ac1{z
         margin-left:-20%;
     } */
     .ms-head:nth-of-type(2){
         margin-top: 15%;
+    }
+
+    .modal-content{
+        background-image: linear-gradient(to right bottom, #78edb6, #00dfd5, #00ccf5, #00b3ff, #4494ff);
     }
 </style>
 <!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
@@ -43,7 +47,7 @@
                             <svg class=" others audi-home_img-others ms-head" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                 width="996.154px" height="610.975px" viewBox="0 0 996.154 610.975" enable-background="new 0 0 996.154 610.975"
                                 xml:space="preserve">                                
-                                <path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M176.137,524h136.095 M103.231,524h-8.834l-80,67h967l-80-67h-11.5
+                                <path fill="none" stroke-width="1" stroke="#FFFFFF" stroke-miterlimit="10" d="M176.137,524h136.095 M103.231,524h-8.834l-80,67h967l-80-67h-11.5
                                     M435.753,524h382.395 M185.397,111h-91v157h91V111z M139.897,133c-11.874,0-21.5,9.626-21.5,21.5s9.626,21.5,21.5,21.5
                                     c11.875,0,21.5-9.626,21.5-21.5S151.772,133,139.897,133z M139.897,141.261c-7.312,0-13.239,5.928-13.239,13.239
                                     s5.927,13.239,13.239,13.239c7.313,0,13.239-5.928,13.239-13.239S147.21,141.261,139.897,141.261z M139.897,148.594
@@ -118,7 +122,7 @@
                             <h1 class="text-uppercase header-line ms-head others">Audience Connect</h1>
                             <h1 class="text-uppercase header-line ie">Audience Connect</h1>
                         </center>
-                        <h1 class="text-center color-white huge-font h2" >Is one of your important marketing tactics <br>failing to deliver?</h1>
+                        <h1 class="text-center color-white huge-font h3" >Is one of your important marketing tactics <br>failing to deliver?</h1>
                     </div>
                     <h2></h2>
                 </div>
@@ -129,9 +133,9 @@
 
     <section class="cd-section ">
         <div>
-            <div class="container ac-container ms-head">               
+            <div class="container ac-container wc-head">               
                 <div class="col-md-6">
-                    <h1 class="content__title color-white h2">HELLO WORLD</h1>
+                    <h1 class="content__title color-white h3">HELLO WORLD</h1>
                     <br>
                     <p class="desc color-white align-left">
                         One of the most important business tactics to reach out & deliver the messaging to an active audience is events (onsite events/ virtual events). The effectiveness of events is driven primarily by a few factors like content, delivery, ambience, audience, etc – however, the business impact is driven largely by the audience. 
@@ -153,9 +157,9 @@
 
     <section class="cd-section ac-experience">
         <div>
-            <div class="container ac-container ms-head audi-exp">
+            <div class="container ac-container wc-head audi-exp">
                 <div class="col-md-6 col-sm-12 audi-exp_sm">
-                    <h1 class="content__title  color-white h2 ">EXPERIENCE</h1>
+                    <h1 class="content__title  color-white h3 ">EXPERIENCE</h1>
                     <br>
                     <p class="desc color-white  align-left">With over a decade of experience in driving audiences for events, the team is well-versed with the nuances of various stages of being connected with the prospect audience. A well-crafted strategy is planned before executing any campaign – right from database planning to invitation sharing (various mechanisms), agenda planning, connecting with the prospect audience in a non-obstructive manner via telecalling, e-mail messaging, etc.</p>                 
                 </div>
@@ -171,9 +175,9 @@
 
     <section class="cd-section potrait-section">
         <div>
-            <div class="container ac-container ms-head">
+            <div class="container ac-container wc-head">
                 <div class="col-md-6">
-                    <h1 class="content__title  color-white h2">Time to step forward</h1>
+                    <h1 class="content__title  color-white h3">Time to step forward</h1>
                     <br>
                     <p class="desc color-white  align-left">They understand the underlying difference between the various kinds of sessions &amp; accordingly work out the approach to be adopted. In order to optimize the event to the fullest, we also provide event lead follow up through telecalling on the attendees from the feedback obtained by the attendees to convert the suspect attendees to marketing leads. Customized solutions for all aspects of audience connect i.e. database management for audience profiling, response management for web marketing and inbound management, audience acquisition and audience relationship management.</p>
                     <p class="desc color-white  align-left">The team at <i>Erfolg</i> is equipped to handle all registrations &amp; monetary transactions, response management via inbound and outbound telecalling, dissemination of information to potential registrants, financial reporting, post event analysis, etc.</p>
@@ -312,13 +316,13 @@
 		<!-- Because of Firefox. -->
 		<defs>
 			<radialGradient id="gradient">
-				<stop offset="0" stop-color="#fff" />
-				<stop offset="0.25" stop-color="#fff" />
-				<stop offset="0.35" stop-color="#fff" />
-				<stop offset="0.50" stop-color="#fff" />
-				<stop offset="0.60" stop-color="#fff" />
-				<stop offset="0.85" stop-color="#fff" />
-				<stop offset="1" stop-color="#fff" />
+				<stop offset="0" stop-color="#fff"/>
+				<stop offset="0.25" stop-color="#fff"/>
+				<stop offset="0.35" stop-color="#fff"/>
+				<stop offset="0.50" stop-color="#fff"/>
+				<stop offset="0.60" stop-color="#fff"/>
+				<stop offset="0.85" stop-color="#fff"/>
+				<stop offset="1" stop-color="#fff"/>
 			</radialGradient>
 		</defs>
 		<symbol id="ripply-scott" viewBox="0 0 100 100">
@@ -327,34 +331,29 @@
 	</svg>
     <?php include "script.php"; ?>
     <script src="js/anime2.0.js"></script>
-      <script>
+    <script>
         // if (document.documentMode || /Edge/.test(navigator.userAgent)) {
         //     $(".edge-ie").show();
         //     $(".others").hide();
-        //     $(".ie-carousel").addClass("ie-carousel-top");
-            
+        //     $(".ie-carousel").addClass("ie-carousel-top");            
         //     console.log("IE");
         // }else{
         //     $(".edge-ie").hide();
-
         //     console.log("Others");
         // }
 
         if (document.documentMode ) {
             $(".ie").show();
             $(".others").hide();
-            $(".ie-carousel").addClass("ie-carousel-top");
-            
+            $(".ie-carousel").addClass("ie-carousel-top");            
             console.log("IE");
         }
         else{
             $(".ie").hide();
-
             console.log("Others");
         }
     </script>
-
-    
+  
 
     <script>
         $(document).ready(function(){

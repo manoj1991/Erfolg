@@ -18,7 +18,9 @@
     .cd-section:nth-of-type(5)>div{
         background-image: linear-gradient(to right bottom, #006ebe, #008bd0, #00a5d7, #00bfd5, #00d6ce);
     }
-
+    .modal-content{
+        background-image: linear-gradient(to right bottom, #006ebe, #008bd0, #00a5d7, #00bfd5, #00d6ce);
+    }
 </style>
 <!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
 
@@ -93,7 +95,7 @@
                         </svg>                   
                         <h1 class="bs-text text-uppercase header-line">Desig &amp; Development </h1> 
                         </center>
-                        <h1 class="text-center color-white huge-font" >Is your digital marketing strategy ensuring that you reach
+                        <h1 class="text-center color-white h3" >Is your digital marketing strategy ensuring that you reach
                             <br>
                             
                                 revenue-paying prospects?
@@ -112,7 +114,7 @@
         <div>
             <div class="container wc-head">
                 <div class="col-md-6">
-                    <h1 class="content__title  color-white h2">HELLO WEB</h1>                    
+                    <h1 class="content__title  color-white h3">HELLO WEB</h1>                    
                     <p class="desc color-white  align-justify">In the web world, that has technically inclined audience, one of the most sought after mediums to connect with decision makers or influencers or users is the digital medium. It has become mandatory for a marketer to support all marketing activities with a digital marketing strategy. Keeping the same in mind, Erfolg has added digital marketing to their gamut of services to holistically support all marketing services and bring a different perspective to the digital strategy of marketing teams that we cater to. We realise that the effectiveness of a digital campaign is largely dependent on the audience that it intends to connect and address for a particular tactic adopted.</p>
                 </div>
                 <div class="col-md-6">
@@ -130,7 +132,7 @@
             <div class="container wc-head">  
 
                 <div class="col-md-6">
-                    <h1 class=" color-white h2 ">WE ADAPT</h1>
+                    <h1 class=" color-white h3 ">WE ADAPT</h1>
                     <p class="desc color-white align-justify ">
                         The Projects Team at Erfolg understands the various nuances of marketing requirements as it comprises of diverse experienced members with the ability to adapt quickly. The team is resourceful in executing varied tasks and being dynamic, goes the extra step to pick up the necessary skills in quick time to be able to execute the tasks at hand. A very valuable support team for any marketing manager as they have prior experience of having implemented tasks like Set-up & Managing Inbound Helpdesks / Customer Care Desks, Direct Mailing (offline / online), Planning for and managing various customer / partner relationship initiatives likes Customer retainer programs, customer relations campaigns, incentive programs, channel rewards programs, contest schemes, product promotions, setting-up & executing market surveys, undertaking feedback & review surveys, research initiatives, Inventory Management / Event & Promotions Brochure & Give-a-ways Management, etc.
                     </p>                   
@@ -348,13 +350,7 @@
 		</symbol>
 	</svg>
     <?php include "script.php"; ?>
-    <script>
-	$(document).ready(function(){
-		$(".services-close").on('click', function(){
-			$("div.panel").hide( "slide", { direction: "left"  }, 500);
-		})
-	})
-</script>
+   
 
 <script>
 	$(document).ready(function(){

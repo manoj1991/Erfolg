@@ -21,6 +21,9 @@
     .cd-section:nth-of-type(6)>div{
         background-image: linear-gradient(to left bottom, #6775a8, #7266a2, #805495, #8e4081, #982667);
     }
+    .modal-content{
+        background-image: linear-gradient(to left bottom, #6775a8, #7266a2, #805495, #8e4081, #982667);
+    }
 
 </style>
 <!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
@@ -97,7 +100,7 @@
                             <h1 class="bs-text text-uppercase header-line">Database Management</h1>              
 
                         </center>
-                        <h1 class="text-center color-white huge-font" >Is your marketing team failing to launch campaigns  <br>due to lack of defined target audience? </h1>
+                        <h1 class="text-center color-white h3" >Is your marketing team failing to launch campaigns  <br>due to lack of defined target audience? </h1>
                    
                     </div>
                     <h2></h2>
@@ -112,7 +115,7 @@
             <div class="container wc-head">  
 
                 <div class="col-md-6">
-                    <h1 class=" color-white h2 ">INTELLIGENCE</h1>
+                    <h1 class=" color-white h3 ">INTELLIGENCE</h1>
                     <p class="desc color-white align-justify ">
                         One of the most important inputs for any marketing campaign is the intelligence in terms of the data or the audience to be targeted. This input is especially critical when it comes to direct marketing tactics & attention has to be paid to all aspects i.e. planning the right audience, identification of the target audience, accuracy of the lists, frequency of connect, mediums of connect, etc.
                     </p>
@@ -135,7 +138,7 @@
         <div>
             <div class="container wc-head">
                 <div class="col-md-6">
-                    <h1 class="content__title  color-white h2">THE DATABASE</h1>
+                    <h1 class="content__title  color-white h3">THE DATABASE</h1>
                     
                     <p class="desc color-white  align-justify">The Database Services at Erfolg is delivered by a separate dedicated team of professionals who specialize in data sourcing, organizational data profiling, data segmentation mapping, data cleansing, data verification, data de-duplication, industry analysis, data validation, etc. The back-end team is not just list pullers but is experienced to take briefs basis objective of the campaign, target audience, etc & work on the same to plan the inputs for the campaign, share market insights towards approach, depth and reach, predict the probable campaign results, deliver effective & live databases for the campaign, etc.</p>
                    
@@ -296,16 +299,69 @@
 
     <section class="cd-section ">
         <div>
-            <div class="container ms-head">
-                <div class="col-md-6">
-                                      
-                    <p class="desc color-white  align-justify">The data management team at Erfolg constantly works on the database repository to ensure that the contacts are not redundant and are updated via data cleansing (map internal movements, new contacts, etc.). They undertake independent exercises to check the validity of the contacts via data profiling, work with the project execution teams to capture updates at their end, cross-validate the details via various tactics, etc to ensure that they deliver effective databases for campaign implementation within short timeframes.</p>
-                    <p class="desc color-white  align-justify">At Erfolg, we handle Data Management as a standalone activity or as a part of pipeline management, Back-end Sales process, Audience Connect, Messaging Campaigns, Program Implementation, etc depending on our client’s requirement</p>
-                </div>
-                <div class="col-md-6">
-                    <center>
+            <div class="container wc-head">
+                <div class="col-md-12">                                      
+                    <p class="h3 color-white  text-center">The data management team at Erfolg constantly works on the database repository to ensure that the contacts are not redundant and are updated via data cleansing (map internal movements, new contacts, etc.). They undertake independent exercises to check the validity of the contacts via data profiling, work with the project execution teams to capture updates at their end, cross-validate the details via various tactics, etc to ensure that they deliver effective databases for campaign implementation within short timeframes.</p>
                     
-                    </center>
+                </div>
+                <div class="col-md-12">                    
+                    <center>
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                            width="129.333px" height="200.667px" viewBox="0 0 129.333 200.667" enable-background="new 0 0 129.333 200.667"
+                            xml:space="preserve">
+                            <path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M100.673,173.055c-9.295,8.562-21.707,13.79-35.34,13.79
+                                c-28.817,0-52.178-23.361-52.178-52.179s23.361-52.178,52.178-52.178s52.179,23.361,52.179,52.178">
+                                <animateTransform
+                                    attributeName="transform"
+                                    begin="0s"
+                                    dur="3s"
+                                    type="rotate"
+                                    from="360 64.333 134.667"
+                                    to="0 64.333 134.667"		
+                                    repeatCount="indefinite"
+                                />
+                            </path>
+                            <path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M21.513,134.667c0-24.201,19.619-43.82,43.82-43.82
+                                s43.82,19.619,43.82,43.82c0,12.752-5.448,24.231-14.142,32.239c-7.806,7.189-18.229,11.58-29.679,11.58">
+                                <animateTransform
+                                    attributeName="transform"
+                                    begin="0s"
+                                    dur="2.5s"
+                                    type="rotate"
+                                    from="0 64.333 134.667"
+                                    to="360 64.333 134.667"		
+                                    repeatCount="indefinite"
+                                />
+                            </path>
+                            <path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M6.267,113.709C14.81,90.39,37.203,73.75,63.483,73.75
+                                c33.643,0,60.917,27.273,60.917,60.917c0,17.728-7.574,33.687-19.659,44.818c-10.852,9.994-25.342,16.099-41.258,16.099
+                                c-22.137,0-41.515-11.807-52.182-29.467">
+                                <animateTransform
+                                    attributeName="transform"
+                                    begin="0s"
+                                    dur="3.5s"
+                                    type="rotate"
+                                    from="0 64.333 134.667"
+                                    to="360 64.333 134.667"		
+                                    repeatCount="indefinite"
+                                />
+                            </path>
+                            <circle fill="#FFFFFF" cx="65.333" cy="134.667" r="4.666"/>
+                            <path fill="#FFFFFF" d="M79.833,134.667c0-7.143-5.197-13.082-12.006-14.27L65.333,4.999l-2.494,115.398
+                                c-6.809,1.188-12.006,7.127-12.006,14.27c0,7.284,5.405,13.314,12.412,14.332h-0.412l2.5,19.334l2.5-19.334h-0.412
+                                C74.428,147.981,79.833,141.951,79.833,134.667z M65.333,148.167c-7.444,0-13.5-6.056-13.5-13.5c0-7.443,6.056-13.5,13.5-13.5
+                                c7.444,0,13.5,6.057,13.5,13.5C78.833,142.111,72.777,148.167,65.333,148.167z">
+                                <!-- <animateTransform id="an1" attributeName="transform" attributeType="XML" type="rotate" from="-30 64.333 134.667" to="60 64.333 134.667"	 begin="0s; an2.end" dur="20s" repeatCount="indefinite"/>
+                                <animateTransform id="an2" attributeName="transform" attributeType="XML" type="rotate" from="30 64.333 134.667" to="-30 64.333 134.667"	 begin="an1.end" dur="20s" repeatCount="indefinite" /> -->
+
+                                <animateTransform id="anim1s" attributeName="transform" attributeType="XML" type="rotate" from="-30 64.333 134.667" to="30 64.333 134.667" begin="0s; anim2s.end" dur="23.4s" fill="freeze"/>
+                                <animateTransform id="anim2s" attributeName="transform" attributeType="XML" type="rotate" from="30 64.333 134.667" to="-30 64.333 134.667" begin="anim1s.end" dur="23.4s" fill="freeze"/>
+                            </path>
+                        </svg>
+                    </center>          
+                </div>
+                <div class="col-md-12">
+                    <p class=" color-white  text-center h3">At Erfolg, we handle Data Management as a standalone activity or as a part of pipeline management, Back-end Sales process, Audience Connect, Messaging Campaigns, Program Implementation, etc depending on our client’s requirement</p>
                 </div>
                 <h2></h2>
             </div>

@@ -18,7 +18,9 @@
     .cd-section:nth-of-type(5)>div{
         background-image: linear-gradient(to right bottom, #006ebe, #008bd0, #00a5d7, #00bfd5, #00d6ce);
     }
-
+    .modal-content{
+        background-image: linear-gradient(to right bottom, #006ebe, #008bd0, #00a5d7, #00bfd5, #00d6ce);
+    }
 </style>
 <!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
 
@@ -92,7 +94,7 @@
                         </svg>                   
                         <h1 class="bs-text text-uppercase header-line">Marketing Support</h1>  
                         </center>
-                        <h1 class="text-center color-white huge-font" >Is your marketing team constraint for time and 
+                        <h1 class="text-center color-white h3" >Is your marketing team constraint for time and 
                             <br>
                             
                                 missing deadlines?
@@ -111,7 +113,7 @@
         <div>
             <div class="container wc-head">
                 <div class="col-md-6">
-                    <h1 class="content__title  color-white h2">ROLES</h1>                    
+                    <h1 class="content__title  color-white h3">ROLES</h1>                    
                     <p class="desc color-white  align-justify">A Marketing role today involves a myriad of responsibilities to be undertaken – brand building, undertaking research for product placement& feedback, maintaining connect with customers, undertaking activities towards customer retention, running incentive programs, contests, channel development, communicating key developments to customers & prospects, etc. The activities could be implemented as individual tactics or could be part of a sustained program but in either form involves various steps & can are resource intensive.</p>
                 </div>
                 <div class="col-md-6">
@@ -129,7 +131,7 @@
             <div class="container wc-head">  
 
                 <div class="col-md-6">
-                    <h1 class=" color-white h2 ">WE ADAPT</h1>
+                    <h1 class=" color-white h3 ">WE ADAPT</h1>
                     <p class="desc color-white align-justify ">
                         The Projects Team at Erfolg understands the various nuances of marketing requirements as it comprises of diverse experienced members with the ability to adapt quickly. The team is resourceful in executing varied tasks and being dynamic, goes the extra step to pick up the necessary skills in quick time to be able to execute the tasks at hand. A very valuable support team for any marketing manager as they have prior experience of having implemented tasks like Set-up & Managing Inbound Helpdesks / Customer Care Desks, Direct Mailing (offline / online), Planning for and managing various customer / partner relationship initiatives likes Customer retainer programs, customer relations campaigns, incentive programs, channel rewards programs, contest schemes, product promotions, setting-up & executing market surveys, undertaking feedback & review surveys, research initiatives, Inventory Management / Event & Promotions Brochure & Give-a-ways Management, etc.
                     </p>                   
@@ -358,7 +360,7 @@
 
 <script>
 	$(document).ready(function(){
-		$("#finalsubmit").on('click', function(){
+		$("#js-ripple-btn2").on('click', function(){
 			var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
 			var name = $("#name").val();
 			var email = $("#email").val();

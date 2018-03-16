@@ -154,7 +154,7 @@ hr.small {
 }
 
 .bg-image {
-    margin-top: -53% !important;
+    margin-top: -57% !important;
     width: 53%;
     float: right;
     position: relative;
@@ -234,12 +234,12 @@ h4 {
 
 .h5,
 h5 {
-    font-size: 14px
+    font-size: 0.707em;
 }
 
 .h6,
 h6 {
-    font-size: 12px
+    font-size: 0.5em;
 }
 
 small,
@@ -254,16 +254,17 @@ small,
 }
 
 .home_text h1 {
-    font-size: 4.5rem;
-    font-weight: 500;
-    width: 88%;
-    line-height: 1.5;
+    font-size: 3.998em;
+    font-weight: 100;
+    width: 100%;
+    line-height: 1.2;
     color: #ffffff;
+    margin: 0.37em 0;
 }
 
 .main_home {
     overflow: hidden;
-    padding-top: 20%;
+    padding-top: 11%;
     padding-bottom: 230px;
     position: relative;
     z-index: 1;
@@ -294,7 +295,6 @@ a:focus {
 .service-desc {
     line-height: 1.5;
     margin-top: 6%;
-    font-family: 'roboto' !important;
 }
 
 .desc {
@@ -689,7 +689,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .menu-services {
-    margin-top: 40%;
+    margin-top: 30%;
 }
 
 .modal-footer,
@@ -974,14 +974,14 @@ a {
 }
 
 .ie-svg {
-    width: 63%;
+    width: 50%;
     position: absolute;
-    left: 15%;
-    top: -3%;
+    left: 24%;
+    top: -1%;
 }
 
 .pm2 {
-    width: 120%;
+    width: 35%;
 }
 
 .pipe-4 {

@@ -18,7 +18,6 @@
     .cd-section:nth-of-type(5)>div{
         background-image: linear-gradient(to right bottom, #006ebe, #008bd0, #00a5d7, #00bfd5, #00d6ce);
     }
-
     .modal-content{
         background-image: linear-gradient(to left bottom, #9c572c, #af7749, #c1966a, #d4b68e, #e8d5b5);
     }
@@ -40,7 +39,7 @@
                             <svg class=" wc-image ms-head" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                 width="1388.461px" height="673.077px" viewBox="0 0 1388.461 673.077" enable-background="new 0 0 1388.461 673.077"
                                 xml:space="preserve" >
-                                <path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M976.739,490.015H495.928V211.421h480.811V490.015z M990.623,200.69
+                                <path fill="none" stroke-width="2"  stroke="#FFFFFF" stroke-miterlimit="10" d="M976.739,490.015H495.928V211.421h480.811V490.015z M990.623,200.69
                                     c0-1.657-1.343-3-3-3H485.044c-1.657,0-3,1.343-3,3v300.055c0,1.657,1.343,3,3,3h502.578c1.657,0,3-1.343,3-3V200.69z
                                     M761.808,514.218c-0.255,3.079-2.83,5.5-5.975,5.5h-39c-3.145,0-5.721-2.421-5.975-5.5H482.044c0,7.18,5.82,13,13,13h482.578
                                     c7.18,0,13-5.82,13-13H761.808z M511.833,503.745v10.473 M521.833,503.745v10.473 M950.833,503.745v10.473 M960.833,503.745v10.473
@@ -97,7 +96,7 @@
                             <h1 class="pm-text text-uppercase header-line ms-head">Web Conferencing</h1> 
                         </center>
                         
-                        <h1 class="text-center color-white huge-font" >Is Web Conferencing not working at your office as it should?  <br>Leave it to the experts while you focus on the meeting agenda. </h1>
+                        <h1 class="text-center color-white h3" >Is Web Conferencing not working at your office as it should?  <br>Leave it to the experts while you focus on the meeting agenda. </h1>
                     
                     </div>
                     <h2></h2>
@@ -111,7 +110,7 @@
         <div>
             <div class="container wc-head">
                 <div class="col-md-12">
-                    <h1 class=" color-white h2 ">WHY</h1>                   
+                    <h1 class=" color-white h3 ">WHY</h1>                   
                 </div>  
 
                 <div class="col-md-12">          
@@ -122,14 +121,15 @@
                         <p class="desc color-white align-justify">
                             To make it accessible and easy for participants, marketing professionals are opting for Web conferencing services to do product launches, training sessions, product showcases, demos, sharing new versions of products or services, vertical specific sessions, etc.
                         </p>
+                        <p class="desc color-white align-justify">
+                            It is not just convenient for participants but time and cost effective for marketers as they are able to reach bigger geographies targeting larger audience who are relevant. It helps save time as speakers or marketers don’t need to travel location to location, nor does it involve much branding or setup as it is just plug and start. It is cost effective as there are no venues or hotel charges, travelling charges, branding costs, audio visual logistics cost, etc.
+                        </p>
                     </div>
                     <div class="col-md-6 no-pad">
                         <img src="img/new/web conference/why2.svg">
                     </div>
                     <div class="col-md-12 no-pad">
-                        <p class="desc color-white align-justify">
-                            It is not just convenient for participants but time and cost effective for marketers as they are able to reach bigger geographies targeting larger audience who are relevant. It helps save time as speakers or marketers don’t need to travel location to location, nor does it involve much branding or setup as it is just plug and start. It is cost effective as there are no venues or hotel charges, travelling charges, branding costs, audio visual logistics cost, etc.
-                        </p>
+                        
                         <p class="desc color-white align-justify">
                             Depending on the scale of an event, probably three to four web conferences can be executed against the cost of one event and even the frequency to reach to customers/prospects via the medium be more in comparison to events on account of lower marketing expenses.
                         </p>
@@ -148,7 +148,7 @@
         <div>
             <div class="container wc-head">            
                 <div class="col-md-12">
-                    <h1 class="content__title  color-white h2">SOLUTION</h1>                    
+                    <h1 class="content__title  color-white h3">SOLUTION</h1>                    
                     <div class="col-md-6 no-pad">
                         <p class="desc color-white  align-justify">
                             Erfolg understands the need of marketing teams to have a wider reach to a larger audience at one go and has developed methodologies to ensure flawless virtual events or online demos/showcases or webinars or online product launches or partner enablement sessions, etc. Our clients need to take care of the presentation and speakers and the rest they can rely on us to handle smoothly from our end. We will take care of the database, invitations from designing to sharing with target audience, marketing the session, driving registrations, execution of the online event, post session analysis, follow up on leads identified from the session, etc.
@@ -156,14 +156,15 @@
                         <p class="desc color-white  align-justify">
                             Erfolg offers a complete package, leveraging on all our other in-house services to ensure the marketing team can spend time on other marketing tactics that will help convert prospects to customers.
                         </p>
+                        <p class="desc color-white  align-justify">
+                            Leveraging all our existing departments, database management, audience connect, digital and email marketing, and web development department, Erfolg has an exclusive Web Conferencing team that flawlessly executes online sessions for majority of our clients.
+                        </p> 
                     </div>
                     <div class="col-md-6">
                         <img src="img/new/web conference/why-right.svg">
                     </div>
                     <div class="col-md-12 no-pad">
-                        <p class="desc color-white  align-justify">
-                            Leveraging all our existing departments, database management, audience connect, digital and email marketing, and web development department, Erfolg has an exclusive Web Conferencing team that flawlessly executes online sessions for majority of our clients.
-                        </p>   
+                          
                         <p class="desc color-white  align-justify">
                             At Erfolg web conferencing is either proposed as a stand along marketing tactic or else it is integrated with either pipeline management or back end sales projects or with our digital marketing projects enabling our clients to address larger audience extending bigger geographies at one go especially areas where there is no presence of direct marketing and sales team.
                         </p>  
@@ -304,14 +305,7 @@
 		</symbol>
 	</svg>
     <?php include "script.php"; ?>
-    <script>
-        $(document).ready(function(){
-            $(".services-close").on('click', function(){
-                $("div.panel").hide( "slide", { direction: "left"  }, 500);
-            })
-        })
-    </script>
-
+    
 
 <script>
 	$(document).ready(function(){

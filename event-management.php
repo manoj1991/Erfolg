@@ -18,6 +18,9 @@
     .cd-section:nth-of-type(5)>div{
         background-image: linear-gradient(to right bottom, #4d8562, #42895e, #368d59, #249154, #00954f);
     }
+    .modal-content{
+        background-image: linear-gradient(to right bottom, #4d8562, #42895e, #368d59, #249154, #00954f);
+    }
 
 </style>
 <!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
@@ -94,7 +97,7 @@
                         <h1 class="pm-text text-uppercase header-line">Event Management</h1>            
 
                         </center>
-                        <h1 class="text-center color-white huge-font" >Are you spending more time in micro detailing towards event management than on <br>core objectives of events? </h1>
+                        <h1 class="text-center color-white h3" >Are you spending more time in micro detailing towards event management than on <br>core objectives of events? </h1>
                    
                     </div>
                     <h2></h2>
@@ -109,7 +112,7 @@
             <div class="container wc-head">  
 
                 <div class="col-md-6">
-                    <h1 class=" color-white h2 ">EVENT INTELLIGENCE</h1>
+                    <h1 class=" color-white h3 ">EVENT INTELLIGENCE</h1>
                     <p class="desc color-white align-justify ">
                         Corporate events are a tremendous platform to address a captive audience & open up opportunities for strategic discussions. As a marketing engine, corporate events are capable of adding great value to the sales function of an organization. However, any corporate event that you plan and stage is a reflection of your company’s image – from the initial invitation to the onsite operations. Therefore, it becomes imperative that any event planned delivers on every platform & does not create a detrimental influence.
                     </p>
@@ -132,7 +135,7 @@
         <div>
             <div class="container wc-head">
                 <div class="col-md-6">
-                    <h1 class="content__title  color-white h2">AREAS</h1>
+                    <h1 class="content__title  color-white h3">AREAS</h1>
                     
                     <p class="desc color-white  align-justify">We undertake corporate events of all scales from the simplest to the grander ones. We handle a wide array of corporate events ranging from full fledged conferences for customers to business development events with prospects/suspects, technical training seminars to jazzy product launches, single day summit to residential conferences, networking/informal sessions to C-level sessions, are capable to handling any bespoke event.</p>
                     <p class="desc color-white  align-justify">At Erfolg, we believe that personal attention to specific objectives is as important as through media. Erfolg's expertise extends to new marketing strategies for the requirements of various corporate events. We quickly grasp the elements of unique budgetary considerations and explore the market to come up with innovative marketing techniques and creative promotional materials.</p>
@@ -306,7 +309,7 @@
             <div class="container">
                 <div class="col-md-12">
                     <center>   
-                        <h1 class="line-height bs-head-txt-5 color-white align-justify  bs-head-2">At Erfolg, we undertake planning and managing a corporate event in the worldwide acknowledged three phases approach of event management i.e.<br><strong >Pre Event scenario, Actual Event & Post Event. separate Data Management services division.</strong> </h1>
+                        <h1 class="line-height bs-head-txt-5 color-white h3 align-justify  bs-head-2">At Erfolg, we undertake planning and managing a corporate event in the worldwide acknowledged three phases approach of event management i.e.<br><strong >Pre Event scenario, Actual Event & Post Event. separate Data Management services division.</strong> </h1>
                     </center>
                 </div>
                 <div class="col-md-12">                    
@@ -564,17 +567,11 @@
 		</symbol>
 	</svg>
     <?php include "script.php"; ?>
-    <script>
-	$(document).ready(function(){
-		$(".services-close").on('click', function(){
-			$("div.panel").hide( "slide", { direction: "left"  }, 500);
-		})
-	})
-</script>
+    
 
 <script>
 	$(document).ready(function(){
-		$("#finalsubmit").on('click', function(){
+		$("#js-ripple-btn2").on('click', function(){
 			var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
 			var name = $("#name").val();
 			var email = $("#email").val();

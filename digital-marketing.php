@@ -18,14 +18,28 @@
     .cd-section:nth-of-type(5)>div{
         background-image: linear-gradient(to right bottom, #006ebe, #008bd0, #00a5d7, #00bfd5, #00d6ce);
     }
+    .modal-content{
+        background-image: linear-gradient(to right bottom, #006ebe, #008bd0, #00a5d7, #00bfd5, #00d6ce);
+    }
+
+    .left {
+        position: absolute;
+        top: 65%;       
+        left: -15%;     
+    }
+
+    .right{
+        position: absolute;
+        right: -11% !important;
+        top: 65%;
+    }  
 
 </style>
 <!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
 
 <body data-hijacking="on" data-animation="rotate">
-
     <section class="cd-section visible ">
-    <img src="img/new/erfolg-logo-vertical.svg" class="img-responsive brand-logo hidden-large">
+        <img src="img/new/erfolg-logo-vertical.svg" class="img-responsive brand-logo hidden-large">
         <div class="content--fixed">              
             <div class="container">
             
@@ -94,11 +108,9 @@
                         <h1 class="bs-text text-uppercase header-line">Digital Marketing </h1>                
 
                         </center>
-                        <h1 class="text-center color-white huge-font" >Is your digital marketing strategy ensuring that you reach
-                            <br>
-                           
+                        <h1 class="text-center color-white h3" >Is your digital marketing strategy ensuring that you reach
+                            <br>                  
                                 revenue-paying prospects?
-                             
                         </h1>                   
                     </div>
                     <h2></h2>
@@ -112,10 +124,11 @@
         <div>
             <div class="container wc-head">
                 <div class="col-md-6">
-                    <h1 class="content__title  color-white h2">OUR APPROACH</h1> 
-                    <p><small>Tailor made to Your Meet Your Objectives.</small></p>                   
+                    <h1 class="content__title  color-white h3">OUR APPROACH</h1> 
+                    <p>Tailor made to Your Meet Your Objectives.</p><br>          
                     <p class="desc color-white  align-justify">Like with all our other services, we customise our online marketing services to our customer's specifications and requirements. Our focus with digital marketing is on B2B marketing as we are specialist in the segment and most of our services are limited to B2B marketing only. Our focus is not on social media marketing or paid promotions or Adwords only as the objective of our campaigns is not to reach numbers but identify prospects that can be nurtured via other mediums and finally be added to the sales funnel. We are experts in online marketing and take a holistic approach.</p>
                     <p class="desc color-white  align-justify">We don't have packages for promotions or social media marketing but we will tailor make a strategy for each of the campaigns dependent on client's brief and end objective, we believe in long term campaigns where we are able to connect with the touch points at defined and regular intervals to resonate the messaging that our clients want to convey.</p>
+                    <p class="desc color-white  align-justify">Our technology team will work closely with the marketing or digital marketing team of our clients to identify the right mix to reach the target audience and the objective of the campaign within specified timeframe. Our online strategies will be developed keeping in mind the products/services that we need to go to market with and the target audience whom we are connecting with.</p>
                     
                 </div>
                 <div class="col-md-6">
@@ -123,9 +136,7 @@
 
                     </center>
                 </div>
-                <div class="col-md-6">
-                    <p class="desc color-white  align-justify">Our technology team will work closely with the marketing or digital marketing team of our clients to identify the right mix to reach the target audience and the objective of the campaign within specified timeframe. Our online strategies will be developed keeping in mind the products/services that we need to go to market with and the target audience whom we are connecting with.</p>
-                </div>
+                
                 <h2></h2>
             </div>
         </div>
@@ -135,7 +146,7 @@
         <div>
             <div class="container wc-head">  
                 <div class="col-md-12">
-                    <h1 class=" color-white h2 ">Digital Marketing Solutions</h1>
+                    <h1 class=" color-white h3 ">Digital Marketing Solutions</h1>
                     <p class="desc color-white align-justify ">
                         We work towards crafting the perfect marketing mix to reach the maximum number of connects that can add value to the client in the most cost efficient manner.
                     </p> 
@@ -167,15 +178,14 @@
                                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                                 <li data-target="#myCarousel" data-slide-to="1"></li>
                                 <li data-target="#myCarousel" data-slide-to="2"></li>
-                                <li data-target="#myCarousel" data-slide-to="3"></li>
-                            
+                                <li data-target="#myCarousel" data-slide-to="3"></li>                            
                             </ol>
 
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner ">                               
                                 <div class="item active">                                
                                     <div class="">  
-                                        <h3 class="text-center">Search Engine Optimization</h3>                                    
+                                        <h3 class="text-center">Search Engine Optimization</h3><br>                                   
                                         <p class="desc color-white ">
                                             One of the reasons for anyone creating an online identity is to create an awareness amongst the target audience about their company or product / services or seminars / webinars, etc. Creating an online identity is not sufficient if you are unable to generate organic visitors to the site. Erfolg helps you with a sustainable SEO plan that can generate organic visitors to your website.
                                         </p>
@@ -192,7 +202,7 @@
                                 
                                 <div class="item">
                                     <div class="">      
-                                        <h3 class="text-center">Paid Promotion Services</h3>                                  
+                                        <h3 class="text-center">Paid Promotion Services</h3><br>                                  
                                         <p class="desc color-white ">
                                             Paid promotion is the most used tactic in digital marketing strategy and many a times it is used ineffectively and without proper planning, resulting is negligible or low ROI. We propose to use this as a strategy only when we are confident that it can generate ROI especially when your products, events or services need immediate/instant attention from the target audience.
                                         </p>
@@ -206,7 +216,7 @@
 
                                 <div class="item">
                                     <div class="">      
-                                        <h3 class="text-center">Social Media Engagement</h3>                                  
+                                        <h3 class="text-center">Social Media Engagement</h3><br>                                  
                                         <p class="desc color-white ">
                                             We do not believe in Social Media Marketing but in Social Media Engagement as that has long-term impact and recall from the target market. We believe in establishing relationships with individuals on social networks, hence we call it Social Media Engagement and believe that it is a better and appropriate approach for digital marketers to connect with their varied target audience.
                                         </p>
@@ -220,7 +230,7 @@
 
                                  <div class="item">
                                     <div class="">      
-                                        <h3 class="text-center">Content Development</h3>                                  
+                                        <h3 class="text-center">Content Development</h3><br>                              
                                         <p class="desc color-white ">
                                             The most important aspect for digital marketing success is content. Contextual content is the King for any digital marketing campaign. Whether the message delivered is effective or not is dependent on the content - either words or infographics or graphics, etc and hence it becomes important to ensure that right messaging is adopted for addressing the target market.
                                         </p>
@@ -230,9 +240,7 @@
                                         </p>
                                         <br><br><br><br><br>
                                     </div>
-                                </div>
-
-                               
+                                </div>                             
 
                                                              
                             </div>
@@ -507,7 +515,6 @@
 				$("#city").css("border-color","red");
 				return false;
 			}
-
 		});
 	});      
 
