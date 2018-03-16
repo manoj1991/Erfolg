@@ -1963,20 +1963,17 @@
             console.log("IE");
         }else{
             $(".edge-ie").hide();
-
             console.log("Others");
         }
 
         if (document.documentMode ) {
             $(".ie").show();
             $(".other").hide();
-            $(".ie-carousel").addClass("ie-carousel-top");
-            
+            $(".ie-carousel").addClass("ie-carousel-top");            
             console.log("IE");
         }
         else{
             $(".ie").hide();
-
             console.log("Others");
         }
     </script>

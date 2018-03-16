@@ -357,3 +357,117 @@ var home = anime({
     },
     loop: false
 });
+
+
+var home = anime({
+    targets: ".event-managment_header path",
+    strokeDashoffset: [anime.setDashoffset, 0],
+    easing: "easeInQuad",
+    duration: 4500,
+    delay: function(el, i) {
+        return i * 250;
+    },
+    loop: false
+});
+
+var home = anime({
+    targets: ".event-3 path",
+    strokeDashoffset: [anime.setDashoffset, 0],
+    easing: "easeInQuad",
+    duration: 14500,
+    delay: 4000,
+    loop: false
+});
+
+
+
+$(".ac-wrapper").hover(function() {
+    var home = anime({
+        targets: ".audience-draw path",
+        strokeDashoffset: [anime.setDashoffset, 0],
+        easing: "easeInOutQuad",
+        duration: 1500,
+        loop: false
+    });
+});
+
+
+$(".db-wrapper").hover(function() {
+    var home = anime({
+        targets: ".db-wrapper path",
+        strokeDashoffset: [anime.setDashoffset, 0],
+        easing: "easeInOutQuad",
+        duration: 1500,
+        loop: false
+    });
+});
+
+$(".dd-wrapper").hover(function() {
+    var home = anime({
+        targets: ".dd-wrapper path",
+        strokeDashoffset: [anime.setDashoffset, 0],
+        easing: "easeInOutQuad",
+        duration: 1500,
+        loop: false
+    });
+});
+
+$(".dm-wrapper").hover(function() {
+    var home = anime({
+        targets: ".dm-wrapper path",
+        strokeDashoffset: [anime.setDashoffset, 0],
+        easing: "easeInOutQuad",
+        duration: 1500,
+        loop: false
+    });
+});
+
+$(".ms-wrapper").hover(function() {
+    var home = anime({
+        targets: ".ms-wrapper path",
+        strokeDashoffset: [anime.setDashoffset, 0],
+        easing: "easeInOutQuad",
+        duration: 1500,
+        loop: false
+    });
+});
+
+$(".pm-wrapper").hover(function() {
+    var home = anime({
+        targets: ".pm-wrapper path",
+        strokeDashoffset: [anime.setDashoffset, 0],
+        easing: "easeInOutQuad",
+        duration: 4500,
+        loop: false
+    });
+});
+
+$(".em-wrapper").hover(function() {
+    var home = anime({
+        targets: ".em-wrapper path",
+        strokeDashoffset: [anime.setDashoffset, 0],
+        easing: "easeInOutQuad",
+        duration: 1500,
+        loop: false
+    });
+});
+
+$(".wc-wrapper").hover(function() {
+    var home = anime({
+        targets: ".wc-wrapper path",
+        strokeDashoffset: [anime.setDashoffset, 0],
+        easing: "easeInOutQuad",
+        duration: 1500,
+        loop: false
+    });
+});
+
+
+var home = anime({
+    targets: ".event-2 path",
+    strokeDashoffset: [anime.setDashoffset, 0],
+    easing: "easeInOutQuad",
+    duration: 4500,
+    delay: 800,
+    loop: false
+});
