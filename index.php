@@ -22,7 +22,26 @@
     .cd-vertical-nav, 
     .brand-logo{
         z-index: 999;
-    }    
+    }   
+    
+    select option {
+        margin: 40px;
+        background: #d0565f;
+        color: #fff;
+        /* background-image: linear-gradient(to right top, #5c2160, #9c3365, #d0565f, #f28656, #ffbe56); */
+    }
+
+    select option[value="1"] {
+        /* value not val */
+        background: #d0565f;
+        /* background-image: linear-gradient(to right top, #5c2160, #9c3365, #d0565f, #f28656, #ffbe56); */
+    }
+
+    select option[value="2"] {
+        /* value not val */
+        background: #d0565f;
+        /* background-image: linear-gradient(to right top, #5c2160, #9c3365, #d0565f, #f28656, #ffbe56); */
+    }
 </style>
 
 <!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
@@ -30,9 +49,9 @@
 <body data-hijacking="on" data-animation="rotate" style="overflow-x:hidden;">
     <section class="cd-section visible " id="home" style="z-index:0;">
         <div>
-            <div id="layout" class="stars ">  
+            <!-- <div id="layout" class="stars ">  
                 <div id="ShootingStarParams"></div>
-            </div>            
+            </div>             -->
             <header  class="header hidden-small">               
                 <div class="container">                    
                     <div class="row">                       
@@ -100,9 +119,7 @@
                         <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M158.7,142.4L264.7,115.7" class="QbiLzHDC_20"></path>
                         <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M161.4,134.5L266.7,108.8" class="QbiLzHDC_21"></path>
 
-                    </svg>
-
-                    
+                    </svg>                   
                              
                 </div>
             </header> 
@@ -126,10 +143,9 @@
 						</div>
 					</div>
 					<!--End off row-->
-                    <img class="bg-image " src="img/new/home-sec-1.svg">
-                   
+                    <img class="bg-image " src="img/new/home-sec-1.svg">                   
 				</div>
-            </header>   
+            </header> 
                
         </div>
     </section>
@@ -142,68 +158,70 @@
                         <center>
                         	<img class="img-responsive img-info others" src="img/new/table2.svg">
                            
-                            <svg version="1.1" class="edge-ie img-info bg2-image_ie" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="241.3px"
+                            <svg version="1.1" class="edge-ie img-info bg2-image_ie" xmlns="http://www.w3.org/2000/svg"         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="241.3px"
                                 height="308px" viewBox="27.8 -14.8 241.3 308" enable-background="new 27.8 -14.8 241.3 308" xml:space="preserve">
 
-                                <g id="Layer_1">
-                                    
+                                <g id="">                                
 
-                                    <g id="Layer_3">
+                                    <g id="">
                                         <path   class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M82.7,187H48.5
-                                            c-1.7,0-3-1.3-3-3v-8c0-1.7,1.3-3,3-3h34.2"/>
-                                        <path   class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M139.8,173h115.8
-                                            c1.7,0,3,1.3,3,3v8c0,1.7-1.3,3-3,3H139"/>
+                                        c-1.7,0-3-1.3-3-3v-8c0-1.7,1.3-3,3-3h34.2"/>
+                                        <path   class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"     stroke-miterlimit="10" d="M139.8,173h115.8
+                                        c1.7,0,3,1.3,3,3v8c0,1.7-1.3,3-3,3H139"/>
                                         <path   class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M138,208c0,1.7-1.3,3-3,3
-                                            H87c-1.7,0-3-1.3-3-3v-55c0-1.7,1.3-3,3-3h48c1.7,0,3,1.3,3,3V208z"/>
+                                        H87c-1.7,0-3-1.3-3-3v-55c0-1.7,1.3-3,3-3h48c1.7,0,3,1.3,3,3V208z"/>
                                         <path   class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M138,228c0,1.7-1.3,3-3,3
-                                            H87c-1.7,0-3-1.3-3-3v-2.5c0-1.7,1.3-3,3-3h48c1.7,0,3,1.3,3,3V228z"/>
-                                        
-                                            <line   class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="111" y1="180.5" x2="111" y2="222.5"/>
-                                        
-                                            <line   class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="111" y1="231" x2="111" y2="263"/>
-                                        
-                                            <line   class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="111" y1="263" x2="93.8" y2="280.3"/>
-                                        
-                                            <line   class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="111" y1="263" x2="127.9" y2="279.9"/>
-                                        <path   class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M218,228c0,1.7-1.3,3-3,3
-                                            h-48c-1.7,0-3-1.3-3-3v-2.5c0-1.7,1.3-3,3-3h48c1.7,0,3,1.3,3,3V228z"/>
-                                        
-                                            <line  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="191" y1="231" x2="191" y2="263"/>
-                                        
-                                            <line  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="191" y1="263" x2="173.8" y2="280.3"/>
-                                        
-                                            <line  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="191" y1="263" x2="207.9" y2="279.9"/>
-                                        
-                                            <line  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="102.4" y1="180.5" x2="119.4" y2="180.5"/>
-                                        
-                                            <line  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="45.5" y1="178.5" x2="45.5" y2="279.9"/>
-                                        
-                                            <line  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="258.5" y1="178.5" x2="258.5" y2="279.9"/>
-                                        <path  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M247.5,151.5
-                                            c0,1.7-1.3,3-3,3h-67.8c-1.7,0-3-1.3-3-3V114c0-1.7,1.3-3,3-3h67.8c1.7,0,3,1.3,3,3V151.5z"/>
-                                        <path  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M216,154.5
-                                            c0,10.2,8.3,18.5,18.5,18.5"/>
-                                        <path  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M204.5,154.5
-                                            c0,10.2-8.3,18.5-18.5,18.5"/>
-                                        <path  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M52.9,173
-                                            c0-5.2,4.8-9.5,10.7-9.5s10.7,4.3,10.7,9.5"/>
-                                        
-                                            <line  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="63.7" y1="163.5" x2="63.7" y2="122.5"/>
-                                        
-                                            <line  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="63.7" y1="114.5" x2="93.8" y2="87"/>
-                                        <path  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M95,107.2
-                                            c-3.5-4.7-2.6-11.4,2.1-14.9c4.7-3.5,11.4-2.6,14.9,2.1"/>
-                                        <path  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M93.8,94.8
-                                            c-1.9-2.6-2-5.8-0.2-7.2c1.8-1.4,4.9-0.4,6.8,2.2"/>
-                                        
-                                            <line  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="112" y1="94.4" x2="95" y2="107.2"/>
-                                        
-                                            <circle  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="63.3" cy="118.5" r="4"/>
-                                    </g>
-
-
-
+                                        H87c-1.7,0-3-1.3-3-3v-2.5c0-1.7,1.3-3,3-3h48c1.7,0,3,1.3,3,3V228z"/>
                                     
+                                        <line   class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="111" y1="180.5" x2="111" y2="222.5"/>
+                                    
+                                        <line   class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="111" y1="231" x2="111" y2="263"/>
+                                    
+                                        <line   class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="111" y1="263" x2="93.8" y2="280.3"/>
+                                    
+                                        <line   class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="111" y1="263" x2="127.9" y2="279.9"/>
+
+                                        <path   class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M218,228c0,1.7-1.3,3-3,3
+                                        h-48c-1.7,0-3-1.3-3-3v-2.5c0-1.7,1.3-3,3-3h48c1.7,0,3,1.3,3,3V228z"/>
+                                    
+                                        <line  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="191" y1="231" x2="191" y2="263"/>
+                                    
+                                        <line  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="191" y1="263" x2="173.8" y2="280.3"/>
+                                    
+                                        <line  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="191" y1="263" x2="207.9" y2="279.9"/>
+                                    
+                                        <line  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="102.4" y1="180.5" x2="119.4" y2="180.5"/>
+                                    
+                                        <line  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="45.5" y1="178.5" x2="45.5" y2="279.9"/>
+                                    
+                                        <line  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="258.5" y1="178.5" x2="258.5" y2="279.9"/>
+
+                                        <path  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M247.5,151.5
+                                        c0,1.7-1.3,3-3,3h-67.8c-1.7,0-3-1.3-3-3V114c0-1.7,1.3-3,3-3h67.8c1.7,0,3,1.3,3,3V151.5z"/>
+
+                                        <path  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M216,154.5
+                                        c0,10.2,8.3,18.5,18.5,18.5"/>
+
+                                        <path  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M204.5,154.5
+                                        c0,10.2-8.3,18.5-18.5,18.5"/>
+
+                                        <path  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M52.9,173
+                                        c0-5.2,4.8-9.5,10.7-9.5s10.7,4.3,10.7,9.5"/>
+                                    
+                                        <line  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="63.7" y1="163.5" x2="63.7" y2="122.5"/>
+                                    
+                                        <line  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="63.7" y1="114.5" x2="93.8" y2="87"/>
+
+                                        <path  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M95,107.2
+                                        c-3.5-4.7-2.6-11.4,2.1-14.9c4.7-3.5,11.4-2.6,14.9,2.1"/>
+
+                                        <path  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M93.8,94.8
+                                        c-1.9-2.6-2-5.8-0.2-7.2c1.8-1.4,4.9-0.4,6.8,2.2"/>
+                                    
+                                        <line  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="112" y1="94.4" x2="95" y2="107.2"/>
+                                    
+                                        <circle  class="path"  fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="63.3" cy="118.5" r="4"/>
+                                    </g>                                 
                                 </g>
 
                             </svg>
@@ -2370,7 +2388,7 @@
                 <div class="col-md-8 col-md-offset-2">                
 					<a href="contact.php"><h1 class="h2  text-center">Leave us a message</h1></a>
 					
-					<h4 class="text-center">You can find us literally anywhere, just push a button and we’re there</h4>
+					
 					<div class="small-gap"></div>
 					<center>
 						<ul class="footer">                            
@@ -2456,7 +2474,7 @@
                             <div class="col-md-12">
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <select class="form-control">
+                                        <select class="form-control" id="case">
                                             <option value="-1">Request Case Study on</option>
                                             <option value="Pipeline Management">Pipeline Management</option>
                                             <option value="Back-end Sales Engine">Back-end Sales Engine</option>
@@ -2510,20 +2528,17 @@
     <?php include "script.php"; ?>
     <script>
         $('a.target').click(function(e){
-            e.preventDefault();            
-            
+            e.preventDefault();     
         });
     </script>
     
     <script>
 		$(document).ready(function(){
-			$(".services-close").on('click', function(){
-                
+			$(".services-close").on('click', function(){                
 				$("div.panel").hide();
 			})
 		})
 	</script>
-
 
     <script>
         if (document.documentMode || /Edge/.test(navigator.userAgent)) {
@@ -2533,11 +2548,8 @@
             console.log("IE");
         }else{
             $(".edge-ie").hide();
-
             console.log("Others");
-        }
-
-       
+        }       
     </script>
 
     <script>
@@ -2549,7 +2561,7 @@
                 var mobile = $("#mno").val();
                 var pno = $("#pno").val();
                 var org = $("#org").val();
-                var city = $("#city").val();
+                var city = $("#city").val();                
                 
                 if(name == ""){
                     $("#name").css("border-color","red");
@@ -2582,13 +2594,17 @@
                 if(city == ""){
                     $("#city").css("border-color","red");
                     return false;
+                }else
+                if($("#case").val() == -1){
+                    $("#case").css("border-color","red");
+                    return false;
                 }
 
             });
         });      
 
     </script>
-    <script>
+    <!-- <script>
         (function() {
         /**
              author: @manufosela
@@ -2728,7 +2744,7 @@
         var shootingStarObj = new ShootingStar("body");
         shootingStarObj.launch();
     });
-    </script>
+    </script> -->
 
 
 

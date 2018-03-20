@@ -114,8 +114,7 @@
             <h1 class=" color-white h3 text-center">FRAMEWORK</h1>
                     <br>
                     <center>
-                        <svg version="1.1" class="backend-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                            width="675px" height="245.5px" viewBox="0 0 675 245.5" enable-background="new 0 0 675 245.5" xml:space="preserve">
+                        <svg version="1.1" class="backend-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="675px" height="445.5px" viewBox="0 0 675 245.5" enable-background="new 0 0 675 245.5" xml:space="preserve">
                             <path class="" id="double-wave" fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M594.125,123.095c-28.003,0-26.355-31.32-54.358-31.32
                                 s-28.003,140.641-56.006,140.641c-27.999,0-27.999-145.641-55.998-145.641c-28,0-28,105.641-56,105.641
                                 c-27.999,0-27.999-160.641-55.998-160.641c-27.998,0-27.998,180.641-55.996,180.641c-28,0-28-120.641-56-120.641
@@ -161,15 +160,11 @@
     <section class="cd-section bs-skills">
         <div>
             <div class="container wc-head">
-                <div class="col-md-8">
-                    <h1 class="content__title  color-white h3">SKILL-SETS</h1>
-                    <br>
-                    <p class="desc color-white  align-justify">Keeping pace with the new Sales structures, <i>Erfolg</i> has invested in developing processes &amp; skill-sets that has resulted in creating frameworks for structured &amp; effective Back-end Sales teams. The Tele Sales teams at <i>Erfolg</i> are thus capable of working on cold calling for lead identification &amp; progressing them to wins via various engines i.e. Inside Sales team with On-field Partner support, Inside Sales team with in-house commercial processing team, Inside Sales team with Technical Account Managers, etc. Customization of frameworks is undertaken as per specific clients’ requirements, product lines, clients’ existing sales structure, reach expected, etc. The teams at <i>Erfolg</i> are target-oriented &amp; are experienced in implementing various connect methodologies via tele-calling, setting the right expectations, working within limitations of time, working with customers’ expectations, working within the parameters &amp; commercial guidelines, etc.  </p>
-                </div>
-                <div class="col-md-4">
+            <h1 class="text-center  color-white h3">SKILL-SETS</h1>
+            <div class="col-md-12">
                     <center>
                     <svg version="1.1" class="backend-ss" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                            width="530.77px" height="532.051px" viewBox="0 0 530.77 532.051" enable-background="new 0 0 530.77 532.051" xml:space="preserve" >
+                            width="530.77px" height="432.051px" viewBox="0 0 530.77 532.051" enable-background="new 0 0 530.77 532.051" xml:space="preserve" >
                             <g>
                                 <path fill="#FFFFFF" d="M274.793,507.417c0,0-4.533,0.096-13.032,0.274c-8.489-0.188-20.994-0.49-36.683-2.963
                                     c-15.664-2.46-34.483-7.167-54.934-15.581c-10.151-4.356-20.756-9.489-31.383-15.887c-10.589-6.444-21.268-13.979-31.659-22.756
@@ -325,6 +320,13 @@
                         </svg> 
                     </center>
                 </div>
+                <div class="col-md-12">                   
+                    <br>
+                    <p class="desc color-white text-center">
+                        Keeping pace with the new Sales structures, <i>Erfolg</i> has invested in developing processes &amp; skill-sets that has resulted in creating frameworks for structured &amp; effective Back-end Sales teams. The Tele Sales teams at <i>Erfolg</i> are thus capable of working on cold calling for lead identification &amp; progressing them to wins via various engines i.e. Inside Sales team with On-field Partner support, Inside Sales team with in-house commercial processing team, Inside Sales team with Technical Account Managers, etc. Customization of frameworks is undertaken as per specific clients’ requirements, product lines, clients’ existing sales structure, reach expected, etc. The teams at <i>Erfolg</i> are target-oriented &amp; are experienced in implementing various connect methodologies via tele-calling, setting the right expectations, working within limitations of time, working with customers’ expectations, working within the parameters &amp; commercial guidelines,etc.  
+                    </p>
+                </div>
+               
                 <h2></h2>
             </div>
         </div>
@@ -335,7 +337,9 @@
             <div class="container">
                 <div class="col-md-12">
                     <center>   
-                        <h1 class="line-height bs-head-txt-5 color-white align-justify h3 bs-head-2"><i>Erfolg</i> tele sales teams yields results &amp; generates greater revenue - <br><strong class="bold-font">Be it for extending your existing tele Sales team or outsourcing your complete back-end engine or working as extension to your Inside Sales team.</strong> </h1>
+                        <h1 class="line-height bs-head-txt-5 color-white align-justify h3 bs-head-2">
+                            <i>Erfolg</i> tele sales teams yields results &amp; generates greater revenue - <br><strong class="bold-font">Be it for extending your existing tele Sales team or outsourcing your complete back-end engine or working as extension to your Inside Sales team.</strong> 
+                        </h1>
                     </center>
                 </div>
                 <div class="col-md-12">                    

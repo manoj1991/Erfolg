@@ -22,6 +22,46 @@
         background-image: linear-gradient(to left top, #a96fac, #6e80c4, #008dc1, #0093a4, #24937b);
     }
 
+    select option {
+        margin: 40px;
+        background: #008dc1;
+        color: #fff;
+        /* background-image: linear-gradient(to right top, #5c2160, #9c3365, #d0565f, #f28656, #ffbe56); */
+    }
+
+    select option[value="1"] {
+        /* value not val */
+        background: #008dc1;
+        /* background-image: linear-gradient(to right top, #5c2160, #9c3365, #d0565f, #f28656, #ffbe56); */
+    }
+
+    select option[value="2"] {
+        /* value not val */
+        background: #008dc1;
+        /* background-image: linear-gradient(to right top, #5c2160, #9c3365, #d0565f, #f28656, #ffbe56); */
+    }
+
+</style>
+
+
+<style>
+    .two,
+    .three,
+    .four,
+    .five,
+    .six {
+        opacity: 0;
+    }
+
+    .onec, .twoc, .threec,.fourc,.fivec,.sixc{
+        opacity: 0;
+    }
+    
+    .all {
+        opacity: 1;
+    }
+
+    .item-em { display: none}
 </style>
 <!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
 
@@ -232,29 +272,34 @@
                 <h1 class="  color-white h3 text-center">AREAS</h1>
                 <div class="col-md-12 wc-head">                  
                     <center>
-                        <svg version="1.1" class="event-3" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                            width="1008.975px" height="273.077px" viewBox="0 0 1008.975 273.077" enable-background="new 0 0 1008.975 273.077"
-                            xml:space="preserve">
-                        <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M513.609,90.082h120.75v166
-                            h-262v-166h120.667 M488.859,99.842h-107v146.481h243V99.842H518.525 M509.609,82.582h-12.5l-17,36.5h46.5L509.609,82.582z
-                            M493.609,119.082c0,5.385,4.365,9.75,9.75,9.75c5.385,0,9.75-4.365,9.75-9.75 M503.359,82.582v-35 M453.359,90.082v-42.5
-                            M448.359,90.082v-42.5 M553.359,90.082v-42.5 M558.359,90.082v-42.5 M424.609,47.582h157.5 M396.109,37.582h214.5 M381.859,99.842
-                            l-9.5-9.76 M624.859,99.842l9.5-9.76 M634.359,256.083l-9.5-9.76 M372.359,256.083l9.5-9.76 M183.026,90.082H62.359v166h262v-166
-                            h-120.75 M178.859,99.842h-107v146.481h243V99.842H208.526 M199.609,82.582h-12.5l-17,36.5h46.5L199.609,82.582z M183.609,119.082
-                            c0,5.385,4.365,9.75,9.75,9.75s9.75-4.365,9.75-9.75 M193.359,82.582v-35 M143.359,90.082v-42.5 M138.359,90.082v-42.5
-                            M243.359,90.082v-42.5 M248.359,90.082v-42.5 M114.609,47.582h157.5 M86.109,37.582h214.5 M71.859,99.842l-9.5-9.76
-                            M314.859,99.842l9.5-9.76 M324.359,256.083l-9.5-9.76 M62.359,256.083l9.5-9.76 M803.025,90.082H682.359v166h262v-166h-120.75
-                            M798.859,99.842h-107v146.481h243V99.842H828.525 M819.609,82.582h-12.5l-17,36.5h46.5L819.609,82.582z M803.609,119.082
-                            c0,5.385,4.365,9.75,9.75,9.75s9.75-4.365,9.75-9.75 M813.359,82.582v-35 M763.359,90.082v-42.5 M758.359,90.082v-42.5
-                            M863.359,90.082v-42.5 M868.359,90.082v-42.5 M734.609,47.582h157.5 M706.109,37.582h214.5 M691.859,99.842l-9.5-9.76
-                            M944.359,90.082l-9.5,9.76 M944.359,256.083l-9.5-9.76 M682.359,256.083l9.5-9.76 M62.359,26.072h882 M23.692,16.072h959.333"/>
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="431px" height="400px" viewBox="0 0 231 450" enable-background="new 0 0 231 400" xml:space="preserve">
+                            <g>
+                                <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M217.126,98.461v278.482
+                                    c0,6.479-5.251,11.73-11.734,11.73H28.608c-6.481,0-11.734-5.252-11.734-11.73V98.461H217.126z"/>
+                                <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M158.232,119.874c0,4.881-3.956,8.835-8.835,8.835
+                                    H84.603c-4.879,0-8.836-3.954-8.836-8.835l0,0c0-4.878,3.957-8.835,8.836-8.835h64.795
+                                    C154.276,111.039,158.232,114.996,158.232,119.874L158.232,119.874z"/>
+                                <line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="16.874" y1="358.848" x2="217.126" y2="358.848"/>
+                                <circle fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="117" cy="201.916" r="41.652"/>
+                                <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M143.505,62.657
+                                    c0,14.522-11.773,26.296-26.296,26.296S90.913,77.179,90.913,62.657H143.505z"/>
+                                <line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="116.999" y1="81.38" x2="116.999" y2="119.874"/>
+                                <line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="90.913" y1="62.657" x2="90.913" y2="30.259"/>
+                                <line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="143.505" y1="62.657" x2="143.505" y2="11.327"/>
+                                <line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="69" y1="289.332" x2="165" y2="289.332"/>
+                                <line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="47.667" y1="309.332" x2="186.334" y2="309.332"/>
+                                <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M131.5,201.916
+                                    c0,8.009-6.492,14.5-14.5,14.5s-14.5-6.491-14.5-14.5"/>
+                                <animateTransform id="anim1s" attributeName="transform" attributeType="XML" type="rotate" from="-10 115.5 12.663" to="10 115.5 12.663" begin="0s; anim2s.end" dur="1.4s" fill="freeze"/>
+                                <animateTransform id="anim2s" attributeName="transform" attributeType="XML" type="rotate" from="10 115.5 12.663" to="-10 115.5 12.663" begin="anim1s.end" dur="1.4s" fill="freeze"/>
+                            </g>
                         </svg>
                     </center>
 
 
                    
                 </div>
-                <div class="col-md-12 bs-head">                 
+                <div class="col-md-12 ">                 
                     
                     <p class="desc color-white  text-center">
                         We undertake corporate events of all scales from the simplest to the grander ones. We handle a wide array of corporate events ranging from full fledged conferences for customers to business development events with prospects/suspects, technical training seminars to jazzy product launches, single day summit to residential conferences, networking/informal sessions to C-level sessions, are capable to handling any bespoke event.
@@ -271,135 +316,185 @@
 
     <section class="cd-section bs-carousel">
         <div>
-            <div class="container">
-                <div class="col-md-12">
-                    <center>   
-                        <h1 class="line-height bs-head-txt-5 color-white h3 align-justify  bs-head-2">At Erfolg, we undertake planning and managing a corporate event in the worldwide acknowledged three phases approach of event management i.e.<br><strong >Pre Event scenario, Actual Event & Post Event. separate Data Management services division.</strong> </h1>
-                    </center>
+            <div class="container wc-head">
+                <div class="col-md-6 ">    
+                    <div class="gap"></div>                  
+                    <p class="desc">At Erfolg, we undertake planning and managing a corporate event in the worldwide acknowledged three phases approach of event management i.e. Pre Event scenario, Actual Event & Post Event. separate Data Management services division. </p>  
+                    <p class="desc">The team is meticulous & ensures that no details during any of the 3 phases of event planning & execution is overlooked thus ensuring no last minute on-site hassles. By taking up all logistics & production tasks of event management, the team lets you focus on the content & delivery while we take care of all aspects of event management.</p> 
+                    <p class="desc">With over a decade plus experience in event management at our end, we take care of the below mentioned for our clients to ensure a seamless smooth corporate event.</p>               
                 </div>
-                <div class="col-md-12">                    
-                    <center>
-                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                            width="129.333px" height="200.667px" viewBox="0 0 129.333 200.667" enable-background="new 0 0 129.333 200.667"
-                            xml:space="preserve">
-                            <path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M100.673,173.055c-9.295,8.562-21.707,13.79-35.34,13.79
-                                c-28.817,0-52.178-23.361-52.178-52.179s23.361-52.178,52.178-52.178s52.179,23.361,52.179,52.178">
-                                <animateTransform
-                                    attributeName="transform"
-                                    begin="0s"
-                                    dur="3s"
-                                    type="rotate"
-                                    from="360 64.333 134.667"
-                                    to="0 64.333 134.667"		
-                                    repeatCount="indefinite"
-                                />
-                            </path>
-                            <path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M21.513,134.667c0-24.201,19.619-43.82,43.82-43.82
-                                s43.82,19.619,43.82,43.82c0,12.752-5.448,24.231-14.142,32.239c-7.806,7.189-18.229,11.58-29.679,11.58">
-                                <animateTransform
-                                    attributeName="transform"
-                                    begin="0s"
-                                    dur="2.5s"
-                                    type="rotate"
-                                    from="0 64.333 134.667"
-                                    to="360 64.333 134.667"		
-                                    repeatCount="indefinite"
-                                />
-                            </path>
-                            <path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M6.267,113.709C14.81,90.39,37.203,73.75,63.483,73.75
-                                c33.643,0,60.917,27.273,60.917,60.917c0,17.728-7.574,33.687-19.659,44.818c-10.852,9.994-25.342,16.099-41.258,16.099
-                                c-22.137,0-41.515-11.807-52.182-29.467">
-                                <animateTransform
-                                    attributeName="transform"
-                                    begin="0s"
-                                    dur="3.5s"
-                                    type="rotate"
-                                    from="0 64.333 134.667"
-                                    to="360 64.333 134.667"		
-                                    repeatCount="indefinite"
-                                />
-                            </path>
-                            <circle fill="#FFFFFF" cx="65.333" cy="134.667" r="4.666"/>
-                            <path fill="#FFFFFF" d="M79.833,134.667c0-7.143-5.197-13.082-12.006-14.27L65.333,4.999l-2.494,115.398
-                                c-6.809,1.188-12.006,7.127-12.006,14.27c0,7.284,5.405,13.314,12.412,14.332h-0.412l2.5,19.334l2.5-19.334h-0.412
-                                C74.428,147.981,79.833,141.951,79.833,134.667z M65.333,148.167c-7.444,0-13.5-6.056-13.5-13.5c0-7.443,6.056-13.5,13.5-13.5
-                                c7.444,0,13.5,6.057,13.5,13.5C78.833,142.111,72.777,148.167,65.333,148.167z">
-                                <!-- <animateTransform id="an1" attributeName="transform" attributeType="XML" type="rotate" from="-30 64.333 134.667" to="60 64.333 134.667"	 begin="0s; an2.end" dur="20s" repeatCount="indefinite"/>
-                                <animateTransform id="an2" attributeName="transform" attributeType="XML" type="rotate" from="30 64.333 134.667" to="-30 64.333 134.667"	 begin="an1.end" dur="20s" repeatCount="indefinite" /> -->
-
-                                <animateTransform id="anim1s" attributeName="transform" attributeType="XML" type="rotate" from="-30 64.333 134.667" to="30 64.333 134.667" begin="0s; anim2s.end" dur="23.4s" fill="freeze"/>
-                                <animateTransform id="anim2s" attributeName="transform" attributeType="XML" type="rotate" from="30 64.333 134.667" to="-30 64.333 134.667" begin="anim1s.end" dur="23.4s" fill="freeze"/>
-                            </path>
-                        </svg>
-                    </center>          
-                </div>
-                <div class="col-md-12 ">
-                    <h3 class="text-center">The team is meticulous & ensures that no details during any of the 3 phases of event planning & execution is overlooked thus ensuring no last minute on-site hassles. By taking up all logistics & production tasks of event management, the team lets you focus on the content & delivery while we take care of all aspects of event management.</h3>  
+               
+                <div class="col-md-6 ">
+                      
                     <br>
-                    <h3 class="text-center">With over a decade plus experience in event management at our end, we take care of the below mentioned for our clients to ensure a seamless smooth corporate event.</h3>
-                    <br><div class="container bs-container ie-carousel bs-head-2 ">
-                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                            <!-- Indicators -->
-                            <ol class="carousel-indicators">
-                                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                                <li data-target="#myCarousel" data-slide-to="1"></li>
-                                <li data-target="#myCarousel" data-slide-to="2"></li>
-                                <li data-target="#myCarousel" data-slide-to="3"></li>
-                                <li data-target="#myCarousel" data-slide-to="4"></li>
-                                <li data-target="#myCarousel" data-slide-to="5"></li>
-                                <li data-target="#myCarousel" data-slide-to="6"></li>
-                            </ol>
+               
+                    <br>
+                        
+                    <center>    <!-- Indicators -->
+                        
+                        <!-- Wrapper for slides -->
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="414px" height="500px" viewBox="0 0 414 700" enable-background="new 0 0 414 700" xml:space="preserve">
 
-                            <!-- Wrapper for slides -->
-                            <div class="carousel-inner ">                               
-                                <div class="item active">                                
-                                    <div class="carousel-caption">                                      
-                                        <p class="pm-slider">Venue identification and co-ordination of logistics onsite for the event with the venue</p>
-                                    </div>
-                                </div>
 
-                                <div class="item">
-                                    <div class="carousel-caption">                                        
-                                        <p class="pm-slider">Event marketing via multi scope marketing approach for ensuring the right audience for the session</p>
-                                    </div>
-                                </div>
-                                
-                                <div class="item">                                
-                                    <div class="carousel-caption">                                        
-                                        <p class="pm-slider">Designing and production of branding for the sessions</p>
-                                    </div>
-                                </div>
+    
+                            <g class="one">
+                                <path fill="none"   stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M208,534.582l60,50h113.49c11.046,0,20-8.954,20-20V31.611c0-11.046-8.954-20-20-20H34.51c-11.046,0-20,8.954-20,20v532.971c0,11.046,8.954,20,20,20H148 l60,50"/>
+                            </g>
+                            
+                            <g class="all">
+                                <g class="two"> 
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="248" cy="323.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="288" cy="323.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="328" cy="323.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="168" cy="323.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="128" cy="323.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="88" cy="323.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="248" cy="283.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="288" cy="283.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="328" cy="283.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="168" cy="283.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="128" cy="283.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="88" cy="283.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="248" cy="363.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="288" cy="363.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="328" cy="363.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="168" cy="363.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="128" cy="363.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="88" cy="363.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="248" cy="403.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="288" cy="403.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="328" cy="403.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="168" cy="403.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="128" cy="403.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="88" cy="403.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="248" cy="443.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="288" cy="443.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="328" cy="443.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="168" cy="443.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="128" cy="443.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="88" cy="443.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="248" cy="483.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="288" cy="483.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="328" cy="483.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="168" cy="483.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="128" cy="483.097" r="10.573"/>
+                                    <circle fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="88" cy="483.097" r="10.573"/>
+                                </g>
 
-                                <div class="item">                                
-                                    <div class="carousel-caption">                                        
-                                        <p class="pm-slider">Onsite Setup of the stage, audio visual set up of the hall and registration area</p>
-                                    </div>
-                                </div>
+                                <g class="three">
+                                    <line fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="40.192" y1="605.665" x2="136.573" y2="605.665"/>
+                                    <line fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="284.191" y1="605.665" x2="380.573" y2="605.665"/>
+                                    <line fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="36.794" y1="43.67" x2="377" y2="43.67"/>
+                                </g>
 
-                                <div class="item">                                
-                                    <div class="carousel-caption">                                        
-                                        <p class="pm-slider">Onsite Registration for the session along with delegate management and collateral and feedback form distribution</p>
-                                    </div>
-                                </div>
 
-                                <div class="item">                                
-                                    <div class="carousel-caption">                                        
-                                        <p class="pm-slider">Post Event Analysis and Summary of the event with help of delegate feedback.</p>
-                                    </div>
-                                </div>                                                             
+                                <g class="four">
+                                    <path fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M341.421,124.084
+                                        c-1.566,5.272-7.348,9.586-12.848,9.586H87.427c-5.5,0-11.281-4.313-12.847-9.586L60.274,75.923
+                                        c-1.566-5.272,1.653-9.586,7.153-9.586h281.146c5.5,0,8.719,4.313,7.152,9.586L341.421,124.084z"/>
+                                    <path fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M33.715,230.187
+                                        c-5.063,5.063-9.205,3.347-9.205-3.813v-15.623c0-7.16,5.858-13.019,13.019-13.019h15.623c7.16,0,8.876,4.143,3.813,9.206
+                                        L33.715,230.187z"/>
+                                    <path fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M382.669,230.187
+                                        c5.063,5.063,9.205,3.347,9.205-3.813v-15.623c0-7.16-5.858-13.019-13.019-13.019h-15.623c-7.16,0-8.876,4.143-3.813,9.206
+                                        L382.669,230.187z"/>
+                                    <path fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M33.715,390.188
+                                        c-5.063,5.063-9.205,3.347-9.205-3.813v-15.623c0-7.16,5.858-13.019,13.019-13.019h15.623c7.16,0,8.876,4.143,3.813,9.206
+                                        L33.715,390.188z"/>
+                                    <path fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M382.669,390.188
+                                        c5.063,5.063,9.205,3.347,9.205-3.813v-15.623c0-7.16-5.858-13.019-13.019-13.019h-15.623c-7.16,0-8.876,4.143-3.813,9.206
+                                        L382.669,390.188z"/>
+                                </g>
+
+                                <g class="five">
+                                    <path fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M138.573,679.668 c0,3.313-2.687,      6-6,6H41c-3.313,0-6-2.687-6-6l0,0c0-3.313,2.687-6,6-6h91.573C135.887,673.668,138.573,676.354,138.573,679.668L138.573,679.668z"/>
+                                    <line fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="45" y1="665.668" x2="68.573" y2="665.668"/>
+                                    <line fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="75" y1="665.668" x2="98.573" y2="665.668"/>
+                                    <line fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="105" y1="665.668" x2="128.573" y2="665.668"/>
+                                    <path fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M388.573,679.668
+                                        c0,3.313-2.687,6-6,6H291c-3.313,0-6-2.687-6-6l0,0c0-3.313,2.687-6,6-6h91.573C385.887,673.668,388.573,676.354,388.573,679.668
+                                        L388.573,679.668z"/>
+                                    <line fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="295" y1="665.668" x2="318.573" y2="665.668"/>
+                                    <line fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="325" y1="665.668" x2="348.573" y2="665.668"/>
+                                    <line fill="none"stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="355" y1="665.668" x2="378.573" y2="665.668"/>
+                                </g>
+                            </g>
+
+                            <g class="six">
+                                <path fill="none" stroke="#fff" stroke-width="2" stroke-miterlimit="10" d="M197.981,382.93l-52.999,72.946
+                                c-40.287-29.269-49.218-85.657-19.948-125.945c17.563-24.172,43.068-37.167,72.946-37.167V382.93z M154.982,465.876
+                                c16.115,11.709,33.08,17.221,52.998,17.221c49.799,0,90.168-40.368,90.168-90.167H207.98L154.982,465.876z M308.148,372.93
+                                L308.148,372.93c0-49.797-40.369-90.166-90.168-90.166v90.166H308.148z"/>
+                            </g>
+                        </svg>
+
+                                        
+                                                    
+                        <!-- <p class="pm-slider onec text-1">Venue identification and co-ordination of logistics onsite for the event with the venue</p>                   
+
+                                                        
+                        <p class="pm-slider twoc text-2">Event marketing via multi scope marketing approach for ensuring the right audience for the session</p>                    
+                
+                                                    
+                        <p class="pm-slider threec text-3">Designing and production of branding for the sessions</p>                    
+
+                                                        
+                        <p class="pm-slider fourc text-4">Onsite Setup of the stage, audio visual set up of the hall and registration area</p>                    
+
+                        <p class="pm-slider fivec text-5">Onsite Registration for the session along with delegate management and collateral and feedback form distribution</p>                    
+
+                                                        
+                        <p class="pm-slider sixc text-6">Post Event Analysis and Summary of the event with help of delegate feedback.</p> -->
+                    </center>
+                    <br>
+                    <div id="main" class="text-center">
+                        <div id="1" class="item-em">Venue identification and co-ordination of logistics onsite for the event with the venue</div>
+                        <div id="2" class="item-em">Event marketing via multi scope marketing approach for ensuring the right audience for the session</div>
+                        <div id="3" class="item-em">Designing and production of branding for the sessions</div>
+                        <div id="4" class="item-em">Onsite Setup of the stage, audio visual set up of the hall and registration area</div>
+                        <div id="5" class="item-em">Onsite Registration for the session along with delegate management and collateral and feedback form distribution</div>
+                        <div id="6" class="item-em">Post Event Analysis and Summary of the event with help of delegate feedback.</div>
+                    </div>
+                    <!-- 
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">                    
+                        <div class="carousel-inner ">                               
+                            <div class="item">                                
+                                <div class="carousel-caption">                                      
+                                    <p class="pm-slider">Venue identification and co-ordination of logistics onsite for the event with the venue</p>
+                                </div>
                             </div>
 
-                            <!-- Left and right controls -->
-                            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                                <img src="img/new/prev.svg" class="arrows" alt="">
-                                <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                                <img src="img/new/next.svg" class="arrows" alt="">
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                    </div>     
+                            <div class="item">
+                                <div class="carousel-caption">                                        
+                                    <p class="pm-slider">Event marketing via multi scope marketing approach for ensuring the right audience for the session</p>
+                                </div>
+                            </div>
+                            
+                            <div class="item">                                
+                                <div class="carousel-caption">                                        
+                                    <p class="pm-slider">Designing and production of branding for the sessions</p>
+                                </div>
+                            </div>
+
+                            <div class="item">                                
+                                <div class="carousel-caption">                                        
+                                    <p class="pm-slider">Onsite Setup of the stage, audio visual set up of the hall and registration area</p>
+                                </div>
+                            </div>
+
+                            <div class="item active">                                
+                                <div class="carousel-caption">                                        
+                                    <p class="pm-slider">Onsite Registration for the session along with delegate management and collateral and feedback form distribution</p>
+                                </div>
+                            </div>
+
+                            <div class="item">                                
+                                <div class="carousel-caption">                                        
+                                    <p class="pm-slider">Post Event Analysis and Summary of the event with help of delegate feedback.</p>
+                                </div>
+                            </div>                                                             
+                        </div>                        
+                    </div> -->                
                 </div>
                 <h2></h2>
             </div>
@@ -478,7 +573,7 @@
                             <div class="col-md-12">
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <select class="form-control">
+                                        <select class="form-control" id="case">
                                             <option value="-1">Request Case Study on</option>
                                             <option value="Pipeline Management">Pipeline Management</option>
                                             <option value="Back-end Sales Engine">Back-end Sales Engine</option>
@@ -516,13 +611,13 @@
 		<!-- Because of Firefox. -->
 		<defs>
 			<radialGradient id="gradient">
-				<stop offset="0" stop-color="#0868BB" />
-				<stop offset="0.25" stop-color="#0075D8" />
-				<stop offset="0.35" stop-color="#0868BB" />
-				<stop offset="0.50" stop-color="#0075D8" />
-				<stop offset="0.60" stop-color="#0868BB" />
-				<stop offset="0.85" stop-color="#0075D8" />
-				<stop offset="1" stop-color="#0868BB" />
+				<stop offset="0" stop-color="#fff" />
+				<stop offset="0.25" stop-color="#fff" />
+				<stop offset="0.35" stop-color="#fff" />
+				<stop offset="0.50" stop-color="#fff" />
+				<stop offset="0.60" stop-color="#fff" />
+				<stop offset="0.85" stop-color="#fff" />
+				<stop offset="1" stop-color="#fff" />
 			</radialGradient>
 		</defs>
 		<symbol id="ripply-scott" viewBox="0 0 100 100">
@@ -530,6 +625,78 @@
 		</symbol>
 	</svg>
     <?php include "script.php"; ?>
+    <script>
+        var $elem = $('#main .item-em');
+        var l = $elem.length, i = 0;
+
+        function go() {
+            $elem.eq(i % l).fadeIn(1900, function() {
+                $elem.eq(i % l).fadeOut(100, go);
+                i++;
+            })
+        }
+
+        go();
+    </script>
+    <script>
+        // var one = anime({
+        //     targets: '.one',
+        //     opacity: 1,
+        //     duration: 12000,
+        //     loop: true,
+        //     delay: 2000
+        // });
+
+        var two = anime({
+            targets: '.two',
+            opacity: 1,
+            duration: 10000,
+            loop: true,
+            delay: 2000
+        });
+
+        var three = anime({
+            targets: '.three',
+            opacity: 1,
+            duration: 8000,
+            loop: true,
+            delay: 4000
+        });
+
+        var four = anime({
+            targets: '.four',
+            opacity: 1,
+            duration: 6000,
+            loop: true,
+            delay: 6000
+        });
+
+        var five = anime({
+            targets: '.five',
+            opacity: 1,
+            duration: 4000,
+            loop: true,
+            delay: 8000
+        });
+
+        var six = anime({
+            targets: '.six',
+            opacity: 1,
+            duration: 2000,
+            loop: true,
+            delay: 10000
+        });
+
+        var all = anime({
+            targets: '.all',
+            opacity: 0,
+            duration: 2000,
+            loop: true,
+            delay: 10000
+        });
+
+       
+    </script>
     
     <script >
         $('#myModal').on('shown.bs.modal', function () {
@@ -579,6 +746,10 @@
                 }else
                 if(city == ""){
                     $("#city").css("border-color","red");
+                    return false;
+                }else
+                if($("#case").val() == -1){
+                    $("#case").css("border-color","red");
                     return false;
                 }
 
