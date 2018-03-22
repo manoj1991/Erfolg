@@ -21,7 +21,7 @@
         } */
     </style>
     <style>
-        /* .text-1 {
+        .text-1 {
             -webkit-animation: hideshow 12s ease infinite;
             animation: hideshow 12s ease infinite;
         }
@@ -84,7 +84,7 @@
             100% {
                 opacity: 0;
             }
-        } */
+        }
     </style>
 
 
@@ -535,7 +535,7 @@
                         c0.615,0,1.109-0.124,1.481-0.374C98.81,763.326,98.996,762.993,98.996,762.577z"/>
                     <path fill="#222" d="M106.765,760.257c0-0.932,0.183-1.77,0.549-2.514s0.876-1.318,1.529-1.723s1.399-0.606,2.237-0.606
                         c1.295,0,2.342,0.448,3.142,1.345s1.2,2.089,1.2,3.577v0.114c0,0.926-0.177,1.757-0.532,2.491
-                        c-0.354,0.736-0.861,1.309-1.521,1.719s-1.417,0.615-2.272,0.615c-1.289,0-2.333-0.448-3.133-1.345s-1.2-2.083-1.2-3.56V760.257z
+                        c-0.354,0.736-0.861,1.309-1.521,1.719s-1.417,0.615-2.272,0.615c-1.289 0-2.333-0.448-3.133-1.345s-1.2-2.083-1.2-3.56V760.257z
                             M108.4,760.45c0,1.055,0.245,1.901,0.734,2.54s1.144,0.958,1.964,0.958c0.826,0,1.482-0.323,1.969-0.972
                         c0.486-0.646,0.729-1.554,0.729-2.72c0-1.043-0.248-1.888-0.743-2.536c-0.495-0.646-1.153-0.971-1.973-0.971
                         c-0.803,0-1.45,0.319-1.942,0.958S108.4,759.261,108.4,760.45z"/>
@@ -2322,7 +2322,8 @@
         
             <g class="door1">
                 <line fill="none" stroke="#222" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="208" y1="584.582" x2="148" y2="584.582"/>                
-                <animateTransform id="anim1s" attributeName="transform" attributeType="XML" type="rotate" from="0 148 584.582" to="-45 148 584.582" begin="0s; anim4s.end" dur="1s" fill="freeze"/>
+                <animateTransform begin="anim1s.end" id="pause" dur=".8s" type="translate" attributeType="XML" attributeName="transform"/>
+                <animateTransform id="anim1s" attributeName="transform" attributeType="XML" type="rotate" from="0 148 584.582" to="-45 148 584.582" begin="0s; pause.end" dur="1s" fill="freeze"/>
                 <animateTransform id="anim2s" attributeName="transform" attributeType="XML" type="rotate" from="-45 148 584.582" to="0 148 584.582" begin="anim1s.end" dur="1.2s" fill="freeze"/>
             </g>
 
@@ -2365,13 +2366,13 @@
         });
 
 
-        var twoc = anime({
-            targets: '.twoc',
-            opacity: 1,
-            duration: 2000,
-            loop: true,
-            delay: 2000
-        });
+        // var twoc = anime({
+        //     targets: '.twoc',
+        //     opacity: 1,
+        //     duration: 2000,
+        //     loop: true,
+        //     delay: 2000
+        // });
 
 
         var two = anime({

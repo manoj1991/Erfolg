@@ -2178,6 +2178,9 @@
                             
                                 
                                 <g class="six">
+                                    <path fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M341.421,124.084
+                                    c-1.565,5.272-7.348,9.586-12.848,9.586H87.427c-5.5,0-11.281-4.313-12.847-9.586L60.274,75.923
+                                    c-1.566-5.272,1.653-9.586,7.153-9.586h281.146c5.5,0,8.719,4.313,7.151,9.586L341.421,124.084z"/> 
                                     <path fill="none" stroke="#fff" stroke-width="2" stroke-miterlimit="10" d="M197.981,382.93l-52.999,72.946
                                     c-40.287-29.269-49.218-85.657-19.948-125.945c17.563-24.172,43.068-37.167,72.946-37.167L197.981,382.93L197.981,382.93z
                                         M154.982,465.876c16.115,11.709,33.08,17.221,52.999,17.221c49.799,0,90.168-40.368,90.168-90.167H207.98L154.982,465.876z
@@ -2465,17 +2468,18 @@
                             
                                     </g>
                                 
-                                <g class="door1">
-                                    <line fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="208" y1="584.582" x2="148" y2="584.582"/>
-                                    <animateTransform id="anim1s" attributeName="transform" attributeType="XML" type="rotate" from="-10 148 584.582" to="10 148 584.582" begin="0s; anim2s.end" dur="1.4s" fill="freeze"/>
-                                    <animateTransform id="anim2s" attributeName="transform" attributeType="XML" type="rotate" from="10 148 584.582" to="-10 148 584.582" begin="anim1s.end" dur="1.4s" fill="freeze"/>
-                                </g>
+                                    <g class="door1">
+                                        <line fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="208" y1="584.582" x2="148" y2="584.582"/>                
+                                        <animateTransform begin="anim1s.end" id="pause" dur=".8s" type="translate" attributeType="XML" attributeName="transform"/>
+                                        <animateTransform id="anim1s" attributeName="transform" attributeType="XML" type="rotate" from="0 148 584.582" to="-45 148 584.582" begin="0s; pause.end" dur="1s" fill="freeze"/>
+                                        <animateTransform id="anim2s" attributeName="transform" attributeType="XML" type="rotate" from="-45 148 584.582" to="0 148 584.582" begin="anim1s.end" dur="1.2s" fill="freeze"/>
+                                    </g>
 
-                                <g class="door2">
-                                    <line fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="268" y1="584.582" x2="208" y2="584.582"/>
-                                    <animateTransform id="anim3s" attributeName="transform" attributeType="XML" type="rotate" from="-10 268 584.582" to="10 268 584.582" begin="anim2s.end" dur="1.4s" fill="freeze"/>
-                                    <animateTransform id="anim4s" attributeName="transform" attributeType="XML" type="rotate" from="10 268 584.582" to="-10 268 584.582" begin="anim3s.end" dur="1.4s" fill="freeze"/>
-                                </g>     
+                                    <g class="door2">
+                                        <line fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="268" y1="584.582" x2="208" y2="584.582"/>
+                                        <animateTransform id="anim3s" attributeName="transform" attributeType="XML" type="rotate" from="0 268 584.582" to="45 268 584.582" begin="0s; anim4s.end" dur="1s" fill="freeze"/>
+                                        <animateTransform id="anim4s" attributeName="transform" attributeType="XML" type="rotate" from="45 268 584.582" to="0 268 584.582" begin="anim3s.end" dur="1s" fill="freeze"/>
+                                    </g>           
                             
                                 
                             </g>
@@ -2692,6 +2696,19 @@
         go();
     </script> -->
     <script>
+
+        var $elem = $('#main .item');
+        var l = $elem.length,
+            i = 0;
+        var onec = anime({
+            targets: $elem.eq(i % l).each(function() {
+                i++;
+            }),
+            opacity: 0,
+            duration: 12000,
+            loop: true
+        });
+
         // var one = anime({
         //     targets: '.one',
         //     opacity: 1,
