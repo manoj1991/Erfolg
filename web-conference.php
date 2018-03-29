@@ -28,13 +28,12 @@
 <body data-hijacking="on" data-animation="rotate">
 
     <section class="cd-section visible ">
-    <img src="img/new/erfolg-logo-vertical.svg" class="img-responsive brand-logo hidden-large">
+        <img src="img/new/erfolg-logo-vertical.svg" class="img-responsive brand-logo hidden-large">
         <div class="content--fixed">              
-            <div class="container">
-            
+            <div class="container">            
                 <div class="row">
                     <div class="col-lg-12 text-center ">
-                        <center>        
+                        <center>      
                                           
                             <svg class=" wc-image ms-head" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                                 width="1388.461px" height="673.077px" viewBox="0 0 1388.461 673.077" enable-background="new 0 0 1388.461 673.077"
@@ -163,15 +162,14 @@
                     <div class="col-md-6">
                         <img src="img/new/web conference/why-right.svg">
                     </div>
-                    <div class="col-md-12 no-pad">
-                          
+                    <div class="col-md-12 no-pad">                          
                         <p class="desc color-white  align-justify">
                             At Erfolg web conferencing is either proposed as a stand along marketing tactic or else it is integrated with either pipeline management or back end sales projects or with our digital marketing projects enabling our clients to address larger audience extending bigger geographies at one go especially areas where there is no presence of direct marketing and sales team.
                         </p>  
                         <p class="desc color-white  align-justify">
                             The Web Conferencing team at Erfolg is ever innovating different tactics to reach prospects/customers to make the medium more effective as a marketing tool for addressing targeted audience or industry, reaching out faster with new messaging or upgrades on products or services, identifying hot prospects from the existing prospects, providing a medium to reduce time to convert prospects to customers or a medium to reduce the sales cycle, identify competitor entrenched prospects, go after fence sitting prospects, etc.
                         </p>   
-                    </div>             
+                    </div>            
                     
                 </div>                
                 <h2></h2>

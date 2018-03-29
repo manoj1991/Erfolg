@@ -7,6 +7,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script> -->
+
 <script src="js/anime2.0.js"></script>
 <script>
     var fadeStart=100 // 100px scroll or less will equiv to 1 opacity
@@ -40,6 +41,13 @@
     }); 
     
 </script>
+
+<script>
+    $("#modal-close").click(function(e) {
+        location.reload();
+    });
+</script>
+
 <!--Slide-->
 <script type="text/javascript">
     jQuery(function ($) {
@@ -62,8 +70,8 @@
         });
     });
 </script>
-
 <!--/Slide-->
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
 <script src="js/ripple-config.js"></script>
 <!-- <script src="js/classie.js"></script> -->
@@ -74,5 +82,5 @@
 <script src="js/velocity.ui.min.js"></script>
 <script src="js/main.js"></script>
 <!-- Resource jQuery -->
-<script src="js/toucheffects.js"></script>
+
 <script src="js/smil.js"></script>

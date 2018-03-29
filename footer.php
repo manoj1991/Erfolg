@@ -6,7 +6,8 @@
     your business is our
     passion.</h1>		
     <br>		 
-    <button id="js-ripple-btn" class="button styl-material" data-toggle="modal" data-target="#myModal">
+    
+    <button id="js-ripple-btn" class="button styl-material" data-toggle="modal" data-target="#myModal" data-backdrop="static" data-keyboard="false">     
         <span class="lets">Request case study</span>
         <svg class="ripple-obj">
             <use height="100" width="100" xlink:href="#ripply-scott" class="js-ripple"></use>
@@ -16,8 +17,7 @@
 <div class="tiny-gap"></div>
 <div class="container">
     <div class="col-md-8 col-md-offset-2">
-        <h1 class="h2  text-center">Leave us a message</h1>
-     
+        <h1 class="h2  text-center">Leave us a message</h1>     
         <h4 class="text-center">You can find us literally anywhere, just push a button and we’re there</h4>
         <div class="small-gap"></div>
         

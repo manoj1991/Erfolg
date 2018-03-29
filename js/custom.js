@@ -358,7 +358,6 @@ var home = anime({
     loop: false
 });
 
-
 var home = anime({
     targets: ".event-managment_header path",
     strokeDashoffset: [anime.setDashoffset, 0],
@@ -370,17 +369,6 @@ var home = anime({
     loop: false
 });
 
-var home = anime({
-    targets: ".event-3 path",
-    strokeDashoffset: [anime.setDashoffset, 0],
-    easing: "easeInQuad",
-    duration: 14500,
-    delay: 4000,
-    loop: false
-});
-
-
-
 $(".ac-wrapper").hover(function() {
     var home = anime({
         targets: ".audience-draw path",
@@ -390,7 +378,6 @@ $(".ac-wrapper").hover(function() {
         loop: false
     });
 });
-
 
 $(".db-wrapper").hover(function() {
     var home = anime({

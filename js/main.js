@@ -28,7 +28,6 @@ jQuery(document).ready(function($) {
     });
 
     function bindEvents(MQ, bool) {
-
         if (MQ == 'desktop' && bool) {
             //bind the animation to the window scroll event, arrows click and keyboard
             if (hijacking == 'on') {
