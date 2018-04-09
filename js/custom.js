@@ -449,7 +449,6 @@ $(".wc-wrapper").hover(function() {
     });
 });
 
-
 var home = anime({
     targets: ".event-2 path",
     strokeDashoffset: [anime.setDashoffset, 0],

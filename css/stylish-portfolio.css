@@ -1169,6 +1169,7 @@ strong {
     }
     .backend-ss {
         width: 100%;
+        height: 400px;
     }
     .backend {
         width: 58%;
@@ -1214,10 +1215,10 @@ strong {
         text-align: center;
         padding: 1% 0%;
     }
-    .h3,
+    /* .h3,
     h3 {
         font-size: 17px;
-    }
+    } */
     .brand-logo {
         width: 3.5%;
         MARGIN-TOP: 1%;
@@ -1281,7 +1282,31 @@ strong {
     .em-section-4 {
         height: 100vh;
     }
-    /*Pipeline management*/
+    /*Web Conference*/
+    .wc-solution {
+        height: 120vh;
+    }
+    /* Audience Connect */
+    .ac1 {
+        margin-left: 0%;
+        width: 100%;
+    }
+    .ac-two {
+        width: 100%;
+        height: 500px;
+    }
+    .ac-hw {
+        height: 115vh;
+    }
+    .ac-experience {
+        height: 99vh;
+    }
+    .ac-time {
+        height: 100vh;
+    }
+    .audi-exp_sm {
+        margin-top: 0;
+    }
 }
 
 @media (min-width: 771px) and (max-width: 850px) {
@@ -1330,9 +1355,6 @@ strong {
     .huge-font {
         font-size: 24px;
         margin-top: 3%;
-    }
-    .audi-4 {
-        display: none;
     }
     .h2,
     h2 {
@@ -1451,29 +1473,9 @@ strong {
         font-size: 24px;
         margin-top: 3%;
     }
-    .audi-4 {
-        width: 47%;
-        margin-top: -15%;
-    }
-    .ac1 {
-        margin-left: 0%;
-    }
-    .ac-5 {
-        display: none;
-    }
     .huge-font {
         font-size: 24px;
         margin-top: 3%;
-    }
-    .audi-4 {
-        width: 47%;
-        margin-top: -15%;
-    }
-    .ac1 {
-        margin-left: 0%;
-    }
-    .ac-5 {
-        display: none;
     }
     .bg-image {
         margin-top: -18.5% !important;
@@ -1508,7 +1510,7 @@ strong {
     }
     .bs-container,
     .pm-container {
-        width: 750px;
+        width: 100%;
     }
     .pm-4 {
         width: 64%;
@@ -1534,6 +1536,31 @@ strong {
     }
     .pm-roi-3 {
         margin-top: -14%;
+    }
+    /*Web Conference */
+    .wc-why {
+        height: 205vh;
+    }
+    .wc-solution {
+        height: 230vh;
+    }
+    /* Audience Connect */
+    .ac1 {
+        margin-left: 0%;
+        width: 50%;
+    }
+    .ac-two {
+        width: 100%;
+        height: 200px;
+    }
+    .ac-hw {
+        height: 110vh;
+    }
+    .ac-experience {
+        height: 102vh;
+    }
+    .ac-time {
+        height: 150vh;
     }
 }
 
@@ -1638,9 +1665,20 @@ strong {
     .areas {
         height: 100vh;
     }
+    /*Web Conference*/
+    .wc-why {
+        height: 110vh;
+    }
+    .wc-solution {
+        height: 130vh;
+    }
 }
 
 @media (max-width: 740px) {
+    .h3,
+    h3 {
+        font-size: 1.399em;
+    }
     .roi-heigt {
         height: 160vh;
     }
@@ -1685,7 +1723,7 @@ strong {
     }
     .backend-2 {
         width: 100%;
-        height: 80%;
+        height: 275px;
     }
     .backend-ss {
         width: 41%;
@@ -1713,9 +1751,6 @@ strong {
     .huge-font {
         font-size: 24px;
         margin-top: 3%;
-    }
-    .audi-4 {
-        display: none;
     }
     .h2,
     h2 {
@@ -1834,29 +1869,9 @@ strong {
         font-size: 24px;
         margin-top: 3%;
     }
-    .audi-4 {
-        width: 47%;
-        margin-top: -15%;
-    }
-    .ac1 {
-        margin-left: 0%;
-    }
-    .ac-5 {
-        display: none;
-    }
     .huge-font {
         font-size: 24px;
         margin-top: 3%;
-    }
-    .audi-4 {
-        width: 47%;
-        margin-top: -15%;
-    }
-    .ac1 {
-        margin-left: 0%;
-    }
-    .ac-5 {
-        display: none;
     }
     .bg-image {
         margin-top: -29% !important;
@@ -1952,6 +1967,31 @@ strong {
     .gap {
         padding: 0%;
     }
+    /*Web Conference*/
+    .wc-why {
+        height: 280vh;
+    }
+    .wc-solution {
+        height: 300vh;
+    }
+    /* Audience Connect */
+    .ac1 {
+        margin-left: 0%;
+        width: 50%;
+    }
+    .ac-two {
+        width: 100%;
+        height: 200px;
+    }
+    .ac-hw {
+        height: 150vh;
+    }
+    .ac-experience {
+        height: 170vh;
+    }
+    .ac-time {
+        height: 150vh;
+    }
 }
 
 @media (min-width: 660px) and (max-width: 729px) {
@@ -1967,12 +2007,12 @@ strong {
     }
     .backend {
         width: 66%;
-        height: 63%;
+        height: 200px;
         margin-top: -1%;
     }
     .backend-2 {
         width: 100%;
-        height: 80%;
+        height: 225px;
     }
     .backend-ss {
         width: 41%;
@@ -2000,13 +2040,7 @@ strong {
         line-height: 1.5;
         margin-bottom: 3%;
     }
-    .ac-inner {
-        display: none;
-    }
     .img1 {
-        display: none;
-    }
-    .audi-4 {
         display: none;
     }
     .brand-logo {
@@ -2108,16 +2142,6 @@ strong {
         font-size: 24px;
         margin-top: 3%;
     }
-    .audi-4 {
-        width: 47%;
-        margin-top: -15%;
-    }
-    .ac1 {
-        margin-left: 0%;
-    }
-    .ac-5 {
-        display: none;
-    }
     .bg-image {
         margin-top: -31% !important;
         width: 20%;
@@ -2214,6 +2238,31 @@ strong {
     }
     .gap {
         padding: 0%;
+    }
+    /*Web Conference*/
+    .wc-why {
+        height: 280vh;
+    }
+    .wc-solution {
+        height: 300vh;
+    }
+    /* Audience Connect */
+    .ac1 {
+        margin-left: 0%;
+        width: 30%;
+    }
+    .ac-two {
+        width: 100%;
+        height: 200px;
+    }
+    .ac-hw {
+        height: 160vh;
+    }
+    .ac-experience {
+        height: 200vh;
+    }
+    .ac-time {
+        height: 150vh;
     }
 }
 
@@ -2372,16 +2421,6 @@ strong {
         font-size: 24px;
         margin-top: 3%;
     }
-    .audi-4 {
-        width: 47%;
-        margin-top: -15%;
-    }
-    .ac1 {
-        margin-left: 0%;
-    }
-    .ac-5 {
-        display: none;
-    }
     .bg-image {
         margin-top: -29% !important;
         width: 27%;
@@ -2467,6 +2506,31 @@ strong {
     }
     .gap {
         padding: 0%;
+    }
+    /*Web Conference*/
+    .wc-why {
+        height: 235vh;
+    }
+    .wc-solution {
+        height: 260vh;
+    }
+    /* Audience Connect */
+    .ac1 {
+        margin-left: 0%;
+        width: 40%;
+    }
+    .ac-two {
+        width: 100%;
+        height: 200px;
+    }
+    .ac-hw {
+        height: 150vh;
+    }
+    .ac-experience {
+        height: 170vh;
+    }
+    .ac-time {
+        height: 150vh;
     }
 }
 
@@ -2676,6 +2740,31 @@ strong {
     .gap {
         padding: 0%;
     }
+    /*Web Conference*/
+    .wc-why {
+        height: 270vh;
+    }
+    .wc-solution {
+        height: 295vh;
+    }
+    /* Audience Connect */
+    .ac1 {
+        margin-left: 0%;
+        width: 40%;
+    }
+    .ac-two {
+        width: 100%;
+        height: 200px;
+    }
+    .ac-hw {
+        height: 150vh;
+    }
+    .ac-experience {
+        height: 200vh;
+    }
+    .ac-time {
+        height: 150vh;
+    }
 }
 
 @media (min-width: 475px) and (max-width: 480px) {
@@ -2794,35 +2883,6 @@ strong {
     /* Event Management */
     .event-managment_header {
         width: 100%;
-        height: 325px;
-    }
-    h1.header-line {
-        font-size: 2.998em;
-    }
-    .event-intelligence {
-        height: 160vh;
-    }
-    .event-2 {
-        width: 100%;
-    }
-    .event-3 {
-        width: 100%;
-    }
-    .areas {
-        height: 112vh;
-    }
-    .event-4 {
-        width: 100%;
-    }
-    .em-section-4 {
-        height: 180vh;
-    }
-    .em-height-ext {
-        padding: 18%;
-    }
-    /* Event Management */
-    .event-managment_header {
-        width: 100%;
         height: 125px;
     }
     h1.header-line {
@@ -2851,6 +2911,13 @@ strong {
     }
     .gap {
         padding: 0%;
+    }
+    /*Web Conference*/
+    .wc-why {
+        height: 290vh;
+    }
+    .wc-solution {
+        height: 315vh;
     }
 }
 
@@ -3062,6 +3129,26 @@ strong {
     .roi-heigt {
         height: 110vh;
     }
+    /* Web Conference */
+    .wc-image {
+        width: 100%;
+        height: 350px;
+    }
+    .wc-why {
+        height: 160vh;
+    }
+    .wc-solution {
+        height: 190vh;
+    }
+    /*Audience Connect*/
+    .audi-home_img-others {
+        width: 100%;
+        height: 250px;
+    }
+    .ac-two {
+        width: 100%;
+        height: 250px;
+    }
 }
 
 @media (max-width: 412px) {
@@ -3264,6 +3351,26 @@ strong {
     .em-section-4 {
         height: 180vh;
     }
+    /* Web Conference */
+    .wc-image {
+        width: 100%;
+        height: 250px;
+    }
+    .wc-why {
+        height: 160vh;
+    }
+    .wc-solution {
+        height: 190vh;
+    }
+    /*Audience Connect*/
+    .audi-home_img-others {
+        width: 100%;
+        height: 250px;
+    }
+    .ac-two {
+        width: 100%;
+        height: 150px;
+    }
 }
 
 @media (min-width: 321px) and (max-width: 375px) {
@@ -3370,7 +3477,6 @@ strong {
         position: relative;
         z-index: 1;
         width: 100%;
-        text-align: justify;
         top: 0;
         left: 0;
         color: #ffffff;
@@ -3460,6 +3566,29 @@ strong {
     }
     .em-height-ext {
         padding: 18%;
+    }
+    /* Web Conference */
+    .wc-image {
+        width: 100%;
+        height: 250px;
+    }
+    .wc-why {
+        height: 160vh;
+    }
+    .wc-solution {
+        height: 190vh;
+    }
+    h1.header-line {
+        font-size: 2.598em;
+    }
+    /*Audience Connect*/
+    .audi-home_img-others {
+        width: 100%;
+        height: 250px;
+    }
+    .ac-two {
+        width: 100%;
+        height: 200px;
     }
 }
 
@@ -3671,6 +3800,31 @@ strong {
     .roi-heigt {
         height: 170vh;
     }
+    /*Backend sales*/
+    .backend-2 {
+        width: 100%;
+        height: 125px;
+    }
+    /* Web Conference */
+    .wc-image {
+        width: 100%;
+        height: 250px;
+    }
+    .wc-why {
+        height: 170vh;
+    }
+    .wc-solution {
+        height: 200vh;
+    }
+    /*Audience Connect*/
+    .audi-home_img-others {
+        width: 100%;
+        height: 250px;
+    }
+    .ac-two {
+        width: 100%;
+        height: 150px;
+    }
 }
 
 @media (max-width: 317px) {
@@ -3722,6 +3876,17 @@ strong {
     .pm-roi-3 {
         margin-top: 0%;
     }
+    /*Web Conference*/
+    .wc-why {
+        height: 180vh;
+    }
+    .wc-solution {
+        height: 200vh;
+    }
+    .wc-image {
+        width: 100%;
+        height: 180px;
+    }
 }
 
 @media (min-height: 598px) and (max-height: 600px) {
@@ -3761,7 +3926,46 @@ strong {
         line-height: 1.5;
         margin-bottom: 3%;
     }
+    /*Backend Sales*/
+    .backend-ss {
+        width: 100%;
+        height: 350px;
+    }
+    .backend-2 {
+        height: 365px;
+    }
+    /*Web Conference*/
+    .wc-why {
+        height: 97vh;
+    }
+    .wc-solution {
+        height: 105vh;
+    }
+    /* Audience Connect */
+    .audi-home_img-others {
+        width: 70%;
+        height: 60%;
+    }
+    .ac1 {
+        margin-left: 0%;
+        width: 100%;
+    }
+    .ac-two {
+        width: 100%;
+        height: 500px;
+    }
+    .ac-hw {
+        height: 130vh;
+    }
+    .ac-experience {
+        height: 107vh;
+    }
+    .ac-time {
+        height: 150vh;
+    }
 }
+
+@media (min-height: 760px) and (max-height: 770px) {}
 
 @media (min-width: 768px) {
     .hidden-big {

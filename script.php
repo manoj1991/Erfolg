@@ -16,8 +16,7 @@
 
     $(window).bind('scroll', function(){
         var offset = $(document).scrollTop()
-            ,opacity=0
-        ;
+            ,opacity=0;
         if( offset<=fadeStart ){
             opacity=1;
         }else if( offset<=fadeUntil ){
@@ -38,8 +37,7 @@
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
         $("#sidebar-wrapper").toggleClass("active");
-    }); 
-    
+    });     
 </script>
 
 <script>

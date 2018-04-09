@@ -256,8 +256,6 @@
 
 <!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
 
-
-
 <body data-hijacking="on" data-animation="rotate">
     <section class="cd-section visible ">
         <img src="img/new/erfolg-logo-vertical.svg" class="img-responsive brand-logo hidden-large">
@@ -266,71 +264,68 @@
                 <div class="row">
                     <div class="col-lg-12 text-center ">
                         <center>
-                        
-                        <svg version="1.1" class="pm1 other ms-head" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                            width="1258px" height="774px" viewBox="0 0 1258 774" enable-background="new 0 0 1258 774" xml:space="preserve">
-                            <circle fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="830.706" cy="465.933" r="43.998"/>
-                            <circle fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="830.706" cy="465.933" r="35.899"/>
-                            <line fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="830.706" y1="430.034" x2="830.706" y2="434.849"/>
-                            <line fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="830.706" y1="497.034" x2="830.706" y2="501.849"/>
-                            <line fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="794.799" y1="465.942" x2="799.613" y2="465.942"/>
-                            <line fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="861.799" y1="465.942" x2="866.613" y2="465.942"/>
-                            <line fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="805.315" y1="491.333" x2="808.72" y2="487.929"/>
-                            <line fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="852.692" y1="443.956" x2="856.097" y2="440.552"/>
-                            <line fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="856.097" y1="491.333" x2="852.692" y2="487.929"/>
-                            <line fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="808.72" y1="443.956" x2="805.315" y2="440.552"/>
-                            <line fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="820.706" y1="509.931" x2="820.706" y2="557.183"/>
-                            <line fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="840.706" y1="509.931" x2="840.706" y2="557.183"/>
-                            <circle fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="830.706" cy="465.933" r="6.794"/>
-                            <line fill="none" class="thread" id="needle" stroke="#fff" stroke-width="2" stroke-linecap="round"  stroke-miterlimit="10" x1="830.706" y1="465.933" x2="841.578" y2="442.254">
-                                <animateTransform 
-                                    id="animateNeedle"
-                                    attributeName="transform"
-                                    attributeType="XML"
-                                    type="rotate"
-                                    from="-60 831.578 465"
-                                    to="45 831.578 465"
-                                    dur="5s"
-                                    repeatCount="1"/>
-                            </line>                      
-                            <path fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M579.827,141.831
-                                C565.166,128.141,556,108.641,556,87c0-41.421,33.579-75,75-75c41.422,0,75,33.579,75,75c0,21.734-9.245,41.309-24.017,55.006
-                                M165.289,270.011c-13.689-14.66-33.189-23.826-54.83-23.826c-41.422,0-75,33.578-75,75s33.578,75,75,75
-                                c21.733,0,41.309-9.246,55.006-24.017 M1095.459,372.168c13.697,14.771,33.272,24.017,55.006,24.017c41.422,0,75-33.579,75-75
-                                s-33.578-75-75-75c-21.641,0-41.141,9.166-54.83,23.826 M681,237.593V103.034c0-27.614-22.386-50-50-50l0,0
-                                c-27.614,0-50,22.386-50,50v134.559 M725.496,269.593L725.496,269.593c0-17.811-14.438-32.248-32.248-32.248H568.753
-                                c-17.811,0-32.248,14.438-32.248,32.248l0,0 M906.744,201.455c8.038-7.454,13.068-18.105,13.068-29.933
-                                c0-22.54-18.271-40.813-40.813-40.813c-22.54,0-40.813,18.272-40.813,40.813c0,11.776,4.988,22.388,12.966,29.837 M906.209,253.47
-                                v-73.222c0-15.027-12.182-27.208-27.209-27.208l0,0c-15.026,0-27.208,12.182-27.208,27.208v73.222 M930.422,270.883L930.422,270.883
-                                c0-9.692-7.857-17.548-17.549-17.548h-67.746c-9.691,0-17.548,7.856-17.548,17.548l0,0 M412.744,201.455
-                                c8.038-7.454,13.068-18.105,13.068-29.933c0-22.54-18.271-40.813-40.813-40.813c-22.54,0-40.813,18.272-40.813,40.813
-                                c0,11.776,4.988,22.388,12.966,29.837 M412.209,253.47v-73.222c0-15.027-12.182-27.208-27.209-27.208l0,0
-                                c-15.026,0-27.208,12.182-27.208,27.208v73.222 M436.422,270.883L436.422,270.883c0-9.692-7.857-17.548-17.549-17.548h-67.746
-                                c-9.691,0-17.548,7.856-17.548,17.548l0,0 M1201.538,321.185c0-27.531-22.318-49.85-49.85-49.85H110.312
-                                c-27.531,0-49.85,22.318-49.85,49.85l0,0c0,27.531,22.318,49.849,49.85,49.849h1041.377
-                                C1179.22,371.034,1201.538,348.716,1201.538,321.185L1201.538,321.185z M931,610L931,610c13.807,0,25-11.193,25-25V385 M881,559
-                                L881,559c13.807,0,25-11.193,25-25V385 M931,610H765 M877,371.518L877,371.518c0,7.446,6.037,13.482,13.482,13.482h81.035
-                                c7.445,0,13.482-6.036,13.482-13.482l0,0 M765.614,558.438c-12.233-62.549-67.339-109.747-133.468-109.748
-                                c-66.613,0.001-122.041,47.892-133.73,111.122 M498.571,610.389c8.645,45.205,39.667,82.465,81.097,99.808 M681,711.652
-                                c43.457-16.732,76.154-55.134,84.854-101.966 M881,559H766.107 M306,385v200c0,13.807,11.193,25,25,25l0,0 M356,385v149
-                                c0,13.807,11.193,25,25,25l0,0 M331,610h167.501 M277,371.518L277,371.518c0,7.446,6.037,13.482,13.482,13.482h81.035
-                                c7.445,0,13.482-6.036,13.482-13.482l0,0 M381,559h117.571 M630.334,740.333c-27.982,0-50.666,3.134-50.666,7s22.684,7,50.666,7
-                                s50.666-3.134,50.666-7S658.316,740.333,630.334,740.333z M579.668,710.196v37.137 M681,711.652v35.681 M60.462,321.185H736
-                                M766.76,321.185H836 M1196.854,300.068H749 M1199.978,308.762H915 M60.462,330H207 M225.163,330H306 M631,470.804
-                                c-63.069,0-114.196,51.128-114.196,114.196S567.931,699.196,631,699.196c63.068,0,114.196-51.128,114.196-114.196
-                                S694.068,470.804,631,470.804z M631,545.804c-21.647,0-39.196,17.549-39.196,39.196s17.549,39.196,39.196,39.196
-                                s39.196-17.549,39.196-39.196S652.647,545.804,631,545.804z M631,574.159c-5.987,0-10.841,4.854-10.841,10.841
-                                s4.854,10.841,10.841,10.841s10.841-4.854,10.841-10.841S636.987,574.159,631,574.159z M631,624.196v75 M631,545.804v-75
-                                M641.145,622.861l19.411,72.443 M620.854,547.14l-19.411-72.444 M650.598,618.945l37.5,64.951 M611.402,551.056l-37.5-64.952
-                                M658.715,612.717l53.033,53.032 M603.284,557.285l-53.033-53.033 M664.945,604.6l64.951,37.499 M597.056,565.402l-64.953-37.5
-                                M668.861,595.146l72.442,19.41 M593.141,574.855l-72.446-19.411 M670.197,585.002l74.997-0.001 M591.805,585l-75.002,0.001
-                                M668.861,574.856l72.441-19.411 M593.139,595.145l-72.445,19.412 M664.945,565.402l64.949-37.498 M597.055,604.598l-64.953,37.501
-                                M658.716,557.284l53.031-53.03 M603.283,612.715l-53.034,53.035 M650.598,551.055l37.499-64.949 M611.4,618.943l-37.501,64.955
-                                M641.144,547.139l19.411-72.441 M620.854,622.859l-19.412,72.447 M314,385v112.5 M320,385v24 M943.5,385v142.904 M933.5,385v75.769
-                                "/>
+
+                            <svg version="1.1" class="pm1 other ms-head" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1258px" height="774px" viewBox="0 0 1258 774" enable-background="new 0 0 1258 774" xml:space="preserve">
+                                <circle fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="830.706" cy="465.933" r="43.998"/>
+                                <circle fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="830.706" cy="465.933" r="35.899"/>
+                                <line fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="830.706" y1="430.034" x2="830.706" y2="434.849"/>
+                                <line fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="830.706" y1="497.034" x2="830.706" y2="501.849"/>
+                                <line fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="794.799" y1="465.942" x2="799.613" y2="465.942"/>
+                                <line fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="861.799" y1="465.942" x2="866.613" y2="465.942"/>
+                                <line fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="805.315" y1="491.333" x2="808.72" y2="487.929"/>
+                                <line fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="852.692" y1="443.956" x2="856.097" y2="440.552"/>
+                                <line fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="856.097" y1="491.333" x2="852.692" y2="487.929"/>
+                                <line fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="808.72" y1="443.956" x2="805.315" y2="440.552"/>
+                                <line fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="820.706" y1="509.931" x2="820.706" y2="557.183"/>
+                                <line fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="840.706" y1="509.931" x2="840.706" y2="557.183"/>
+                                <circle fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="830.706" cy="465.933" r="6.794"/>
+                                <line fill="none" class="thread" id="needle" stroke="#fff" stroke-width="2" stroke-linecap="round"  stroke-miterlimit="10" x1="830.706" y1="465.933" x2="841.578" y2="442.254">
+                                    <animateTransform 
+                                        id="animateNeedle"
+                                        attributeName="transform"
+                                        attributeType="XML"
+                                        type="rotate"
+                                        from="-60 831.578 465"
+                                        to="45 831.578 465"
+                                        dur="5s"
+                                        repeatCount="1"/>
+                                </line>                      
+                                <path fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M579.827,141.831
+                                    C565.166,128.141,556,108.641,556,87c0-41.421,33.579-75,75-75c41.422,0,75,33.579,75,75c0,21.734-9.245,41.309-24.017,55.006
+                                    M165.289,270.011c-13.689-14.66-33.189-23.826-54.83-23.826c-41.422,0-75,33.578-75,75s33.578,75,75,75
+                                    c21.733,0,41.309-9.246,55.006-24.017 M1095.459,372.168c13.697,14.771,33.272,24.017,55.006,24.017c41.422,0,75-33.579,75-75
+                                    s-33.578-75-75-75c-21.641,0-41.141,9.166-54.83,23.826 M681,237.593V103.034c0-27.614-22.386-50-50-50l0,0
+                                    c-27.614,0-50,22.386-50,50v134.559 M725.496,269.593L725.496,269.593c0-17.811-14.438-32.248-32.248-32.248H568.753
+                                    c-17.811,0-32.248,14.438-32.248,32.248l0,0 M906.744,201.455c8.038-7.454,13.068-18.105,13.068-29.933
+                                    c0-22.54-18.271-40.813-40.813-40.813c-22.54,0-40.813,18.272-40.813,40.813c0,11.776,4.988,22.388,12.966,29.837 M906.209,253.47
+                                    v-73.222c0-15.027-12.182-27.208-27.209-27.208l0,0c-15.026,0-27.208,12.182-27.208,27.208v73.222 M930.422,270.883L930.422,270.883
+                                    c0-9.692-7.857-17.548-17.549-17.548h-67.746c-9.691,0-17.548,7.856-17.548,17.548l0,0 M412.744,201.455
+                                    c8.038-7.454,13.068-18.105,13.068-29.933c0-22.54-18.271-40.813-40.813-40.813c-22.54,0-40.813,18.272-40.813,40.813
+                                    c0,11.776,4.988,22.388,12.966,29.837 M412.209,253.47v-73.222c0-15.027-12.182-27.208-27.209-27.208l0,0
+                                    c-15.026,0-27.208,12.182-27.208,27.208v73.222 M436.422,270.883L436.422,270.883c0-9.692-7.857-17.548-17.549-17.548h-67.746
+                                    c-9.691,0-17.548,7.856-17.548,17.548l0,0 M1201.538,321.185c0-27.531-22.318-49.85-49.85-49.85H110.312
+                                    c-27.531,0-49.85,22.318-49.85,49.85l0,0c0,27.531,22.318,49.849,49.85,49.849h1041.377
+                                    C1179.22,371.034,1201.538,348.716,1201.538,321.185L1201.538,321.185z M931,610L931,610c13.807,0,25-11.193,25-25V385 M881,559
+                                    L881,559c13.807,0,25-11.193,25-25V385 M931,610H765 M877,371.518L877,371.518c0,7.446,6.037,13.482,13.482,13.482h81.035
+                                    c7.445,0,13.482-6.036,13.482-13.482l0,0 M765.614,558.438c-12.233-62.549-67.339-109.747-133.468-109.748
+                                    c-66.613,0.001-122.041,47.892-133.73,111.122 M498.571,610.389c8.645,45.205,39.667,82.465,81.097,99.808 M681,711.652
+                                    c43.457-16.732,76.154-55.134,84.854-101.966 M881,559H766.107 M306,385v200c0,13.807,11.193,25,25,25l0,0 M356,385v149
+                                    c0,13.807,11.193,25,25,25l0,0 M331,610h167.501 M277,371.518L277,371.518c0,7.446,6.037,13.482,13.482,13.482h81.035
+                                    c7.445,0,13.482-6.036,13.482-13.482l0,0 M381,559h117.571 M630.334,740.333c-27.982,0-50.666,3.134-50.666,7s22.684,7,50.666,7
+                                    s50.666-3.134,50.666-7S658.316,740.333,630.334,740.333z M579.668,710.196v37.137 M681,711.652v35.681 M60.462,321.185H736
+                                    M766.76,321.185H836 M1196.854,300.068H749 M1199.978,308.762H915 M60.462,330H207 M225.163,330H306 M631,470.804
+                                    c-63.069,0-114.196,51.128-114.196,114.196S567.931,699.196,631,699.196c63.068,0,114.196-51.128,114.196-114.196
+                                    S694.068,470.804,631,470.804z M631,545.804c-21.647,0-39.196,17.549-39.196,39.196s17.549,39.196,39.196,39.196
+                                    s39.196-17.549,39.196-39.196S652.647,545.804,631,545.804z M631,574.159c-5.987,0-10.841,4.854-10.841,10.841
+                                    s4.854,10.841,10.841,10.841s10.841-4.854,10.841-10.841S636.987,574.159,631,574.159z M631,624.196v75 M631,545.804v-75
+                                    M641.145,622.861l19.411,72.443 M620.854,547.14l-19.411-72.444 M650.598,618.945l37.5,64.951 M611.402,551.056l-37.5-64.952
+                                    M658.715,612.717l53.033,53.032 M603.284,557.285l-53.033-53.033 M664.945,604.6l64.951,37.499 M597.056,565.402l-64.953-37.5
+                                    M668.861,595.146l72.442,19.41 M593.141,574.855l-72.446-19.411 M670.197,585.002l74.997-0.001 M591.805,585l-75.002,0.001
+                                    M668.861,574.856l72.441-19.411 M593.139,595.145l-72.445,19.412 M664.945,565.402l64.949-37.498 M597.055,604.598l-64.953,37.501
+                                    M658.716,557.284l53.031-53.03 M603.283,612.715l-53.034,53.035 M650.598,551.055l37.499-64.949 M611.4,618.943l-37.501,64.955
+                                    M641.144,547.139l19.411-72.441 M620.854,622.859l-19.412,72.447 M314,385v112.5 M320,385v24 M943.5,385v142.904 M933.5,385v75.769
+                                    "/>
                             </svg>
-
-
 
                             <svg xmlns="http://www.w3.org/2000/svg" class="ie ie-pm1 " id="Layer_2" enable-background="new 0 0 1258 774" viewBox="0 0 1258 874" x="0px" y="0px" width="818px" height="574px" xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:space="preserve" version="1.1">
                                 <circle fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" cx="830.706" cy="465.933" r="43.998"/>
@@ -395,6 +390,7 @@
                             </svg>
                             <h1 class="pm-text bs-head header-line other">SALES PIPELINE</h1>
                             <h1 class="pm-text header-line ie">SALES PIPELINE</h1>
+
                         </center>
                         <h1 class="text-center color-white h3" >Are you able to reach your prospects 
                         early in the sales cycle?</h1>                    
@@ -420,6 +416,7 @@
                 </div>            
                 <div class="col-md-8">                   
                     <center>
+                        
                         <svg version="1.1" class="pm2 others"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 348.387 344.355"  enable-background="new 0 0 348.387 344.355" xml:space="preserve">
                             <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M26.721,251.885v-120.88
                                 c0-11.851,9.607-21.458,21.458-21.458h178.816 M226.995,123.853H152.25l1.863-4.141l-7.906-5.179l2.645,5.565l-3.397,3.755h-38.267
@@ -469,9 +466,9 @@
                                 c-5.5,2.925-9.244,8.713-9.244,15.376c0,9.611,7.793,17.404,17.405,17.404s17.405-7.793,17.405-17.404
                                 c0-7.063-4.207-13.143-10.252-15.871"/>
                         </svg>
+
                     </center>  
-                </div>
-              
+                </div>              
                 <div class="col-md-12">
                     <br>             
                     <p class="desc color-white text-center">
@@ -604,8 +601,10 @@
                 <div class="col-md-12 col-sm-12 audi-exp_sm pm-exp_sm ">                    
                     <br>
                     <p class="desc color-white  text-center" >
-                        Any campaign generates immediate as well as future returns and effectiveness of any lead management team is defined on the potential to define the time frame of the requirements accurately. Along with aiding the sales team to extend the market coverage, the pipeline management team has to be able to ascertain that the qualified marketing leads are added to the funnel of the sales teams only at the appropriate time – the key task is to enhance the funnel & not clutter the same with leads with requirements at a later date.</p>
-                        <p class="desc color-white  text-center" > The team at Erfolg is trained on techniques in lead nurturing with extended time frame so as to keep the continuity of discussion alive with the prospects with multi-touch marketing aids like product guides, whitepapers and other direct marketing techniques by implementing CRM solutions. The lead nurturing mechanism helps reduce unwanted connects with the prospects for confirmation of the same requirement multiple times &also, ensures that the opportunities are not lost in transition from the opportunity discovery to the sales.                       
+                        Any campaign generates immediate as well as future returns and effectiveness of any lead management team is defined on the potential to define the time frame of the requirements accurately. Along with aiding the sales team to extend the market coverage, the pipeline management team has to be able to ascertain that the qualified marketing leads are added to the funnel of the sales teams only at the appropriate time – the key task is to enhance the funnel & not clutter the same with leads with requirements at a later date.
+                    </p>
+                    <p class="desc color-white text-center" > 
+                        The team at Erfolg is trained on techniques in lead nurturing with extended time frame so as to keep the continuity of discussion alive with the prospects with multi-touch marketing aids like product guides, whitepapers and other direct marketing techniques by implementing CRM solutions. The lead nurturing mechanism helps reduce unwanted connects with the prospects for confirmation of the same requirement multiple times &also, ensures that the opportunities are not lost in transition from the opportunity discovery to the sales.                       
                     </p>                 
                 </div>
                 <h2></h2>
@@ -791,8 +790,7 @@
                     <div class="container pm-container">
                         <h1 class="h3 text-center text-pm-768">The following process is what we follow for most of our lead generation campaigns to ensure the prospect identification is correct and has a higher conversion ratio:</h1>
                         <br><br><br><br>
-                    </div>                
-
+                    </div>              
                     
                     <div class="container pm-container text-center">
 
@@ -1817,8 +1815,7 @@
                                 <span class="sr-only">Next</span>
                             </a>
                             
-                        </div>
-                       
+                        </div>                       
                     </div>
                     
                 </div>

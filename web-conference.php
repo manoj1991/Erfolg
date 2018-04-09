@@ -3,7 +3,7 @@
 
 <?php include "head.php"; ?>
 <style>
-     .cd-section:nth-of-type(1)>div{
+    .cd-section:nth-of-type(1)>div{
         background-image: linear-gradient(to right bottom, #d05660, #e36d5b, #f28657, #fba254, #ffbe56);
     }
     .cd-section:nth-of-type(2)>div{
@@ -21,7 +21,6 @@
     .modal-content{
         background-image: linear-gradient(to left bottom, #9c572c, #af7749, #c1966a, #d4b68e, #e8d5b5);
     }
-
 </style>
 <!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
 
@@ -33,12 +32,10 @@
             <div class="container">            
                 <div class="row">
                     <div class="col-lg-12 text-center ">
-                        <center>      
+                        <center>    
                                           
-                            <svg class=" wc-image ms-head" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                width="1388.461px" height="673.077px" viewBox="0 0 1388.461 673.077" enable-background="new 0 0 1388.461 673.077"
-                                xml:space="preserve" >
-                                <path fill="none" stroke-width="2"  stroke="#FFFFFF" stroke-miterlimit="10" d="M976.739,490.015H495.928V211.421h480.811V490.015z M990.623,200.69
+                            <svg class=" wc-image ms-head" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1388.461px" height="673.077px" viewBox="0 0 1388.461 673.077" enable-background="new 0 0 1388.461 673.077" xml:space="preserve" >
+                                <path fill="none" stroke-width="2"  stroke="#FFFFFF" stroke-miterlimit="10" d="M976.739,                  490.015H495.928V211.421h480.811V490.015z M990.623,200.69 
                                     c0-1.657-1.343-3-3-3H485.044c-1.657,0-3,1.343-3,3v300.055c0,1.657,1.343,3,3,3h502.578c1.657,0,3-1.343,3-3V200.69z
                                     M761.808,514.218c-0.255,3.079-2.83,5.5-5.975,5.5h-39c-3.145,0-5.721-2.421-5.975-5.5H482.044c0,7.18,5.82,13,13,13h482.578
                                     c7.18,0,13-5.82,13-13H761.808z M511.833,503.745v10.473 M521.833,503.745v10.473 M950.833,503.745v10.473 M960.833,503.745v10.473
@@ -93,10 +90,10 @@
                                     c-5.088,0-9.214,4.125-9.214,9.214s4.125,9.214,9.214,9.214c5.089,0,9.214-4.125,9.214-9.214S239.535,180.477,234.446,180.477z"/>
                             </svg>                 
                             <h1 class="pm-text text-uppercase header-line ms-head">Web Conferencing</h1> 
+
                         </center>
                         
-                        <h1 class="text-center color-white h3" >Is Web Conferencing not working at your office as it should?  <br>Leave it to the experts while you focus on the meeting agenda. </h1>
-                    
+                        <h1 class="text-center color-white h3" >Is Web Conferencing not working at your office as it should?  <br class="hidden-xs hidden-sm">Leave it to the experts while you focus on the meeting agenda. </h1>                    
                     </div>
                     <h2></h2>
                 </div>
@@ -105,7 +102,7 @@
         </div>
     </section>
 
-    <section class="cd-section bs-framework">
+    <section class="cd-section bs-framework wc-why">
         <div>
             <div class="container wc-head">
                 <div class="col-md-12">
@@ -113,7 +110,7 @@
                 </div>  
 
                 <div class="col-md-12">          
-                    <div class="col-md-6 no-pad">
+                    <div class="col-md-6 col-sm-12 no-pad">
                         <p class="desc color-white align-justify ">
                             Organising an event is time consuming and draining on the marketing budgets and bandwidth of marketers. Also it restricts the audience as only a specific geography can be addressed, multiple sessions need to be organised to map larger audience. The turnout ratio of the target audience is lower as they need to spend at least half a day for an event and taking out half day from working day is difficult with hectic working schedules.
                         </p>
@@ -124,11 +121,10 @@
                             It is not just convenient for participants but time and cost effective for marketers as they are able to reach bigger geographies targeting larger audience who are relevant. It helps save time as speakers or marketers don’t need to travel location to location, nor does it involve much branding or setup as it is just plug and start. It is cost effective as there are no venues or hotel charges, travelling charges, branding costs, audio visual logistics cost, etc.
                         </p>
                     </div>
-                    <div class="col-md-6 no-pad">
-                        <img src="img/new/web conference/why2.svg">
+                    <div class="col-md-6 col-sm-12 no-pad">
+                        <img src="img/new/web conference/why2.svg" class="img-responsive">
                     </div>
-                    <div class="col-md-12 no-pad">
-                        
+                    <div class="col-md-12 no-pad">                        
                         <p class="desc color-white align-justify">
                             Depending on the scale of an event, probably three to four web conferences can be executed against the cost of one event and even the frequency to reach to customers/prospects via the medium be more in comparison to events on account of lower marketing expenses.
                         </p>
@@ -143,12 +139,12 @@
         </div>
     </section>
 
-    <section class="cd-section bs-skills">
+    <section class="cd-section bs-skills wc-solution">
         <div>
             <div class="container wc-head">            
                 <div class="col-md-12">
                     <h1 class="content__title  color-white h3">SOLUTION</h1>                    
-                    <div class="col-md-6 no-pad">
+                    <div class="col-md-6 col-sm-12 no-pad">
                         <p class="desc color-white  align-justify">
                             Erfolg understands the need of marketing teams to have a wider reach to a larger audience at one go and has developed methodologies to ensure flawless virtual events or online demos/showcases or webinars or online product launches or partner enablement sessions, etc. Our clients need to take care of the presentation and speakers and the rest they can rely on us to handle smoothly from our end. We will take care of the database, invitations from designing to sharing with target audience, marketing the session, driving registrations, execution of the online event, post session analysis, follow up on leads identified from the session, etc.
                         </p>
@@ -159,8 +155,8 @@
                             Leveraging all our existing departments, database management, audience connect, digital and email marketing, and web development department, Erfolg has an exclusive Web Conferencing team that flawlessly executes online sessions for majority of our clients.
                         </p> 
                     </div>
-                    <div class="col-md-6">
-                        <img src="img/new/web conference/why-right.svg">
+                    <div class="col-md-6 col-sm-12">
+                        <img src="img/new/web conference/why-right.svg" class="img-responsive">
                     </div>
                     <div class="col-md-12 no-pad">                          
                         <p class="desc color-white  align-justify">
@@ -177,25 +173,25 @@
         </div>
     </section>
 
-
-
     <section class="cd-section bs-footer">
         <div>
             <?php include "footer.php"; ?>
         </div>
     </section>
-
    
     <a href="index.php">
         <img src="img/new/erfolg-logo-vertical.svg" class="img-responsive brand-logo hidden-small">
     </a>
+
     <nav>
         <ul class="cd-vertical-nav">
             <li><a href="#0" class="cd-prev inactive">Next</a></li>
             <li><a href="#0" class="cd-next">Prev</a></li>
         </ul>
     </nav>
+
     <?php include "nav.php"; ?>
+
     <div class="modal fade" id="myModal" role="dialog">
         <div class="modal-dialog modal-lg">
             <!-- Modal content-->
@@ -285,6 +281,7 @@
             </div>
         </div>
     </div> 
+
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false">
 		<!-- Because of Firefox. -->
 		<defs>
@@ -301,59 +298,59 @@
 		<symbol id="ripply-scott" viewBox="0 0 100 100">
 			<circle id="ripple-shape" fill="url(#gradient)" cx="1" cy="1" r="1" />
 		</symbol>
-	</svg>
-    <?php include "script.php"; ?>
+    </svg>
     
+    <?php include "script.php"; ?>    
 
-<script>
-	$(document).ready(function(){
-		$("#js-ripple-btn3").on('click', function(){
-			var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
-			var name = $("#name").val();
-			var email = $("#email").val();
-			var mobile = $("#mno").val();
-			var pno = $("#pno").val();
-			var org = $("#org").val();
-			var city = $("#city").val();
-			
-			if(name == ""){
-                $("#name").css("border-color","red");
-                $("#nameerror").text("Name cannot be empty");
-				return false;
-			}else
-			if(email == ""){
-				$("#email").css("border-color","red");
-				return false;
-			}else
-			if(!filter.test(email)){
-				$("#email").css("border-color","red");
-				return false;
-			}else
-			if(mobile == ""){
-				$("#mno").css("border-color","red");
-				return false;
-			}else
-			if(mobile.length != 10){
-				$("#mno").css("border-color","red");
-				return false;
-			}else
-			if(pno == ""){
-				$("#pno").css("border-color","red");
-				return false;
-			}else 
-			if(org == ""){
-				$("#org").css("border-color","red");
-				return false;
-			}else
-			if(city == ""){
-				$("#city").css("border-color","red");
-				return false;
-			}
+    <script>
+        $(document).ready(function(){
+            $("#js-ripple-btn3").on('click', function(){
+                var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+                var name = $("#name").val();
+                var email = $("#email").val();
+                var mobile = $("#mno").val();
+                var pno = $("#pno").val();
+                var org = $("#org").val();
+                var city = $("#city").val();
+                
+                if(name == ""){
+                    $("#name").css("border-color","red");
+                    $("#nameerror").text("Name cannot be empty");
+                    return false;
+                }else
+                if(email == ""){
+                    $("#email").css("border-color","red");
+                    return false;
+                }else
+                if(!filter.test(email)){
+                    $("#email").css("border-color","red");
+                    return false;
+                }else
+                if(mobile == ""){
+                    $("#mno").css("border-color","red");
+                    return false;
+                }else
+                if(mobile.length != 10){
+                    $("#mno").css("border-color","red");
+                    return false;
+                }else
+                if(pno == ""){
+                    $("#pno").css("border-color","red");
+                    return false;
+                }else 
+                if(org == ""){
+                    $("#org").css("border-color","red");
+                    return false;
+                }else
+                if(city == ""){
+                    $("#city").css("border-color","red");
+                    return false;
+                }
 
-		});
-	});      
+            });
+        });      
 
-</script>
+    </script>
 </body>
 
 </html>

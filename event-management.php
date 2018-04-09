@@ -162,18 +162,14 @@
                 </div>
                 <div class="col-md-6 col-sm-6 ms-head">                  
                     <center>
-                        <svg version="1.1" class="event-2"  id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="580px" height="419.23px" viewBox="0 0 580 619.23" enable-background="new 0 0 580 619.23"
+                        <svg version="1.1" class="event-2"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="580px" height="419.23px" viewBox="0 0 580 619.23" enable-background="new 0 0 580 619.23"
                         xml:space="preserve">
                             <g>
                                 <g>
-                                    <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M326.77,55.49
-                                        c29.526,15.905,49.871,49.399,49.871,88.146c-0.001,24.636-8.313,47.25-21.894,64.468"/>
-                                    <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M221.263,208.104
-                                        c-13.628-17.231-21.956-39.784-21.956-64.468c0-38.788,20.388-72.313,49.966-88.197"/>
+                                    <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M326.77,55.49 c29.526,15.905,49.871,49.399,49.871,88.146c-0.001,24.636-8.313,47.25-21.894,64.468"/>
+                                    <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M221.263,208.104 c-13.628-17.231-21.956-39.784-21.956-64.468c0-38.788,20.388-72.313,49.966-88.197"/>
                                     <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M334.622,191.934
-                                        c10.68-12.629,17.288-29.648,17.288-48.299c0-17.098-12.315-40.572-12.315-40.572c-1.277-2.436-4.02-2.95-6.093-1.143
-                                        c0,0-25.687,22.382-45.528,22.382s-45.529-22.382-45.529-22.382c-2.073-1.807-4.815-1.292-6.092,1.143
-                                        c0,0-12.316,23.474-12.316,40.572c0,18.625,6.728,35.753,17.382,48.377"/>
+                                        c10.68-12.629,17.288-29.648,17.288-48.299c0-17.098-12.315-40.572-12.315-40.572c-1.277 -2.436-4.02-2.95-6.093-1.143 c0,0-25.687,22.382-45.528,22.382s-45.529-22.382-45.529 -22.382c-2.073 -1.807-4.815-1.292-6.092,1.143 c0,0-12.316,23.474-12.316,40.572c0,18.625,6.728,35.753,17.382,48.377"/>
                                     <g class="hands">
                                         <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M354.49,208.434
                                             c-4.465,5.557-12.589,6.442-18.145,1.977c-5.557-4.465-6.442-12.589-1.977-18.145L354.49,208.434z"/>
@@ -189,8 +185,7 @@
                                         c21.736-3.186,45.432,0.879,66.809,13.221c33.592,19.395,52.431,53.813,51.398,87.369"/>
                                     <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M379.193,430.729
                                         c5.598,15.563,17.033,29.795,33.185,39.121c14.808,8.549,41.295,9.621,41.295,9.621c2.748,0.111,4.563-2.008,4.036-4.705
-                                        c0,0-6.541-33.438,3.38-50.621s42.148-28.238,42.148-28.238c2.602-0.891,3.526-3.521,2.056-5.846c0,0-14.171-22.404-28.979-30.953
-                                        c-16.13-9.313-34.326-12.049-50.586-9.135"/>
+                                        c0,0-6.541-33.438,3.38-50.621s42.148-28.238,42.148-28.238c2.602-0.891,3.526-3.521,2.056-5.846c0,0-14.171-22.404-28.979-30.953 c-16.13-9.313-34.326-12.049-50.586-9.135"/>
                                     <g class="hands" id="box">
                                         <path  fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M354.971,439.684
                                             c-2.58-6.645,0.716-14.121,7.361-16.701c6.645-2.58,14.123,0.715,16.701,7.361L354.971,439.684z"/>
@@ -233,12 +228,9 @@
                             <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M376.122,64.517
                                 c109.946,36.831,189.174,140.673,189.174,263.019c0,18.699-1.852,36.967-5.38,54.629"/>
                             <g>
-                                <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M259.623,310.772
-                                    c1.507-1.884,3.222-3.648,5.14-5.26c12.584-10.577,30.121-11.39,43.401-3.238"/>
-                                <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M284.446,370.951
-                                    c-9.113-1.047-17.858-5.445-24.225-13.021c-6.377-7.588-9.205-16.977-8.659-26.146"/>
-                                <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M323.32,320.342
-                                    c5.707,14.469,1.881,31.568-10.684,42.129c-1.919,1.615-3.955,3.002-6.073,4.164"/>
+                                <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M259.623,310.772 c1.507-1.884,3.222-3.648,5.14-5.26c12.584-10.577,30.121-11.39,43.401-3.238"/>
+                                <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M284.446,370.951 c-9.113-1.047-17.858-5.445-24.225-13.021c-6.377-7.588-9.205-16.977-8.659-26.146"/>
+                                <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M323.32,320.342 c5.707,14.469,1.881,31.568-10.684,42.129c-1.919,1.615-3.955,3.002-6.073,4.164"/>
                                 <animatetransform 
                                     attributename="transform" 
                                     attributetype="XML" 
@@ -250,12 +242,9 @@
                                 />
                             </g>
                             <g>
-                                <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M284.613,319.123
-                                    c1.003-0.242,2.045-0.391,3.116-0.436c7.024-0.287,13.169,4.025,15.532,10.258"/>
-                                <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M277.271,345.979
-                                    c-2.809-2.738-4.617-6.514-4.79-10.744c-0.173-4.234,1.326-8.15,3.909-11.111"/>
-                                <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M303.662,339.023
-                                    c-1.853,6.387-7.621,11.172-14.634,11.459c-1.072,0.043-2.123-0.018-3.144-0.18"/>
+                                <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M284.613,319.123 c1.003-0.242,2.045-0.391,3.116-0.436c7.024-0.287,13.169,4.025,15.532,10.258"/>
+                                <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M277.271,345.979  c-2.809-2.738-4.617-6.514-4.79-10.744c-0.173-4.234,1.326-8.15,3.909-11.111"/>
+                                <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M303.662,339.023  c-1.853,6.387-7.621,11.172-14.634,11.459c-1.072,0.043-2.123-0.018-3.144-0.18"/>
                                 <animatetransform 
                                     attributename="transform" 
                                     attributetype="XML" 
@@ -291,8 +280,7 @@
                             <g>
                                 <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M217.126,98.461v278.482
                                     c0,6.479-5.251,11.73-11.734,11.73H28.608c-6.481,0-11.734-5.252-11.734-11.73V98.461H217.126z"/>
-                                <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M158.232,119.874c0,4.881-3.956,8.835-8.835,8.835
-                                    H84.603c-4.879,0-8.836-3.954-8.836-8.835l0,0c0-4.878,3.957-8.835,8.836-8.835h64.795
+                                <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" d="M158.232,119.874c0,4.881-3.956,          8.835-8.835,8.835 H84.603c-4.879,0-8.836-3.954-8.836-8.835l0,0c0-4.878,3.957-8.835,8.836-8.835h64.795
                                     C154.276,111.039,158.232,114.996,158.232,119.874L158.232,119.874z"/>
                                 <line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" x1="16.874" y1="358.848" x2="217.126" y2="358.848"/>
                                 <circle fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="117" cy="201.916" r="41.652"/>
@@ -305,15 +293,34 @@
                                 <line fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" x1="47.667" y1="309.332" x2="186.334" y2="309.332"/>
                                 <path fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M131.5,201.916
                                     c0,8.009-6.492,14.5-14.5,14.5s-14.5-6.491-14.5-14.5"/>
-                                <animateTransform id="anim1s" attributeName="transform" attributeType="XML" type="rotate" from="-10 115.5 12.663" to="10 115.5 12.663" begin="0s; anim2s.end" dur="1.4s" fill="freeze"/>
-                                <animateTransform id="anim2s" attributeName="transform" attributeType="XML" type="rotate" from="10 115.5 12.663" to="-10 115.5 12.663" begin="anim1s.end" dur="1.4s" fill="freeze"/>
+                                <animateTransform 
+                                    id="anim1s" 
+                                    attributeName="transform" 
+                                    attributeType="XML" 
+                                    type="rotate" 
+                                    from="-10 115.5 12.663" 
+                                    to="10 115.5 12.663" 
+                                    begin="0s; anim2s.end" 
+                                    dur="1.4s" 
+                                    fill="freeze"
+                                />
+                                <animateTransform 
+                                    id="anim2s" 
+                                    attributeName="transform" 
+                                    attributeType="XML" 
+                                    type="rotate" 
+                                    from="10 115.5 12.663" 
+                                    to="-10 115.5 12.663" 
+                                    begin="anim1s.end" 
+                                    dur="1.4s" 
+                                    fill="freeze"
+                                />
                             </g>
                         </svg>
                     </center>                   
                 </div>
 
-                <div class="col-md-12 col-xs-12 ">            
-                    
+                <div class="col-md-12 col-xs-12 ">                            
                     <p class="desc color-white  text-center">
                         We undertake corporate events of all scales from the simplest to the grander ones. We handle a wide array of corporate events ranging from full fledged conferences for customers to business development events with prospects/suspects, technical training seminars to jazzy product launches, single day summit to residential conferences, networking/informal sessions to C-level sessions, are capable to handling any bespoke event.
                     </p>
@@ -815,9 +822,7 @@
                                     <path fill="#fff" d="M346.074,765.275c-1.289,0-2.338-0.423-3.146-1.27s-1.213-1.979-1.213-3.397v-0.299
                                     c0-0.943,0.18-1.785,0.54-2.526s0.864-1.321,1.512-1.74s1.349-0.629,2.104-0.629c1.236,0,2.197,0.407,2.883,1.222
                                     s1.029,1.98,1.029,3.498v0.677h-6.443c0.023,0.938,0.298,1.695,0.822,2.271c0.524,0.578,1.191,0.866,2,0.866
-                                    c0.574,0,1.061-0.117,1.459-0.352s0.746-0.545,1.045-0.932l0.994,0.773C348.863,764.663,347.668,765.275,346.074,765.275z
-                                        M345.871,756.75c-0.656,0-1.207,0.239-1.652,0.717s-0.721,1.146-0.826,2.008h4.764v-0.123c-0.047-0.826-0.27-1.466-0.668-1.92
-                                    S346.551,756.75,345.871,756.75z"/>
+                                    c0.574,0,1.061-0.117,1.459-0.352s0.746-0.545,1.045-0.932l0.994,0.773C348.863,764.663,347.668,765.275,346.074,765.275z M345.871,756.75c-0.656,0-1.207,0.239-1.652,0.717s-0.721,1.146-0.826,2.008h4.764v-0.123c-0.047-0.826-0.27-1.466-0.668-1.92 S346.551,756.75,345.871,756.75z"/>
                                     <path fill="#fff" d="M353.201,755.59l0.053,1.195c0.727-0.914,1.676-1.371,2.848-1.371c2.01,0,3.023,1.134,3.041,3.401v6.284
                                     h-1.625v-6.293c-0.006-0.686-0.162-1.192-0.471-1.521c-0.307-0.328-0.787-0.492-1.438-0.492c-0.527,0-0.99,0.141-1.389,0.422
                                     s-0.709,0.65-0.932,1.107v6.776h-1.625v-9.51H353.201z"/>
@@ -2528,13 +2533,16 @@
     <a href="index.php">
         <img src="img/new/erfolg-logo-vertical.svg" class="img-responsive brand-logo hidden-small">
     </a>
+
     <nav>
         <ul class="cd-vertical-nav">
             <li><a href="#0" class="cd-prev inactive">Next</a></li>
             <li><a href="#0" class="cd-next">Prev</a></li>
         </ul>
     </nav>
+
     <?php include "nav.php"; ?>
+
     <div class="modal fade" id="myModal" role="dialog">
         <div class="modal-dialog modal-lg">
             <!-- Modal content-->
@@ -2625,6 +2633,7 @@
             </div>
         </div>
     </div> 
+
     <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false">
 		<!-- Because of Firefox. -->
 		<defs>
@@ -2641,8 +2650,10 @@
 		<symbol id="ripply-scott" viewBox="0 0 100 100">
 			<circle id="ripple-shape" fill="url(#gradient)" cx="1" cy="1" r="1" />
 		</symbol>
-	</svg>
+    </svg>
+    
     <?php include "script.php"; ?>
+
     <script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js'></script>
 
     <script>
@@ -2774,9 +2785,7 @@
             opacity: 0,
             duration: 100
         });
-    </script>
-
-   
+    </script>   
 
     <script>
         $(document).ready(function(){

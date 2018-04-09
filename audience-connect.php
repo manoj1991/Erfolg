@@ -31,9 +31,9 @@
 </style>
 <!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
 
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.0/anime.min.js'></script>
-    <script src="js/custom.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.0/anime.min.js'></script>
+<script src="js/custom.js"></script>
 
 <body data-hijacking="on" data-animation="rotate">
     <section class="cd-section visible ">
@@ -42,11 +42,8 @@
             <div class="container">            
                 <div class="row">
                     <div class="col-lg-12 text-center ">
-                        <center>
-                            
-                            <svg class=" others audi-home_img-others ms-head" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                width="996.154px" height="610.975px" viewBox="0 0 996.154 610.975" enable-background="new 0 0 996.154 610.975"
-                                xml:space="preserve">                                
+                        <center>                            
+                            <svg class=" others audi-home_img-others ms-head" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="996.154px" height="610.975px" viewBox="0 0 996.154 610.975" enable-background="new 0 0 996.154 610.975" xml:space="preserve">                                
                                 <path fill="none" stroke-width="1" stroke="#FFFFFF" stroke-miterlimit="10" d="M176.137,524h136.095 M103.231,524h-8.834l-80,67h967l-80-67h-11.5
                                     M435.753,524h382.395 M185.397,111h-91v157h91V111z M139.897,133c-11.874,0-21.5,9.626-21.5,21.5s9.626,21.5,21.5,21.5
                                     c11.875,0,21.5-9.626,21.5-21.5S151.772,133,139.897,133z M139.897,141.261c-7.312,0-13.239,5.928-13.239,13.239
@@ -82,9 +79,7 @@
                                 />
                             </svg>
 
-                            <svg class=" ie audi-home_img-ie " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                width="996.154px" height="510.975px" viewBox="0 0 996.154 610.975" enable-background="new 0 0 996.154 610.975"
-                                xml:space="preserve">                                
+                            <svg class=" ie audi-home_img-ie " version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="996.154px" height="510.975px" viewBox="0 0 996.154 610.975" enable-background="new 0 0 996.154 610.975" xml:space="preserve">                                
                                 <path fill="none" stroke="#FFFFFF" stroke-miterlimit="10" d="M176.137,524h136.095 M103.231,524h-8.834l-80,67h967l-80-67h-11.5
                                     M435.753,524h382.395 M185.397,111h-91v157h91V111z M139.897,133c-11.874,0-21.5,9.626-21.5,21.5s9.626,21.5,21.5,21.5
                                     c11.875,0,21.5-9.626,21.5-21.5S151.772,133,139.897,133z M139.897,141.261c-7.312,0-13.239,5.928-13.239,13.239
@@ -119,7 +114,7 @@
                                     M94.397,533.5h91 M808.397,533.5h91 M435.147,400.5h341.827V29H223.502v371.5h88.146 M323.564,400.5"
                                 />
                             </svg>
-                            <h1 class="text-uppercase header-line ms-head others">Audience Connect</h1>
+                            <h1 class="text-uppercase header-line ms-head others pm-text">Audience Connect</h1>
                             <h1 class="text-uppercase header-line ie">Audience Connect</h1>
                         </center>
                         <h1 class="text-center color-white huge-font h3" >Is one of your important marketing tactics <br>failing to deliver?</h1>
@@ -131,14 +126,14 @@
         </div>        
     </section>
 
-    <section class="cd-section ">
+    <section class="cd-section ac-hw">
         <div>
             <div class="container ac-container wc-head">             
                 <h1 class=" color-white h3 text-center">HELLO WORLD</h1>  
                 <div class="col-md-12">
                     <center>
                         <!-- <img class="ac-inner" src="img/new/audi3-1.svg" > -->
-                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="527.586px" height="414px" viewBox="0 0 527.586 364" enable-background="new 0 82.983 527.586 214" ml:space="preserve">
+                        <svg version="1.1" class="ac-two" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="527.586px" height="414px" viewBox="0 0 527.586 364" enable-background="new 0 82.983 527.586 214" ml:space="preserve">
 
                             <style> 
                                 .text-1 {
@@ -300,14 +295,11 @@
 
                     </center>
                 </div> 
-                <div class="col-md-12">
-                   
-                    <br>
-                    
-                    <p class="desc color-white text-center ">
+                <div class="col-md-12">                   
+                    <br>                    
+                    <p class="desc color-white text-center">
                         One of the most important business tactics to reach out & deliver the messaging to an active audience is events (onsite events/ virtual events). The effectiveness of events is driven primarily by a few factors like content, delivery, ambience, audience, etc – however, the business impact is driven largely by the audience. 
-                    </p>
-                   
+                    </p>                   
                     <p class="desc color-white text-center">
                         The focus is shifting from just awareness generation or evangelism to measuring positive impact on revenue for the organization from the events executed. One of the main focus areas in organizing events for any marketer is the audience that will be addressed – will we be able to get the right audience, the requisite numbers, would it result in the right opportunities being identified for the sales piepline, etc.
                     </p>                    
@@ -322,7 +314,7 @@
         <div>
             <div class="container ac-container wc-head audi-exp">
                 <div class="col-md-12 col-sm-12 audi-exp_sm">    
-                <h1 class="  color-white h3 text-center">EXPERIENCE</h1>                
+                    <h1 class="  color-white h3 text-center">EXPERIENCE</h1>                
                     <center>
                         <img src="img/new/audi-4.svg" class="img-responsive audi-4">
                     </center>
@@ -339,20 +331,20 @@
         </div>
     </section>
 
-    <section class="cd-section potrait-section">
+    <section class="cd-section potrait-section ac-time">
         <div>
             <div class="container ac-container wc-head">
                 <div class="col-md-6">
                     <h1 class="content__title  color-white h3 ">Time to step forward</h1>
                     <br>
-                    <div class="small-gap"></div>
+                    <div class="small-gap hidden-xs"></div>
                     <p class="desc color-white  align-left ms-head">They understand the underlying difference between the various kinds of sessions &amp; accordingly work out the approach to be adopted. In order to optimize the event to the fullest, we also provide event lead follow up through telecalling on the attendees from the feedback obtained by the attendees to convert the suspect attendees to marketing leads. </p>
                     <p class="desc color-white  align-left">Customized solutions for all aspects of audience connect i.e. database management for audience profiling, response management for web marketing and inbound management, audience acquisition and audience relationship management.</p>
                     <p class="desc color-white  align-left">The team at <i>Erfolg</i> is equipped to handle all registrations &amp; monetary transactions, response management via inbound and outbound telecalling, dissemination of information to potential registrants, financial reporting, post event analysis, etc.</p>
                 </div>
                 <div class="col-md-6 text-center">    
                     <center>             
-                        <svg version="1.1" class="ac1  ac-5 ms-head" width="150%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"  viewBox="0 0 210 150" enable-background="new 0 0 150 150" xml:space="preserve">
+                        <svg version="1.1" class="ac1 ac-5 ms-head" width="150%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"  viewBox="0 0 210 150" enable-background="new 0 0 150 150" xml:space="preserve">
                             <g id="Layer_4">                                
                                 <path fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" d="M82.1,64.5V34.3c0-13.8,11.2-25,25-25h5.8c13.8,0,25,11.2,25,25v30.3"/>
                                 <path fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" d="M89.3,36.1c0-11.5,9.3-20.8,20.8-20.8"/>

@@ -95,13 +95,12 @@
                             <h1 class="bs-text header-line text-uppercase">Backend Sales</h1>  
                             
                         </center>
-                        <h1 class="text-center color-white huge-font h3" >Are you missing out on extending your market reach <br>as all prospects are not given due focus? </h1>
+                        <h1 class="text-center color-white  h3" >Are you missing out on extending your market reach <br class="hidden-xs">as all prospects are not given due focus? </h1>
                     
                     </div>
                     <h2></h2>
                 </div>
-                <!-- /.row -->
-                
+                <!-- /.row -->                
             </div>  
         </div>
     </section>
@@ -160,11 +159,10 @@
     <section class="cd-section bs-skills">
         <div>
             <div class="container wc-head">
-            <h1 class="text-center  color-white h3">SKILL-SETS</h1>
-            <div class="col-md-12">
+                <h1 class="text-center  color-white h3">SKILL-SETS</h1>
+                <div class="col-md-12">
                     <center>
-                    <svg version="1.1" class="backend-ss" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                            width="530.77px" height="432.051px" viewBox="0 0 530.77 532.051" enable-background="new 0 0 530.77 532.051" xml:space="preserve" >
+                        <svg version="1.1" class="backend-ss" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="530.77px" height="432.051px" viewBox="0 0 530.77 532.051" enable-background="new 0 0 530.77 532.051" xml:space="preserve" >
                             <g>
                                 <path fill="#FFFFFF" d="M274.793,507.417c0,0-4.533,0.096-13.032,0.274c-8.489-0.188-20.994-0.49-36.683-2.963
                                     c-15.664-2.46-34.483-7.167-54.934-15.581c-10.151-4.356-20.756-9.489-31.383-15.887c-10.589-6.444-21.268-13.979-31.659-22.756
@@ -399,8 +397,9 @@
                     </center>          
                 </div>
                 <div class="col-md-12 bs-head">  
-                   <h3 class="text-center">As an extension to our lead generation services, <i>Erfolg</i> has further specialized in close looping sales with a focus on SMB companies, with the expertise of our Inside sales team we are true partners and you can look for our services in the following:</h3>
-                    <br><div class="container bs-container ie-carousel bs-head-2 ">
+                    <h3 class="text-center">As an extension to our lead generation services, <i>Erfolg</i> has further specialized in close looping sales with a focus on SMB companies, with the expertise of our Inside sales team we are true partners and you can look for our services in the following:</h3>
+                    <br>
+                    <div class="container bs-container ie-carousel bs-head-2 ">
                         <div id="myCarousel" class="carousel slide" data-ride="carousel">
                             <!-- Indicators -->
                             <ol class="carousel-indicators">
